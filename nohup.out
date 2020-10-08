@@ -4,384 +4,390 @@ reading text from file and processing...
 
 vectorizing...
 
-
-run 1
-
 LDA fitting...
 
-    1 | 01m04s | [35m-5060.60025[0m | [32m  19.3480[0m | 
-LDA fitting...
-
-    2 | 00m39s | [35m-4785.65797[0m | [32m  11.6490[0m | 
+    1 | 03m01s | [35m-3733.47396[0m | [32m   8.7897[0m | 
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    3 | 00m04s | -5765.84570 |    1.0000 | 
+    2 | 03m52s | [35m-3291.18668[0m | [32m  29.0279[0m | 
 LDA fitting...
 
-    4 | 01m16s | -5351.52401 |   30.0000 | 
+    3 | 08m29s | [35m-3289.45626[0m | [32m  30.0000[0m | 
 LDA fitting...
 
-    5 | 00m04s | -5765.84570 |    1.3045 | 
+    4 | 02m34s | -3969.52073 |    5.5891 | 
 LDA fitting...
 
-    6 | 00m20s | -5011.41526 |    2.9773 | 
+    5 | 03m38s | [35m-3281.49655[0m | [32m  20.0610[0m | 
 LDA fitting...
 
-    7 | 00m22s | [35m-4703.91625[0m | [32m   5.9872[0m | 
+    6 | 09m14s | -3342.32983 |   23.0208 | 
 LDA fitting...
 
-    8 | 01m11s | -5256.90627 |   23.9899 | 
+    7 | 03m31s | -3454.60580 |   17.2606 | 
 LDA fitting...
 
-    9 | 00m21s | -4781.71191 |    5.0421 | 
+    8 | 03m35s | -3363.15310 |   20.5533 | 
 LDA fitting...
 
-   10 | 00m27s | -4827.89757 |    6.7508 | 
+    9 | 00m27s | -6850.76419 |    1.0000 | 
 LDA fitting...
 
-   11 | 00m28s | -4847.87598 |   13.9669 | 
+   10 | 04m49s | -3342.49045 |   25.8701 | 
 LDA fitting...
 
-   12 | 00m04s | -5765.84570 |    1.7867 | 
+   11 | 03m35s | -3376.31315 |   19.1903 | 
 LDA fitting...
 
-   13 | 00m56s | -4941.66144 |   15.9078 | 
+   12 | 03m55s | -3492.96134 |   13.5382 | 
 LDA fitting...
 
-   14 | 00m04s | -5765.84570 |    1.7180 | 
+   13 | 03m44s | -3333.43115 |   24.0809 | 
 LDA fitting...
 
-   15 | 00m04s | -5765.84570 |    1.6333 | 
+   14 | 07m10s | -3298.81850 |   27.9018 | 
 LDA fitting...
 
-   16 | 00m04s | -5765.84570 |    1.8329 | 
+   15 | 02m19s | -4021.21254 |    4.2576 | 
 LDA fitting...
 
-   17 | 00m25s | -4739.27410 |    3.8297 | 
+   16 | 04m20s | -3417.54173 |   20.9755 | 
 LDA fitting...
 
-   18 | 00m39s | -4874.44818 |    9.6237 | 
+   17 | 03m05s | -3643.16144 |    8.1256 | 
 LDA fitting...
 
-   19 | 01m25s | -5128.82034 |   26.7539 | 
+   18 | 02m13s | -3925.23731 |    5.8575 | 
 LDA fitting...
 
-   20 | 00m12s | -5765.84570 |    1.2128 | 
+   19 | 03m09s | -3685.24116 |   10.4107 | 
 LDA fitting...
 
-   21 | 00m05s | -5765.84570 |    1.1503 | 
+   20 | 04m22s | -3352.54958 |   19.8881 | 
 LDA fitting...
 
-   22 | 00m24s | -4983.65297 |    2.0178 | 
+   21 | 03m35s | -3431.42319 |   15.2994 | 
 LDA fitting...
 
-   23 | 01m15s | -4994.06405 |   21.6626 | 
+   22 | 03m30s | -3362.92618 |   18.4356 | 
 LDA fitting...
 
-   24 | 01m02s | -5056.66633 |   17.6215 | 
+   23 | 03m33s | -3348.83371 |   20.1876 | 
 LDA fitting...
 
-   25 | 01m16s | -5373.33008 |   28.3678 | 
+   24 | 03m07s | -3553.97315 |   12.0189 | 
 LDA fitting...
 
-    1 | 01m08s | [35m-5049.96088[0m | [32m  19.3480[0m | 
+   25 | 04m30s | -3435.53570 |   26.9389 | 
 LDA fitting...
 
-    2 | 00m36s | [35m-4954.37161[0m | [32m  11.6490[0m | 
+   26 | 06m21s | -3311.56320 |   24.9787 | 
+LDA fitting...
+
+   27 | 03m37s | -3405.19968 |   16.3055 | 
+LDA fitting...
+
+   28 | 08m33s | [35m-3276.79363[0m | [32m  28.5079[0m | 
+LDA fitting...
+
+   29 | 08m35s | [35m-3215.66300[0m | [32m  29.0494[0m | 
+LDA fitting...
+
+   30 | 01m09s | -5109.11177 |    2.8830 | 
+LDA fitting...
+
+   31 | 08m35s | -3325.59807 |   29.4371 | 
+LDA fitting...
+
+   32 | 02m45s | -3757.36195 |    7.0504 | 
+LDA fitting...
+
+   33 | 03m38s | -3358.93502 |   22.0571 | 
+LDA fitting...
+
+   34 | 03m18s | -3430.62560 |   14.4528 | 
+LDA fitting...
+
+   35 | 03m42s | -3275.01473 |   29.2098 | 
+LDA fitting...
+
+   36 | 03m03s | -3586.20421 |    9.5682 | 
+LDA fitting...
+
+   37 | 03m05s | -3607.23208 |   11.2022 | 
+LDA fitting...
+
+   38 | 03m11s | -3555.82267 |   12.7797 | 
+LDA fitting...
+
+   39 | 08m01s | -3328.71805 |   23.5548 | 
+LDA fitting...
+
+   40 | 08m27s | -3280.61165 |   28.2702 | 
+LDA fitting...
+
+   41 | 03m39s | -3400.75730 |   17.8745 | 
+LDA fitting...
+
+   42 | 03m46s | -3273.67723 |   27.5251 | 
+LDA fitting...
+
+   43 | 07m48s | -3382.42020 |   26.3795 | 
+LDA fitting...
+
+   44 | 03m33s | -3279.37990 |   21.5324 | 
+LDA fitting...
+
+   45 | 03m28s | -3271.93027 |   22.5552 | 
+LDA fitting...
+
+   46 | 03m43s | -3235.03812 |   29.6471 | 
+LDA fitting...
+
+   47 | 03m51s | -3331.36849 |   29.1103 | 
+LDA fitting...
+
+   48 | 00m26s | -6850.76419 |    1.9775 | 
+LDA fitting...
+
+   49 | 02m16s | -4055.51799 |    4.9548 | 
+LDA fitting...
+
+   50 | 02m08s | -4390.15307 |    3.6119 | 
+LDA fitting...
+
+    1 | 07m30s | [35m-3394.60670[0m | [32m  19.1512[0m | 
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    3 | 00m04s | -5765.84570 |    1.0000 | 
+    2 | 00m25s | -6850.76419 |    1.3971 | 
 LDA fitting...
 
-    4 | 00m50s | -5358.77371 |   30.0000 | 
+    3 | 08m51s | [35m-3359.16399[0m | [32m  30.0000[0m | 
 LDA fitting...
 
-    5 | 00m53s | [35m-4874.60580[0m | [32m  14.0000[0m | 
+    4 | 08m04s | -3379.34100 |   22.5324 | 
 LDA fitting...
 
-    6 | 00m57s | -4965.39480 |   14.5406 | 
+    5 | 03m44s | [35m-3322.79739[0m | [32m  28.0621[0m | 
 LDA fitting...
 
-    7 | 00m38s | -5017.99408 |   12.9997 | 
+    6 | 03m56s | -3341.75010 |   27.0151 | 
 LDA fitting...
 
-    8 | 00m49s | [35m-4812.44750[0m | [32m   6.9970[0m | 
+    7 | 02m46s | -3741.36218 |    7.8547 | 
 LDA fitting...
 
-    9 | 01m16s | -5192.01475 |   23.9094 | 
+    8 | 03m10s | -3473.24483 |   12.4896 | 
 LDA fitting...
 
-   10 | 00m42s | -4879.64298 |    9.0000 | 
+    9 | 03m34s | -3413.30647 |   19.6347 | 
 LDA fitting...
 
-   11 | 00m23s | -4840.34568 |    6.6971 | 
+   10 | 02m58s | -3621.92293 |   10.1571 | 
 LDA fitting...
 
-   12 | 00m23s | -4840.62799 |    7.4034 | 
+   11 | 03m19s | -3403.55740 |   15.8847 | 
 LDA fitting...
 
-   13 | 00m32s | -4869.97906 |   10.2254 | 
+   12 | 08m03s | [35m-3259.44519[0m | [32m  28.3700[0m | 
 LDA fitting...
 
-   14 | 01m08s | -5006.10645 |   19.1082 | 
+   13 | 09m27s | -3339.63880 |   25.0655 | 
 LDA fitting...
 
-   15 | 01m14s | -4997.38129 |   20.7142 | 
+   14 | 04m27s | -3328.00696 |   28.9286 | 
 LDA fitting...
 
-   16 | 01m01s | -4942.25591 |   13.5891 | 
+   15 | 03m33s | -3543.53566 |   13.5530 | 
 LDA fitting...
 
-   17 | 01m19s | -5299.44351 |   27.4614 | 
+   16 | 04m19s | -3329.69644 |   28.4818 | 
 LDA fitting...
 
-   18 | 00m38s | [35m-4715.96990[0m | [32m   4.8809[0m | 
+   17 | 02m41s | -4033.12483 |    4.9827 | 
 LDA fitting...
 
-   19 | 00m47s | -4802.97541 |    4.4890 | 
+   18 | 03m55s | -3443.21694 |   17.5543 | 
 LDA fitting...
 
-   20 | 00m52s | -4964.91761 |   14.8657 | 
+   19 | 04m02s | -3282.83220 |   21.0961 | 
 LDA fitting...
 
-   21 | 01m06s | -5055.41036 |   16.9070 | 
+   20 | 04m13s | -3272.00438 |   26.2413 | 
 LDA fitting...
 
-   22 | 00m53s | -4862.96787 |   18.0171 | 
+   21 | 06m44s | -3306.31205 |   23.8441 | 
 LDA fitting...
 
-   23 | 01m06s | -4914.50803 |   17.3589 | 
+   22 | 03m10s | -3439.75435 |   14.8215 | 
 LDA fitting...
 
-   24 | 01m24s | -5125.99623 |   24.3370 | 
+   23 | 03m45s | -3384.30215 |   29.3150 | 
 LDA fitting...
 
-   25 | 01m09s | -5116.65814 |   18.9604 | 
+   24 | 03m44s | -3275.26911 |   28.2674 | 
 LDA fitting...
 
-    1 | 01m01s | [35m-5024.53523[0m | [32m  19.3480[0m | 
+   25 | 02m09s | -4383.60812 |    3.5123 | 
 LDA fitting...
 
-    2 | 00m44s | [35m-4839.24172[0m | [32m  11.6490[0m | 
+   26 | 02m43s | -3842.60947 |    6.4341 | 
+LDA fitting...
+
+   27 | 03m00s | -3666.10215 |   11.4521 | 
+LDA fitting...
+
+   28 | 03m39s | -3280.27139 |   25.8876 | 
+LDA fitting...
+
+   29 | 03m25s | -3791.03952 |    9.0540 | 
+LDA fitting...
+
+   30 | 06m58s | -3392.53729 |   20.5792 | 
+LDA fitting...
+
+   31 | 05m44s | -3333.21903 |   21.6079 | 
+LDA fitting...
+
+   32 | 03m21s | -3482.83742 |   15.5044 | 
+LDA fitting...
+
+   33 | 03m11s | -3355.02721 |   16.5940 | 
+LDA fitting...
+
+   34 | 03m36s | -3305.01721 |   28.2267 | 
+LDA fitting...
+
+   35 | 07m15s | -3275.84286 |   27.6042 | 
+LDA fitting...
+
+   36 | 03m27s | -3445.23349 |   18.3961 | 
+LDA fitting...
+
+   37 | 03m42s | -3297.18662 |   27.8052 | 
+LDA fitting...
+
+   38 | 05m07s | -3330.01333 |   24.6889 | 
+LDA fitting...
+
+   39 | 03m10s | -3471.52180 |   13.8590 | 
+LDA fitting...
+
+   40 | 03m35s | -3303.53578 |   23.2661 | 
+LDA fitting...
+
+   41 | 03m33s | -3337.06674 |   22.5847 | 
+LDA fitting...
+
+   42 | 03m08s | -3559.15643 |   11.0781 | 
+LDA fitting...
+
+   43 | 03m43s | -3325.38944 |   27.7132 | 
+LDA fitting...
+
+   44 | 03m36s | -3313.24412 |   25.0145 | 
+LDA fitting...
+
+   45 | 03m36s | -3290.17057 |   27.3638 | 
+LDA fitting...
+
+   46 | 03m38s | -3335.05950 |   25.7575 | 
+LDA fitting...
+
+   47 | 08m03s | -3340.89254 |   22.8851 | 
+LDA fitting...
+
+   48 | 08m37s | -3276.67391 |   27.5032 | 
+LDA fitting...
+
+   49 | 03m48s | -3336.38093 |   26.0628 | 
+LDA fitting...
+
+   50 | 03m35s | [35m-3219.83024[0m | [32m  26.4915[0m | 
+LDA fitting...
+
+    1 | 03m43s | [35m-3293.34552[0m | [32m  26.9831[0m | 
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    3 | 00m04s | -5765.84570 |    1.0000 | 
+    2 | 02m29s | -3953.16895 |    5.9576 | 
 LDA fitting...
 
-    4 | 01m19s | -5338.50493 |   30.0000 | 
+    3 | 04m24s | -3303.47399 |   30.0000 | 
 LDA fitting...
 
-    5 | 00m44s | [35m-4802.96040[0m | [32m  13.8212[0m | 
+    4 | 03m39s | -3333.86452 |   26.4554 | 
 LDA fitting...
 
-    6 | 01m11s | -5144.16003 |   17.7265 | 
+    5 | 00m25s | -6850.76419 |    1.0000 | 
 LDA fitting...
 
-    7 | 01m04s | -4976.78428 |   13.0096 | 
+    6 | 04m40s | -3475.65328 |   14.6429 | 
 LDA fitting...
 
-    8 | 00m39s | -4928.09671 |    7.8083 | 
+    7 | 02m58s | -3690.16275 |    9.7288 | 
 LDA fitting...
 
-    9 | 01m11s | -5003.72109 |   23.6828 | 
+    8 | 03m29s | -3469.34460 |   19.5602 | 
 LDA fitting...
 
-   10 | 00m36s | -4891.17923 |    9.9994 | 
+    9 | 03m17s | -3593.37422 |   11.3977 | 
 LDA fitting...
 
-   11 | 00m31s | -4943.49384 |   14.9426 | 
+   10 | 03m45s | -3327.70718 |   27.8173 | 
 LDA fitting...
 
-   12 | 00m51s | -4899.79979 |   14.0762 | 
+   11 | 01m08s | -5111.20996 |    2.2411 | 
 LDA fitting...
 
-   13 | 00m28s | [35m-4726.08128[0m | [32m   4.9136[0m | 
+   12 | 07m44s | -3377.69842 |   22.7851 | 
 LDA fitting...
 
-   14 | 01m13s | -5097.06832 |   26.5197 | 
+   13 | 04m35s | -3337.14133 |   17.0343 | 
 LDA fitting...
 
-   15 | 01m10s | -5129.38017 |   21.4042 | 
+   14 | 03m16s | -3472.85601 |   16.8558 | 
 LDA fitting...
 
-   16 | 00m27s | -4735.59265 |    5.7905 | 
+   15 | 03m25s | -3419.67267 |   18.0113 | 
 LDA fitting...
 
-   17 | 00m25s | -4733.72061 |    5.2183 | 
+   16 | 03m07s | -3585.56847 |   13.3289 | 
 LDA fitting...
 
-   18 | 01m06s | -4971.60382 |   15.4912 | 
+   17 | 03m27s | -3400.44462 |   21.0366 | 
 LDA fitting...
 
-   19 | 00m30s | -4829.46707 |    9.9748 | 
+   18 | 03m30s | -3315.34827 |   24.4147 | 
 LDA fitting...
 
-   20 | 00m26s | -4822.20021 |    9.1071 | 
+   19 | 03m20s | -3442.73966 |   17.4043 | 
 LDA fitting...
 
-   21 | 00m25s | -4785.21349 |    3.2465 | 
+   20 | 02m55s | -3801.36845 |    8.0368 | 
 LDA fitting...
 
-   22 | 01m00s | -5305.54882 |   28.0811 | 
+   21 | 02m11s | -4014.70340 |    4.1090 | 
 LDA fitting...
 
-   23 | 00m25s | -4934.31401 |    9.5916 | 
+   22 | 07m20s | -3379.49332 |   18.6322 | 
 LDA fitting...
 
-   24 | 00m43s | -5223.23803 |   25.1253 | 
+   23 | 08m17s | -3399.72603 |   25.1845 | 
 LDA fitting...
 
-   25 | 01m20s | -5056.41782 |   22.6323 | 
-
-run 2
-
-LDA fitting...
-
-    1 | 00m55s | [35m-4671.48942[0m | [32m   6.9084[0m | 
-LDA fitting...
-
-    2 | 00m45s | -4879.30750 |   14.2110 | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 01m23s | -5407.08993 |   30.0000 | 
-LDA fitting...
-
-    4 | 00m05s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    5 | 00m49s | -5076.37241 |    7.8633 | 
-LDA fitting...
-
-    6 | 01m04s | -5063.46911 |   19.9494 | 
-LDA fitting...
-
-    7 | 00m39s | [35m-4666.27682[0m | [32m   4.9851[0m | 
-LDA fitting...
-
-    8 | 00m37s | -4780.71225 |    5.9800 | 
-LDA fitting...
-
-    9 | 01m18s | -5022.38386 |   23.9971 | 
-LDA fitting...
-
-   10 | 00m59s | -4865.57591 |    3.7627 | 
-LDA fitting...
-
-   11 | 00m55s | -4925.85924 |   16.7458 | 
-LDA fitting...
-
-   12 | 00m20s | -4984.72199 |    2.3771 | 
-LDA fitting...
-
-   13 | 00m24s | -5075.92665 |    2.6396 | 
-LDA fitting...
-
-   14 | 00m41s | -4904.14067 |   10.9535 | 
-LDA fitting...
-
-   15 | 01m14s | -5063.32812 |   25.9964 | 
-LDA fitting...
-
-   16 | 00m05s | -5765.84570 |    1.6930 | 
-LDA fitting...
-
-   17 | 01m14s | -5166.60620 |   21.9771 | 
-LDA fitting...
-
-   18 | 00m50s | [35m-4650.09378[0m | [32m  12.6167[0m | 
-LDA fitting...
-
-   19 | 01m24s | -5120.51657 |   27.6718 | 
-LDA fitting...
-
-   20 | 00m32s | [35m-4558.87568[0m | [32m   4.7094[0m | 
-LDA fitting...
-
-   21 | 00m32s | -5070.08189 |    2.9388 | 
-LDA fitting...
-
-   22 | 01m02s | -4957.25171 |   17.9395 | 
-LDA fitting...
-
-   23 | 00m14s | -5765.84570 |    1.7113 | 
-LDA fitting...
-
-   24 | 00m36s | -4814.35435 |    9.5084 | 
-LDA fitting...
-
-   25 | 00m57s | -4985.65688 |   15.5064 | 
-LDA fitting...
-
-    1 | 00m24s | [35m-4809.95321[0m | [32m   6.9084[0m | 
-LDA fitting...
-
-    2 | 00m28s | -4895.76541 |   14.2110 | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 00m04s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    4 | 01m19s | -5363.97705 |   30.0000 | 
-LDA fitting...
-
-    5 | 01m13s | -4971.20023 |    9.7881 | 
-LDA fitting...
-
-    6 | 01m03s | -4942.05614 |   18.9697 | 
-LDA fitting...
-
-    7 | 00m26s | -4829.23995 |    7.0486 | 
-LDA fitting...
-
-    8 | 01m01s | [35m-4657.64350[0m | [32m   5.7425[0m | 
-LDA fitting...
-
-    9 | 01m08s | -5044.25918 |   18.1317 | 
-LDA fitting...
-
-   10 | 01m23s | -5267.38634 |   22.4958 | 
-LDA fitting...
-
-   11 | 01m25s | -5208.64706 |   24.5394 | 
-LDA fitting...
-
-   12 | 00m25s | -4922.57281 |    5.3419 | 
-LDA fitting...
-
-   13 | 00m56s | -5186.21198 |   22.4315 | 
-LDA fitting...
-
-   14 | 01m24s | -5208.48797 |   20.9483 | 
-LDA fitting...
-
-   15 | 01m15s | -5151.70554 |   26.7543 | 
-LDA fitting...
-
-   16 | 01m04s | -4763.02024 |   11.9998 | 
-LDA fitting...
-
-   17 | 01m17s | -4968.95896 |   22.1862 | 
-LDA fitting...
-
-   18 | 00m39s | -4736.83899 |    6.0000 | 
+   24 | 07m43s | -3339.56518 |   23.9044 | 
 LDA fitting...
 
-   19 | 01m12s | -4950.84183 |   15.9994 | 
+   25 | 03m37s | [35m-3247.64483[0m | [32m  27.1008[0m | 
 LDA fitting...
 /home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
 ABNORMAL_TERMINATION_IN_LNSRCH.
@@ -473,14 +479,6 @@ ABNORMAL_TERMINATION_IN_LNSRCH.
 Increase the number of iterations (max_iter) or scale the data as shown in:
     https://scikit-learn.org/stable/modules/preprocessing.html
   _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:370: UserWarning: Predicted variances smaller than 0. Setting those variances to 0.
-  warnings.warn("Predicted variances smaller than 0. "
-/home/qwy/LDA/bys_opt/helpers.py:106: RuntimeWarning: divide by zero encountered in true_divide
-  z = (mean - y_max - xi) / std
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:370: UserWarning: Predicted variances smaller than 0. Setting those variances to 0.
-  warnings.warn("Predicted variances smaller than 0. "
-/home/qwy/LDA/bys_opt/helpers.py:106: RuntimeWarning: divide by zero encountered in true_divide
-  z = (mean - y_max - xi) / std
 /home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
 ABNORMAL_TERMINATION_IN_LNSRCH.
 
@@ -499,335 +497,39 @@ ABNORMAL_TERMINATION_IN_LNSRCH.
 Increase the number of iterations (max_iter) or scale the data as shown in:
     https://scikit-learn.org/stable/modules/preprocessing.html
   _check_optimize_result("lbfgs", opt_res)
-
-   20 | 01m03s | -4962.21568 |   18.2796 | 
-LDA fitting...
-
-   21 | 00m34s | -4832.30840 |    6.8033 | 
-LDA fitting...
-
-   22 | 00m57s | -4947.13250 |    9.3012 | 
-LDA fitting...
-
-   23 | 01m16s | -5061.88400 |   24.1849 | 
-LDA fitting...
-
-   24 | 00m20s | -4997.66731 |    2.0385 | 
-LDA fitting...
-
-   25 | 00m21s | -5049.48879 |    2.9968 | 
-LDA fitting...
-
-    1 | 00m23s | [35m-4744.59388[0m | [32m   6.9084[0m | 
-LDA fitting...
-
-    2 | 00m27s | -4956.13146 |   14.2110 | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 00m30s | -5126.65538 |   30.0000 | 
-LDA fitting...
-
-    4 | 00m04s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    5 | 00m44s | -4832.44253 |    9.3066 | 
-LDA fitting...
-
-    6 | 00m25s | -4843.48756 |    7.3409 | 
-LDA fitting...
-
-    7 | 01m15s | -5206.78162 |   21.8697 | 
-LDA fitting...
-
-    8 | 00m48s | [35m-4704.84284[0m | [32m   5.4887[0m | 
-LDA fitting...
-
-    9 | 01m11s | -4911.96854 |   11.1419 | 
-LDA fitting...
-
-   10 | 00m30s | -4878.60489 |    6.1096 | 
-LDA fitting...
-
-   11 | 01m16s | -4984.14888 |   17.7818 | 
-LDA fitting...
-
-   12 | 01m14s | -5344.82364 |   25.7804 | 
-LDA fitting...
-
-   13 | 00m27s | [35m-4655.56376[0m | [32m   4.2382[0m | 
-LDA fitting...
-
-   14 | 01m25s | -5046.69237 |   20.0687 | 
-LDA fitting...
-
-   15 | 01m08s | [35m-4571.59630[0m | [32m   4.8154[0m | 
-LDA fitting...
-
-   16 | 01m06s | -4990.67355 |   20.1918 | 
-LDA fitting...
-
-   17 | 00m31s | -5230.60680 |   22.5790 | 
-LDA fitting...
-
-   18 | 00m39s | -5012.68101 |   14.2021 | 
-LDA fitting...
-
-   19 | 00m49s | -4927.48705 |   15.4862 | 
-LDA fitting...
-
-   20 | 01m15s | -5260.03128 |   27.8984 | 
-LDA fitting...
-
-   21 | 01m11s | -5233.23833 |   24.1327 | 
-LDA fitting...
-
-   22 | 01m09s | -4857.87362 |   14.7393 | 
-LDA fitting...
-
-   23 | 00m23s | -4987.47766 |    2.7372 | 
-LDA fitting...
-
-   24 | 00m56s | -4933.89354 |   16.4943 | 
-LDA fitting...
-
-   25 | 00m43s | -4964.87713 |   18.8480 | 
-
-run 3
-
-LDA fitting...
-
-    1 | 01m05s | [35m-4930.77661[0m | [32m  15.8133[0m | 
-LDA fitting...
-
-    2 | 01m11s | -5143.06582 |   24.7108 | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 00m05s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    4 | 00m05s | -5765.84570 |    1.1252 | 
-LDA fitting...
-
-    5 | 00m05s | -5765.84570 |    1.4516 | 
-LDA fitting...
-
-    6 | 00m05s | -5765.84570 |    1.2907 | 
-LDA fitting...
-
-    7 | 01m08s | -5407.00388 |   30.0000 | 
-LDA fitting...
-
-    8 | 00m31s | -5355.36218 |    2.7633 | 
-LDA fitting...
-
-    9 | 00m24s | [35m-4818.15870[0m | [32m   7.9122[0m | 
-LDA fitting...
-
-   10 | 00m29s | -5027.75865 |   19.9707 | 
-LDA fitting...
-
-   11 | 00m21s | [35m-4740.19721[0m | [32m   4.9374[0m | 
-LDA fitting...
-
-   12 | 00m49s | -4783.75904 |   10.9584 | 
-LDA fitting...
-
-   13 | 00m05s | -5765.84570 |    1.9401 | 
-LDA fitting...
-
-   14 | 00m05s | -5765.84570 |    1.3556 | 
-LDA fitting...
-
-   15 | 00m28s | [35m-4719.03797[0m | [32m   4.6932[0m | 
-LDA fitting...
-
-   16 | 00m05s | -5765.84570 |    1.7149 | 
-LDA fitting...
-
-   17 | 01m07s | -4850.37029 |   11.9668 | 
-LDA fitting...
-
-   18 | 00m26s | -4995.84937 |    2.0250 | 
-LDA fitting...
-
-   19 | 01m09s | -4815.13916 |    6.4108 | 
-LDA fitting...
-
-   20 | 00m50s | -4752.43088 |    9.4613 | 
-LDA fitting...
-
-   21 | 01m16s | -4989.10532 |   18.3443 | 
-LDA fitting...
-
-   22 | 00m51s | -4940.33833 |   14.2460 | 
-LDA fitting...
-
-   23 | 01m14s | -5227.41313 |   21.9189 | 
-LDA fitting...
-
-   24 | 01m13s | -5102.69523 |   26.9450 | 
-LDA fitting...
-
-   25 | 00m54s | -5067.65808 |   23.2965 | 
-LDA fitting...
-
-    1 | 01m05s | [35m-5192.61479[0m | [32m  15.8133[0m | 
-LDA fitting...
-
-    2 | 01m19s | [35m-5042.93672[0m | [32m  24.7108[0m | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 00m05s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    4 | 00m58s | -5250.32732 |   30.0000 | 
-LDA fitting...
-
-    5 | 01m19s | -5162.21975 |   21.8823 | 
-LDA fitting...
-
-    6 | 01m19s | -5048.82933 |   25.2323 | 
-LDA fitting...
-
-    7 | 01m12s | [35m-4924.97798[0m | [32m  18.9825[0m | 
-LDA fitting...
-
-    8 | 01m03s | -5038.39676 |   18.5314 | 
-LDA fitting...
-
-    9 | 00m24s | [35m-4824.20708[0m | [32m   9.0000[0m | 
-LDA fitting...
-
-   10 | 00m40s | -4889.01967 |   11.6005 | 
-LDA fitting...
-
-   11 | 00m48s | [35m-4759.65237[0m | [32m   3.9371[0m | 
-LDA fitting...
-
-   12 | 00m42s | [35m-4756.69191[0m | [32m   5.8246[0m | 
-LDA fitting...
-
-   13 | 01m02s | [35m-4618.72194[0m | [32m   4.7316[0m | 
-LDA fitting...
-
-   14 | 01m20s | -4872.70224 |   17.3954 | 
-LDA fitting...
-
-   15 | 01m19s | -5176.51584 |   23.8141 | 
-LDA fitting...
-
-   16 | 01m10s | -4862.26036 |   14.6125 | 
-LDA fitting...
-
-   17 | 00m38s | -5103.75925 |   20.8574 | 
-LDA fitting...
-
-   18 | 00m22s | -4654.87165 |    5.7340 | 
-LDA fitting...
-
-   19 | 00m59s | -4731.08386 |    5.2964 | 
-LDA fitting...
-
-   20 | 01m19s | -5214.47582 |   27.5503 | 
-LDA fitting...
-
-   21 | 00m54s | -4810.74162 |   13.2724 | 
-LDA fitting...
-
-   22 | 00m57s | -4845.65884 |   10.1587 | 
-LDA fitting...
-
-   23 | 00m25s | -4699.00539 |    4.4652 | 
-LDA fitting...
-
-   24 | 00m23s | -4771.39880 |    3.1144 | 
-LDA fitting...
-
-   25 | 01m09s | -4984.20339 |   21.4676 | 
-LDA fitting...
-
-    1 | 01m09s | [35m-4959.02103[0m | [32m  15.8133[0m | 
-LDA fitting...
-
-    2 | 01m10s | -5176.54107 |   24.7108 | 
-[31mBayesian Optimization[0m
-[94m-----------------------------------------[0m
- Step |   Time |      Value |        x0 | 
-LDA fitting...
-
-    3 | 00m04s | -5765.84570 |    1.0000 | 
-LDA fitting...
-
-    4 | 00m34s | -5096.14823 |    2.4183 | 
-LDA fitting...
-
-    5 | 00m58s | [35m-4709.67382[0m | [32m   8.1718[0m | 
-LDA fitting...
-
-    6 | 01m17s | -5433.42807 |   30.0000 | 
-LDA fitting...
-
-    7 | 01m04s | [35m-4674.54890[0m | [32m   5.3551[0m | 
-LDA fitting...
-
-    8 | 01m10s | [35m-4619.46936[0m | [32m   4.7676[0m | 
-LDA fitting...
-
-    9 | 00m56s | -4894.79010 |   10.5719 | 
-LDA fitting...
-
-   10 | 01m11s | -4984.96256 |   20.1081 | 
-LDA fitting...
-
-   11 | 00m26s | -4697.08018 |    4.3950 | 
-LDA fitting...
-
-   12 | 01m06s | -4753.89735 |    4.9030 | 
-LDA fitting...
-
-   13 | 01m02s | -4947.68628 |   13.1400 | 
-LDA fitting...
-
-   14 | 01m24s | -5468.48636 |   27.3188 | 
-LDA fitting...
-
-   15 | 01m13s | -5086.94319 |   22.4427 | 
-LDA fitting...
-
-   16 | 01m10s | -5065.27634 |   17.9720 | 
-LDA fitting...
-
-   17 | 00m29s | -4781.80979 |    6.5583 | 
-LDA fitting...
-
-   18 | 00m45s | -4953.16728 |    9.1350 | 
-LDA fitting...
-
-   19 | 00m42s | -4641.05675 |    5.8322 | 
-LDA fitting...
-
-   20 | 00m41s | -4746.30857 |   11.7337 | 
-LDA fitting...
-
-   21 | 00m32s | -4797.90251 |   14.4803 | 
-LDA fitting...
-
-   22 | 00m37s | -5237.23649 |   27.6543 | 
-LDA fitting...
-
-   23 | 00m35s | -4749.72972 |    3.2009 | 
-LDA fitting...
-
-   24 | 01m16s | -5156.10959 |   26.0251 | 
-LDA fitting...
-
-   25 | 01m16s | -5000.22565 |   16.6665 | 
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)

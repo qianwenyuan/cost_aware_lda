@@ -126,7 +126,7 @@ pbounds = {
 
 
 def main():
-    n_iter = 25
+    n_iter = 50
     n_runs = 3
 
     for i in range(n_runs):
@@ -164,12 +164,12 @@ def main():
         #plt.show()
 
 def multi_exps():
-    n_iter = 30
+    n_iter = 50
     n_runs = 20
     report_interval = 5
 
     init_points = 1
-    _bo_target_f = bo_target(branin)
+    _bo_target_f = bo_target(lda_train)
     _bo = BayesianOptimization(_bo_target_f, pbounds)
     # _init_params = _bo.space.random_points(init_points)
     _init_params = [_bo.space.random_points(init_points) for _ in range(n_runs)]
@@ -177,8 +177,9 @@ def multi_exps():
     # x_bo_cost, y_bo_cost, bo_cost = run_bo_cost(branin, pbounds, n_iter, _init_params)
     # x_bo, y_bo, bo = run_bo(branin, pbounds, n_iter, _init_params)
 
-    bo_runs = [run_bo(branin, pbounds, n_iter, _init_params[i]) for i in range(n_runs)]
-    bo_cost_runs = [run_bo_cost(branin, pbounds, n_iter, _init_params[i]) for i in range(n_runs)]
+    bo_runs = [run_bo(lda_train, pbounds, n_iter, _init_params[i]) for i in range(n_runs)]
+    bo_cost_runs = [run_bo_cost(lda_train, pbounds, n_iter, _init_params[i], acq_type='div') for i in range(n_runs)]
+    bo_cost_my_runs = [run_bo_cost(lda_train, pbounds, n_iter, _init_params[i], acq_type='others') for i in range(n_runs)]
 
     plot_start = init_points
 
@@ -197,17 +198,19 @@ def multi_exps():
 
     bo_xs, bo_ys = gen_line(bo_runs)
     bo_cost_xs, bo_cost_ys = gen_line(bo_cost_runs)
+    bo_cost_my_xs, bo_cost_my_ys = gen_line(bo_cost_my_runs)
 
-    # plt.plot(bo_xs, bo_ys, marker="x", label="bo")
-    # plt.plot(bo_cost_xs, bo_cost_ys, marker="o", label="bo_cost_aware")
-    plt.plot(bo_xs, bo_ys, label="bo")
-    plt.plot(bo_cost_xs, bo_cost_ys, label="bo_cost_aware")
-    plt.savefig('./cost_awre_BO_compare.png')
+    plt.plot(bo_xs, bo_ys, marker="|", label="bo")
+    plt.plot(bo_cost_xs, bo_cost_ys, marker="|", label="bo_cost_aware")
+    plt.plot(bo_cost_my_xs, bo_cost_my_ys, marker="|", label="bo_cost_aware_my")
+    #plt.plot(bo_xs, bo_ys, label="bo")
+    #plt.plot(bo_cost_xs, bo_cost_ys, label="bo_cost_aware")
     plt.legend()
+    plt.savefig('./cost_awre_BO_compare.png')
     plt.show()
 
 
 if __name__ == '__main__':
     #pass
-    main()
-    #multi_exps()
+    #main()
+    multi_exps()
