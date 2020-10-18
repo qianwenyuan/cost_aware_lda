@@ -24,8 +24,8 @@ class LDA:
 data = Data()
 
 data.load(sample=True)
-data.textPre('r')
-tf = data.saveModel('r')
+data.textPre('w')
+tf = data.saveModel('w')
 
 def lda_train(n_topics):
     #print(n_topics)

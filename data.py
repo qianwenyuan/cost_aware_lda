@@ -23,7 +23,7 @@ def textPrecessing(text):
     return " ".join(filtered)
 
 class Data:
-    def __init__(self, n_samples=2000, textPre_FilePath='./text.txt', tf_ModelPath='./model'):
+    def __init__(self, n_samples=5000, textPre_FilePath='./text.txt', tf_ModelPath='./model'):
         self.n_samples = n_samples
         self.textPre_FilePath = textPre_FilePath
         self.tf_ModelPath = tf_ModelPath

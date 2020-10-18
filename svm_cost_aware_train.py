@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 import sys
 sys.path.append('..')
 from bys_opt import BayesianOptimization
-from lda import lda_train
+#from lda import lda_train
 from benchmarks import parabola
 from benchmarks import branin
+from svm import svm_train
 
-t_f = branin
+t_f = svm_train
 
 costtype = 2 # 0: linear, 1: cost high near x where tf is minimum, 2: cost low near x where tf is minimum
 avg_overhead = 0.5
@@ -124,15 +125,16 @@ def run_ex(target_f, n_iter):
     return [x, y]
 
 pbounds = {
-    "x0": (-5, 10), #x0 represent for n_topics
-    "x1": (0, 15)
+    "x0": (0.1, 10), #x0 represent for n_topics
+    #"x1": (1, 4),
+    "x1": (0.001, 0.01)
 }
 
 
 
 def main():
-    n_iter = 50
-    n_runs = 10
+    n_iter = 20
+    n_runs = 1
 
     x=[]
     y=[]
@@ -142,16 +144,16 @@ def main():
     y_cost_my=[]
     for i in range(n_runs):
         print('\nrun {}\n'.format(i+1))
-        init_points = 2
+        init_points = 1
         _bo_target_f = bo_target(t_f)
         _bo = BayesianOptimization(_bo_target_f, pbounds)
         _init_params = _bo.space.random_points(init_points)
 
         #x_ex, y_ex = run_ex(t_f, n_iter)
-        x_bo, y_bo, bo = run_bo(t_f, pbounds, n_iter,_init_params, cost_max=4500.0)
-        x_bo_cost_div, y_bo_cost_div, bo_cost_div = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'div', cost_max=4500.0)
-        x_bo_cost_divca, y_bo_cost_divca, bo_cost_divca = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'divca', cost_max=4500.0)
-        x_bo_cost_my, y_bo_cost_my, bo_cost_my = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'switch', cost_max=4500.0)
+        x_bo, y_bo, bo = run_bo(t_f, pbounds, n_iter,_init_params, cost_max=1000.0)
+        x_bo_cost_div, y_bo_cost_div, bo_cost_div = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'div', cost_max=1000.0)
+        x_bo_cost_divca, y_bo_cost_divca, bo_cost_divca = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'divca', cost_max=1000.0)
+        x_bo_cost_my, y_bo_cost_my, bo_cost_my = run_bo_cost(t_f, pbounds, n_iter, _init_params, 'switch', cost_max=1000.0)
 
         '''
         x.append(i+1)
@@ -189,7 +191,7 @@ def main():
         # plt.scatter(x_bo_cost[plot_start:], bo_cost.space.Y[plot_start:], marker="o", label="bo_cost_aware_trial")
         # plt.ylim(-5, 0)
         plt.legend()
-        plt.savefig('./result/branin_cost_aware_BO_compare_tf_{}.png'.format(i))
+        plt.savefig('./result/svm_cost_aware_BO_compare_tf_{}.png'.format(i))
         plt.close()
        
         '''

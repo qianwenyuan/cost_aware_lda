@@ -4,9 +4,16 @@ import numpy as np
 from datetime import datetime
 from scipy.stats import norm
 from scipy.optimize import differential_evolution
+from scipy.optimize import minimize
 
 
-def acq_max(ac, gp, y_max, bounds, random_state, n_warmup=100000, n_iter=250):
+def takeSecond(ele):
+    return ele[1]
+
+def takeThird(ele):
+    return ele[2]
+
+def acq_max(ac, gp, y_max, bounds, random_state, alpha=1.0, cost_func=None, n_warmup=100000, n_iter=250):
     """
     A function to find the maximum of the acquisition function
 
@@ -37,6 +44,12 @@ def acq_max(ac, gp, y_max, bounds, random_state, n_warmup=100000, n_iter=250):
     :param n_iter:
         number of times to run scipy.minimize
 
+    :param alpha:
+        when acq_type == my
+
+    :param cost_func:
+        when acq_type == my
+
     Returns
     -------
     :return: x_max, The arg max of the acquisition function.
@@ -60,11 +73,62 @@ def acq_max(ac, gp, y_max, bounds, random_state, n_warmup=100000, n_iter=250):
 
     # Clip output to make sure it lies within the bounds. Due to floating
     # point technicalities this is not always the case.
+    # return np.clip(x_max, bounds[:, 0], bounds[:, 1])
+
+    ''' 
+    ---version li bo---
     res = differential_evolution(lambda x: -ac(x.reshape(1, -1), gp=gp, y_max=y_max), bounds=bounds)
 
     return np.clip(res.x, bounds[:, 0], bounds[:, 1])
-    # return np.clip(x_max, bounds[:, 0], bounds[:, 1])
+    ---version li bo--- 
+    '''
 
+    candidates = []
+    # Warm up with random points
+    x_tries = random_state.uniform(bounds[:, 0], bounds[:, 1],
+                                   size=(n_warmup, bounds.shape[0]))
+
+    ys = ac(x_tries, gp=gp, y_max=y_max)
+    x_max = x_tries[ys.argmax()]
+    max_acq = ys.max()
+    if (cost_func is not None):
+        candidates.append((x_max, max_acq, cost_func(x_max)))
+
+    # Explore the parameter space more throughly
+    x_seeds = random_state.uniform(bounds[:, 0], bounds[:, 1],
+                                   size=(n_iter, bounds.shape[0]))
+
+    for x_try in x_seeds:
+        # Find the minimum of minus the acquisition function
+        res = minimize(lambda x: -ac(x.reshape(1, -1), gp=gp, y_max=y_max),
+                       x_try.reshape(1, -1),
+                       bounds=bounds,
+                       method="L-BFGS-B")
+        # See if success
+        if not res.success:
+            continue
+
+        # Store it if better than previous minimum(maximum).
+        #if (cost_func is not None) and ((res.x, -res.fun[0], cost_func(res.x)) not in candidates):
+        if (cost_func is not None) :
+            candidates.append((res.x, -res.fun[0], cost_func(res.x)))
+        if (max_acq is None) or (-res.fun[0] >= max_acq):
+            x_max = res.x
+            max_acq = -res.fun[0]
+    
+    #print("x_max:{}\nmax_acq:{}\n".format(x_max,max_acq))
+    
+    if cost_func is not None:
+        candidates.sort(key=takeSecond, reverse=True)
+        candidates2 = [candidate for i,candidate in enumerate(candidates) if max_acq-candidate[1]<=alpha*max_acq]
+        candidates2.sort(key=takeThird)
+        x_max = candidates2[0][0]
+        max_acq = candidates2[0][1]
+    #print("x_max:{}\nmax_acq:{}".format(x_max,max_acq))
+
+    # Clip output to make sure it lies within the bounds. Due to floating
+    # point technicalities this is not always the case.
+    return np.clip(x_max, bounds[:, 0], bounds[:, 1])
 
 class UtilityFunction(object):
     """

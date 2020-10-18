@@ -14,7 +14,7 @@ from .target_space import TargetSpace
 
 class BayesianOptimization(object):
 
-    def __init__(self, f, pbounds, random_state=None, verbose=1, if_cost=False, cost_function=None, cost_max=0.0):
+    def __init__(self, f, pbounds, random_state=None, verbose=1, cost_function=None):
         """
         :param f:
             Function to be maximized.
@@ -30,9 +30,6 @@ class BayesianOptimization(object):
             The cost function of f, proportional to the (appox) running time of f,
             should have exact same parameter list with f.
             This function should fairly cheap to evaluate.
-
-        :param cost_init:
-            init points cost, if neccessary.
 
         """
         # Store the original dictionary
@@ -83,16 +80,9 @@ class BayesianOptimization(object):
         self.verbose = verbose
 
         # Cost function
-        self.if_cost = if_cost
-
         if cost_function is not None:
             assert(inspect.getfullargspec(f).args == inspect.getfullargspec(cost_function).args)
         self.cost_function = cost_function
-
-        self.cost_init = 0.0
-        self.cost_max = cost_max
-        self.cost_acc = 0.0
-
 
     def init(self, init_points):
         """
@@ -108,20 +98,11 @@ class BayesianOptimization(object):
         self.init_with_params(rand_points)
 
     def init_with_params(self, params):
-        def cost(x):
-            if self.cost_function is None:
-                return 0.0
-            x_ = np.asarray(x).ravel()
-            params = dict(zip(self.space.keys, x_))
-            return self.cost_function(**params)
-
         self.init_points.extend(params)
 
         # Evaluate target function at all initialization points
         for x in self.init_points:
             y = self._observe_point(x)
-            self.cost_init += cost(x)
-        self.cost_acc = self.cost_init
 
         # Add the points from `self.initialize` to the observations
         if self.x_init:
@@ -308,37 +289,32 @@ class BayesianOptimization(object):
         # Find unique rows of X to avoid GP from breaking
         self.gp.fit(self.space.X, self.space.Y)
 
-        # self.candidates = []
+        self.candidates = []
         # Finding argmax of the acquisition function.
         def ac(x, gp, y_max):
             x_ = np.asarray(x).ravel()
             params = dict(zip(self.space.keys, x_))
-            #print("(1){}\n(2){}\n".format(x_,self.util.utility(x, gp, y_max)))
+            if acq_type=='others' and self.cost_function is not None:
+                self.candidates.append((x_[0], self.util.utility(x, gp, y_max), self.cost_function(**params)))
+                #print("(1){}\n(2){}\n".format(x_,self.util.utility(x, gp, y_max)))
             #print("{}\n".format(self.util.utility(x, gp, y_max) / (
             #    self.cost_function(**params) if self.cost_function is not None else 1)))
-            if self.if_cost is False or acq_type=='switch':
-                return self.util.utility(x, gp, y_max)
             return self.util.utility(x, gp, y_max) / (
-                    self.cost_function(**params) if acq_type=='div' else self.cost_function(**params)**((self.cost_max-self.cost_acc)/(self.cost_max-self.cost_init)))
+                self.cost_function(**params) if self.cost_function is not None and acq_type=='div' else 1)
             #return self.util.utility(x, gp, y_max) 
-
-        def cost(x):
-            x_ = np.asarray(x).ravel()
-            params = dict(zip(self.space.keys, x_))
-            return self.cost_function(**params)
 
         x_max = acq_max(ac=ac,
                         gp=self.gp,
                         y_max=y_max,
                         bounds=self.space.bounds,
                         random_state=self.random_state,
-                        alpha = (self.cost_max-self.cost_acc)/(self.cost_max-self.cost_init),
-                        cost_func=(cost if self.cost_function is not None and acq_type=='switch' else None),
                         **self._acqkw)
-        print("acc:{}, init:{}\n".format(self.cost_acc, self.cost_init))
-        if self.cost_function is not None:
-            self.cost_acc += cost(x_max)
         #print("x_max_before:{}\n".format(x_max))
+
+        def takeSecond(ele):
+            return ele[1]
+        def takeThird(ele):
+            return ele[2]
 
         #print("x_max_after:{}\n".format(x_max))
         # Print new header
@@ -382,17 +358,14 @@ class BayesianOptimization(object):
                             y_max=y_max,
                             bounds=self.space.bounds,
                             random_state=self.random_state,
-                            alpha = (self.cost_max-self.cost_acc)/(self.cost_max-self.cost_init),
-                            cost_func=(cost if self.cost_function is not None and acq_type=='switch' else None),
                             **self._acqkw)
-            if self.cost_function is not None:
-                self.cost_acc += cost(x_max)
-                print("acc:{}\n".format(self.cost_acc))
-
-            if self.cost_acc >= self.cost_max:
-                break
             #print("x_max_before:{}\n".format(x_max))
 
+            if acq_type=='others':
+                self.candidates.sort(key=takeSecond, reverse=True)
+                candidates2 = [candidate for i,candidate in enumerate(self.candidates) if self.candidates[0][1]-candidate[1]<=threshhold]
+                candidates2.sort(key=takeThird)
+                x_max = [candidates2[0][0]]
             #print("x_max_after:{}\n".format(x_max))
             # Keep track of total number of iterations
             self.i += 1

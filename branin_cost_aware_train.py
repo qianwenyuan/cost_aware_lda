@@ -138,6 +138,8 @@ def main():
     y=[]
     x_cost_div=[]
     y_cost_div=[]
+    x_cost_divca=[]
+    y_cost_divca=[]
     x_cost_my=[]
     y_cost_my=[]
     for i in range(n_runs):
@@ -160,22 +162,27 @@ def main():
         y_cost_div.append(y_bo_cost_div[-1])
         x_cost_my.append(i+1)
         y_cost_my.append(y_bo_cost_my[-1])
-        
+        '''
         
         for j,_ in enumerate(x_bo):
-            if abs(y_bo[j] + 0.397887) <= 0.01:
+            if abs(y_bo[j]) <= 0.41:
                 x.append(i+1)
                 y.append(x_bo[j])
                 break
         for j,_ in enumerate(x_bo_cost_div):
-            if abs(y_bo_cost_div[j] + 0.397887) <= 0.01:
+            if abs(y_bo_cost_div[j]) <= 0.41:
                 x_cost_div.append(i+1)
-                y_cost_div.append(x_bo[j])
+                y_cost_div.append(x_bo_cost_div[j])
+                break
+        for j,_ in enumerate(x_bo_cost_divca):
+            if abs(y_bo_cost_divca[j]) <= 0.41:
+                x_cost_divca.append(i+1)
+                y_cost_divca.append(x_bo_cost_divca[j])
                 break
         for j,_ in enumerate(x_bo_cost_my):
-            if abs(y_bo_cost_my[j] + 0.397887) <= 0.01:
+            if abs(y_bo_cost_my[j]) <= 0.41:
                 x_cost_my.append(i+1)
-                y_cost_my.append(x_bo[j])
+                y_cost_my.append(x_bo_cost_my[j])
                 break
         
         '''
@@ -192,7 +199,6 @@ def main():
         plt.savefig('./result/branin_cost_aware_BO_compare_tf_{}.png'.format(i))
         plt.close()
        
-        '''
         x1 = [i for i in range(len(x_bo)-1)]
         x2 = x1
         y1 = [x_bo_cost_my[i+1]-x_bo_cost_my[i] for i in range(len(x_bo)-1)]
@@ -203,15 +209,16 @@ def main():
         plt.savefig('./result/branin_cost_aware_BO_compare_cost_{}.png'.format(i))
         plt.close()
         #plt.show()
+        '''
         
     plt.plot(x[0:], y[0:], marker="x", label="bo")
     # plt.scatter(x_bo[plot_start:], bo.space.Y[plot_start:], marker="x", label="bo_tria")
     plt.plot(x_cost_div[0:], y_cost_div[0:], marker="+", label="bo_cost_aware_div")
+    plt.plot(x_cost_divca[0:], y_cost_divca[0:], marker="|", label="bo_cost_aware_divca")
     plt.plot(x_cost_my[0:], y_cost_my[0:], marker="^", label="bo_cost_aware_my")
     plt.legend()
     plt.savefig('./result/branin_cost_aware_BO_compare_when_close_to_max_target_value.png')
     plt.close()
-    '''
 
 def multi_exps():
     n_iter = 25

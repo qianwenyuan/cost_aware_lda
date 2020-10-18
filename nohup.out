@@ -1,535 +1,5776 @@
 loading data...
 
-reading text from file and processing...
+text processing and writing into file...
 
 vectorizing...
 
+
+run 1
+
 LDA fitting...
 
-    1 | 03m01s | [35m-3733.47396[0m | [32m   8.7897[0m | 
+    1 | 00m46s | [35m-4944.17904[0m | [32m   3.9873[0m | 
+LDA fitting...
+
+    2 | 01m42s | [35m-4475.09761[0m | [32m  11.2308[0m | 
+acc:16.21804783390969, init:16.21804783390969
+
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    2 | 03m52s | [35m-3291.18668[0m | [32m  29.0279[0m | 
+    3 | 01m28s | [35m-4217.30969[0m | [32m  30.0000[0m | 
+acc:66.54926067325485
+
 LDA fitting...
 
-    3 | 08m29s | [35m-3289.45626[0m | [32m  30.0000[0m | 
+    4 | 02m47s | -4258.48871 |   19.3312 | 
+acc:93.83363042993763
+
 LDA fitting...
 
-    4 | 02m34s | -3969.52073 |    5.5891 | 
+    5 | 03m12s | -4326.28374 |   26.7844 | 
+acc:116.22646553522954
+
 LDA fitting...
 
-    5 | 03m38s | [35m-3281.49655[0m | [32m  20.0610[0m | 
+    6 | 03m05s | -4227.72994 |   21.8928 | 
+acc:142.35538280068917
+
 LDA fitting...
 
-    6 | 09m14s | -3342.32983 |   23.0208 | 
+    7 | 03m05s | -4279.42499 |   25.6289 | 
+acc:156.01869120000956
+
 LDA fitting...
 
-    7 | 03m31s | -3454.60580 |   17.2606 | 
+    8 | 01m28s | -4344.43723 |   13.1633 | 
+acc:177.0787041810896
+
 LDA fitting...
 
-    8 | 03m35s | -3363.15310 |   20.5533 | 
+    9 | 02m56s | [35m-4210.02228[0m | [32m  20.5600[0m | 
+acc:198.3874941602992
+
 LDA fitting...
 
-    9 | 00m27s | -6850.76419 |    1.0000 | 
+   10 | 03m06s | -4237.62667 |   20.8088 | 
+acc:199.8874941602992
+
 LDA fitting...
 
-   10 | 04m49s | -3342.49045 |   25.8701 | 
+   11 | 00m11s | -6868.67149 |    1.0000 | 
+acc:207.4553622508827
+
 LDA fitting...
 
-   11 | 03m35s | -3376.31315 |   19.1903 | 
+   12 | 01m02s | -4514.10443 |    7.0679 | 
+acc:231.3022802359783
+
 LDA fitting...
 
-   12 | 03m55s | -3492.96134 |   13.5382 | 
+   13 | 02m41s | -4264.98562 |   23.3469 | 
+acc:251.91762534025247
+
 LDA fitting...
 
-   13 | 03m44s | -3333.43115 |   24.0809 | 
+   14 | 03m04s | -4262.68155 |   20.1153 | 
+acc:268.80461973630906
+
 LDA fitting...
 
-   14 | 07m10s | -3298.81850 |   27.9018 | 
+   15 | 02m21s | -4264.10033 |   16.3870 | 
+acc:287.3553509760994
+
 LDA fitting...
 
-   15 | 02m19s | -4021.21254 |    4.2576 | 
+   16 | 02m08s | -4293.90151 |   18.0507 | 
+acc:302.8692313808946
+
 LDA fitting...
 
-   16 | 04m20s | -3417.54173 |   20.9755 | 
+   17 | 02m34s | -4324.71284 |   15.0139 | 
+acc:325.7844880660686
+
 LDA fitting...
 
-   17 | 03m05s | -3643.16144 |    8.1256 | 
+   18 | 02m01s | -4307.17843 |   22.4153 | 
+acc:350.58337705920644
+
 LDA fitting...
 
-   18 | 02m13s | -3925.23731 |    5.8575 | 
+   19 | 03m14s | -4312.61914 |   24.2989 | 
+acc:371.6035242745638
+
 LDA fitting...
 
-   19 | 03m09s | -3685.24116 |   10.4107 | 
+   20 | 01m22s | [35m-4205.52795[0m | [32m  20.5201[0m | 
+acc:381.3198150797993
+
 LDA fitting...
 
-   20 | 04m22s | -3352.54958 |   19.8881 | 
+   21 | 01m06s | -4473.93848 |    9.2163 | 
+acc:402.2608432306872
+
 LDA fitting...
 
-   21 | 03m35s | -3431.42319 |   15.2994 | 
+   22 | 01m20s | -4445.38792 |   20.4410 | 
+acc:431.1476660787986
+
 LDA fitting...
 
-   22 | 03m30s | -3362.92618 |   18.4356 | 
+   23 | 03m14s | -4250.43575 |   28.3868 | 
+acc:437.18977558265135
+
 LDA fitting...
 
-   23 | 03m33s | -3348.83371 |   20.1876 | 
+   24 | 00m54s | -4840.20136 |    5.5421 | 
+acc:440.24111148623086
+
 LDA fitting...
 
-   24 | 03m07s | -3553.97315 |   12.0189 | 
+   25 | 00m34s | -5623.19980 |    2.5513 | 
+acc:448.8801524797947
+
 LDA fitting...
 
-   25 | 04m30s | -3435.53570 |   26.9389 | 
+   26 | 01m08s | -4524.62714 |    8.1390 | 
+acc:459.58561687345957
+
 LDA fitting...
 
-   26 | 06m21s | -3311.56320 |   24.9787 | 
+   27 | 01m11s | -4460.53007 |   10.2055 | 
+acc:472.26958963684393
+
 LDA fitting...
 
-   27 | 03m37s | -3405.19968 |   16.3055 | 
+   28 | 01m11s | -4479.84794 |   12.1840 | 
+acc:486.8441504090808
+
 LDA fitting...
 
-   28 | 08m33s | [35m-3276.79363[0m | [32m  28.5079[0m | 
+   29 | 01m17s | -4435.55436 |   14.0746 | 
+acc:504.56659128715006
+
 LDA fitting...
 
-   29 | 08m35s | [35m-3215.66300[0m | [32m  29.0494[0m | 
+    1 | 00m49s | [35m-4874.79787[0m | [32m   3.9873[0m | 
 LDA fitting...
 
-   30 | 01m09s | -5109.11177 |    2.8830 | 
-LDA fitting...
+    2 | 01m25s | [35m-4414.26781[0m | [32m  11.2308[0m | 
+acc:16.21804783390969, init:16.21804783390969
 
-   31 | 08m35s | -3325.59807 |   29.4371 | 
-LDA fitting...
-
-   32 | 02m45s | -3757.36195 |    7.0504 | 
-LDA fitting...
-
-   33 | 03m38s | -3358.93502 |   22.0571 | 
-LDA fitting...
-
-   34 | 03m18s | -3430.62560 |   14.4528 | 
-LDA fitting...
-
-   35 | 03m42s | -3275.01473 |   29.2098 | 
-LDA fitting...
-
-   36 | 03m03s | -3586.20421 |    9.5682 | 
-LDA fitting...
-
-   37 | 03m05s | -3607.23208 |   11.2022 | 
-LDA fitting...
-
-   38 | 03m11s | -3555.82267 |   12.7797 | 
-LDA fitting...
-
-   39 | 08m01s | -3328.71805 |   23.5548 | 
-LDA fitting...
-
-   40 | 08m27s | -3280.61165 |   28.2702 | 
-LDA fitting...
-
-   41 | 03m39s | -3400.75730 |   17.8745 | 
-LDA fitting...
-
-   42 | 03m46s | -3273.67723 |   27.5251 | 
-LDA fitting...
-
-   43 | 07m48s | -3382.42020 |   26.3795 | 
-LDA fitting...
-
-   44 | 03m33s | -3279.37990 |   21.5324 | 
-LDA fitting...
-
-   45 | 03m28s | -3271.93027 |   22.5552 | 
-LDA fitting...
-
-   46 | 03m43s | -3235.03812 |   29.6471 | 
-LDA fitting...
-
-   47 | 03m51s | -3331.36849 |   29.1103 | 
-LDA fitting...
-
-   48 | 00m26s | -6850.76419 |    1.9775 | 
-LDA fitting...
-
-   49 | 02m16s | -4055.51799 |    4.9548 | 
-LDA fitting...
-
-   50 | 02m08s | -4390.15307 |    3.6119 | 
-LDA fitting...
-
-    1 | 07m30s | [35m-3394.60670[0m | [32m  19.1512[0m | 
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    2 | 00m25s | -6850.76419 |    1.3971 | 
+    3 | 03m21s | [35m-4278.96536[0m | [32m  29.9993[0m | 
+acc:65.35673491640371
+
 LDA fitting...
 
-    3 | 08m51s | [35m-3359.16399[0m | [32m  30.0000[0m | 
+    4 | 02m45s | -4355.01264 |   18.1394 | 
+acc:95.85661395760488
+
 LDA fitting...
 
-    4 | 08m04s | -3379.34100 |   22.5324 | 
+    5 | 03m18s | -4323.00686 |   29.9999 | 
+acc:97.35661395760488
+
 LDA fitting...
 
-    5 | 03m44s | [35m-3322.79739[0m | [32m  28.0621[0m | 
+    6 | 00m10s | -6868.67149 |    1.0000 | 
+acc:98.88070821264073
+
 LDA fitting...
 
-    6 | 03m56s | -3341.75010 |   27.0151 | 
+    7 | 00m18s | -6868.67149 |    1.0241 | 
+acc:100.5440202040568
+
 LDA fitting...
 
-    7 | 02m46s | -3741.36218 |    7.8547 | 
+    8 | 00m16s | -6868.67149 |    1.1633 | 
+acc:102.40645716715375
+
 LDA fitting...
 
-    8 | 03m10s | -3473.24483 |   12.4896 | 
+    9 | 00m15s | -6868.67149 |    1.3624 | 
+acc:104.54365558782328
+
 LDA fitting...
 
-    9 | 03m34s | -3413.30647 |   19.6347 | 
+   10 | 00m14s | -6868.67149 |    1.6372 | 
+acc:106.99812304242461
+
 LDA fitting...
 
-   10 | 02m58s | -3621.92293 |   10.1571 | 
+   11 | 00m14s | -6868.67149 |    1.9545 | 
+acc:109.80971093885877
+
 LDA fitting...
 
-   11 | 03m19s | -3403.55740 |   15.8847 | 
+   12 | 00m45s | -5622.93456 |    2.3116 | 
+acc:112.99655054916303
+
 LDA fitting...
 
-   12 | 08m03s | [35m-3259.44519[0m | [32m  28.3700[0m | 
+   13 | 00m35s | -5597.88331 |    2.6868 | 
+acc:116.5862989097628
+
 LDA fitting...
 
-   13 | 09m27s | -3339.63880 |   25.0655 | 
+   14 | 00m57s | -5037.78252 |    3.0897 | 
+acc:120.57431989249218
+
 LDA fitting...
 
-   14 | 04m27s | -3328.00696 |   28.9286 | 
+   15 | 00m50s | -5212.92167 |    3.4880 | 
+acc:125.52095083677732
+
 LDA fitting...
 
-   15 | 03m33s | -3543.53566 |   13.5530 | 
+   16 | 01m00s | -4772.53873 |    4.4466 | 
+acc:130.94377845895883
+
 LDA fitting...
 
-   16 | 04m19s | -3329.69644 |   28.4818 | 
+   17 | 00m53s | -4600.06427 |    4.9228 | 
+acc:161.2915105959552
+
 LDA fitting...
 
-   17 | 02m41s | -4033.12483 |    4.9827 | 
+   18 | 03m19s | [35m-4250.67023[0m | [32m  29.8477[0m | 
+acc:163.92621856945436
+
 LDA fitting...
 
-   18 | 03m55s | -3443.21694 |   17.5543 | 
+   19 | 00m34s | -5599.31806 |    2.1347 | 
+acc:168.16096396451846
+
 LDA fitting...
 
-   19 | 04m02s | -3282.83220 |   21.0961 | 
+   20 | 00m53s | -4891.79113 |    3.7347 | 
+acc:173.98962101096006
+
 LDA fitting...
 
-   20 | 04m13s | -3272.00438 |   26.2413 | 
+   21 | 00m54s | -4656.85306 |    5.3287 | 
+acc:180.23206019545717
+
 LDA fitting...
 
-   21 | 06m44s | -3306.31205 |   23.8441 | 
+   22 | 01m02s | -4611.27339 |    5.7424 | 
+acc:206.94107678890774
+
 LDA fitting...
 
-   22 | 03m10s | -3439.75435 |   14.8215 | 
+   23 | 01m31s | -4285.50846 |   26.2090 | 
+acc:210.33203063126822
+
 LDA fitting...
 
-   23 | 03m45s | -3384.30215 |   29.3150 | 
+   24 | 00m48s | -5623.53165 |    2.8910 | 
+acc:217.02410301602896
+
 LDA fitting...
 
-   24 | 03m44s | -3275.26911 |   28.2674 | 
+   25 | 01m07s | -4530.24604 |    6.1921 | 
+acc:224.1716292953614
+
 LDA fitting...
 
-   25 | 02m09s | -4383.60812 |    3.5123 | 
+   26 | 01m04s | -4407.43930 |    6.6475 | 
+acc:231.77901647447737
+
 LDA fitting...
 
-   26 | 02m43s | -3842.60947 |    6.4341 | 
+   27 | 01m07s | -4647.72590 |    7.1074 | 
+acc:236.49049789064082
+
 LDA fitting...
 
-   27 | 03m00s | -3666.10215 |   11.4521 | 
+   28 | 00m57s | -4625.64278 |    4.2115 | 
+acc:244.58506184257027
+
 LDA fitting...
 
-   28 | 03m39s | -3280.27139 |   25.8876 | 
+   29 | 01m09s | -4568.74007 |    7.5946 | 
+acc:249.76483277762605
+
 LDA fitting...
 
-   29 | 03m25s | -3791.03952 |    9.0540 | 
+   30 | 01m01s | -4796.00928 |    4.6798 | 
+acc:258.3664577598827
+
 LDA fitting...
 
-   30 | 06m58s | -3392.53729 |   20.5792 | 
+    1 | 00m48s | [35m-4884.77569[0m | [32m   3.9873[0m | 
 LDA fitting...
 
-   31 | 05m44s | -3333.21903 |   21.6079 | 
-LDA fitting...
+    2 | 01m23s | [35m-4341.27202[0m | [32m  11.2308[0m | 
+acc:16.21804783390969, init:16.21804783390969
 
-   32 | 03m21s | -3482.83742 |   15.5044 | 
-LDA fitting...
-
-   33 | 03m11s | -3355.02721 |   16.5940 | 
-LDA fitting...
-
-   34 | 03m36s | -3305.01721 |   28.2267 | 
-LDA fitting...
-
-   35 | 07m15s | -3275.84286 |   27.6042 | 
-LDA fitting...
-
-   36 | 03m27s | -3445.23349 |   18.3961 | 
-LDA fitting...
-
-   37 | 03m42s | -3297.18662 |   27.8052 | 
-LDA fitting...
-
-   38 | 05m07s | -3330.01333 |   24.6889 | 
-LDA fitting...
-
-   39 | 03m10s | -3471.52180 |   13.8590 | 
-LDA fitting...
-
-   40 | 03m35s | -3303.53578 |   23.2661 | 
-LDA fitting...
-
-   41 | 03m33s | -3337.06674 |   22.5847 | 
-LDA fitting...
-
-   42 | 03m08s | -3559.15643 |   11.0781 | 
-LDA fitting...
-
-   43 | 03m43s | -3325.38944 |   27.7132 | 
-LDA fitting...
-
-   44 | 03m36s | -3313.24412 |   25.0145 | 
-LDA fitting...
-
-   45 | 03m36s | -3290.17057 |   27.3638 | 
-LDA fitting...
-
-   46 | 03m38s | -3335.05950 |   25.7575 | 
-LDA fitting...
-
-   47 | 08m03s | -3340.89254 |   22.8851 | 
-LDA fitting...
-
-   48 | 08m37s | -3276.67391 |   27.5032 | 
-LDA fitting...
-
-   49 | 03m48s | -3336.38093 |   26.0628 | 
-LDA fitting...
-
-   50 | 03m35s | [35m-3219.83024[0m | [32m  26.4915[0m | 
-LDA fitting...
-
-    1 | 03m43s | [35m-3293.34552[0m | [32m  26.9831[0m | 
 [31mBayesian Optimization[0m
 [94m-----------------------------------------[0m
  Step |   Time |      Value |        x0 | 
 LDA fitting...
 
-    2 | 02m29s | -3953.16895 |    5.9576 | 
+    3 | 03m23s | [35m-4248.92512[0m | [32m  30.0000[0m | 
+acc:64.99777523273576
+
 LDA fitting...
 
-    3 | 04m24s | -3303.47399 |   30.0000 | 
+    4 | 01m55s | -4382.80916 |   17.7797 | 
+acc:90.75520244735642
+
 LDA fitting...
 
-    4 | 03m39s | -3333.86452 |   26.4554 | 
+    5 | 03m12s | -4330.63958 |   25.2574 | 
+acc:108.35888515040382
+
 LDA fitting...
 
-    5 | 00m25s | -6850.76419 |    1.0000 | 
+    6 | 01m20s | -4336.82090 |   17.1037 | 
+acc:122.98642291651547
+
 LDA fitting...
 
-    6 | 04m40s | -3475.65328 |   14.6429 | 
+    7 | 01m12s | -4258.65552 |   14.1275 | 
+acc:134.47144716687694
+
 LDA fitting...
 
-    7 | 02m58s | -3690.16275 |    9.7288 | 
+    8 | 01m06s | -4413.18626 |   10.9850 | 
+acc:135.97144716687694
+
 LDA fitting...
 
-    8 | 03m29s | -3469.34460 |   19.5602 | 
+    9 | 00m10s | -6868.67149 |    1.0000 | 
+acc:149.01794158871218
+
 LDA fitting...
 
-    9 | 03m17s | -3593.37422 |   11.3977 | 
+   10 | 01m25s | -4362.86696 |   12.5465 | 
+acc:171.49613568325208
+
 LDA fitting...
 
-   10 | 03m45s | -3327.70718 |   27.8173 | 
+   11 | 03m05s | [35m-4164.30499[0m | [32m  21.9782[0m | 
+acc:194.13595286436103
+
 LDA fitting...
 
-   11 | 01m08s | -5111.20996 |    2.2411 | 
+   12 | 02m24s | -4324.20736 |   22.1398 | 
+acc:201.09473214573302
+
 LDA fitting...
 
-   12 | 07m44s | -3377.69842 |   22.7851 | 
+   13 | 01m00s | -4509.31786 |    6.4588 | 
+acc:222.12349355451607
+
 LDA fitting...
 
-   13 | 04m35s | -3337.14133 |   17.0343 | 
+   14 | 01m20s | -4290.40015 |   20.5288 | 
+acc:249.67624788421153
+
 LDA fitting...
 
-   14 | 03m16s | -3472.85601 |   16.8558 | 
+   15 | 02m19s | -4294.29000 |   27.0528 | 
+acc:271.5855788942533
+
 LDA fitting...
 
-   15 | 03m25s | -3419.67267 |   18.0113 | 
+   16 | 01m23s | -4363.22413 |   21.4093 | 
+acc:280.59561214452816
+
 LDA fitting...
 
-   16 | 03m07s | -3585.56847 |   13.3289 | 
+   17 | 01m03s | -4535.44206 |    8.5100 | 
+acc:300.5193556635935
+
 LDA fitting...
 
-   17 | 03m27s | -3400.44462 |   21.0366 | 
+   18 | 01m19s | -4385.65384 |   19.4237 | 
+acc:316.4690501767738
+
 LDA fitting...
 
-   18 | 03m30s | -3315.34827 |   24.4147 | 
+   19 | 01m14s | -4297.52623 |   15.4497 | 
+acc:338.80292287541414
+
 LDA fitting...
 
-   19 | 03m20s | -3442.73966 |   17.4043 | 
+   20 | 01m21s | -4415.09203 |   21.8339 | 
+acc:341.9127211323547
+
 LDA fitting...
 
-   20 | 02m55s | -3801.36845 |    8.0368 | 
+   21 | 00m54s | -5817.69479 |    2.6098 | 
+acc:370.9013106984996
+
 LDA fitting...
 
-   21 | 02m11s | -4014.70340 |    4.1090 | 
+   22 | 01m25s | -4174.04285 |   28.4886 | 
+acc:376.6134079570593
+
 LDA fitting...
 
-   22 | 07m20s | -3379.49332 |   18.6322 | 
+   23 | 00m54s | -4390.46089 |    5.2121 | 
+acc:401.13287662933925
+
 LDA fitting...
 
-   23 | 08m17s | -3399.72603 |   25.1845 | 
+   24 | 01m23s | -4175.98957 |   24.0195 | 
+acc:411.3779116061735
+
 LDA fitting...
 
-   24 | 07m43s | -3339.56518 |   23.9044 | 
+   25 | 01m10s | -4633.28887 |    9.7450 | 
+acc:419.37208742217837
+
 LDA fitting...
 
-   25 | 03m37s | [35m-3247.64483[0m | [32m  27.1008[0m | 
+   26 | 01m03s | -4543.61004 |    7.4942 | 
+acc:436.17365157576586
+
 LDA fitting...
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+   27 | 01m16s | -4328.39314 |   16.3016 | 
+acc:462.8432182958534
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+   28 | 03m10s | -4330.54372 |   26.1696 | 
+acc:484.3535262524814
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+   29 | 01m23s | -4381.12211 |   21.0103 | 
+acc:512.6836417770534
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    1 | 00m46s | [35m-4947.43847[0m | [32m   3.9873[0m | 
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    2 | 01m12s | [35m-4417.13203[0m | [32m  11.2308[0m | 
+acc:16.21804783390969, init:16.21804783390969
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    3 | 00m11s | -6868.67149 |    1.1047 | 
+acc:25.267738292946238
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    4 | 01m01s | -4539.07584 |    6.9450 | 
+acc:55.76770194161526
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    5 | 01m28s | [35m-4364.23419[0m | [32m  30.0000[0m | 
+acc:76.57401881044458
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    6 | 01m23s | -4393.38038 |   20.3063 | 
+acc:92.46693570566852
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    7 | 01m35s | -4385.65400 |   15.3929 | 
+acc:117.23356781770947
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    8 | 02m06s | [35m-4207.17688[0m | [32m  24.2666[0m | 
+acc:141.83181030280585
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+    9 | 01m23s | -4223.23073 |   24.0982 | 
+acc:167.8785181558443
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
-/home/qwy/.local/lib/python3.8/site-packages/sklearn/gaussian_process/_gpr.py:504: ConvergenceWarning: lbfgs failed to converge (status=2):
-ABNORMAL_TERMINATION_IN_LNSRCH.
+LDA fitting...
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-  _check_optimize_result("lbfgs", opt_res)
+   10 | 03m14s | -4287.54666 |   25.5467 | 
+acc:192.98540303711766
+
+LDA fitting...
+
+   11 | 03m08s | -4207.27210 |   24.6069 | 
+acc:217.91234587700112
+
+LDA fitting...
+
+   12 | 01m21s | -4283.52289 |   24.4269 | 
+acc:223.90554960498014
+
+LDA fitting...
+
+   13 | 00m52s | -4752.10006 |    5.4932 | 
+acc:233.44681838979085
+
+LDA fitting...
+
+   14 | 01m06s | -4440.81201 |    9.0413 | 
+acc:247.21903379175174
+
+LDA fitting...
+
+   15 | 01m11s | -4331.48515 |   13.2722 | 
+acc:265.53175715403574
+
+LDA fitting...
+
+   16 | 01m18s | -4269.85072 |   17.8127 | 
+acc:287.9987496538497
+
+LDA fitting...
+
+   17 | 01m23s | -4397.31363 |   21.9670 | 
+acc:316.32956018936716
+
+LDA fitting...
+
+   18 | 01m26s | -4232.53173 |   27.8308 | 
+acc:333.46001974681536
+
+LDA fitting...
+
+   19 | 01m14s | -4279.42815 |   16.6305 | 
+acc:352.9583634858824
+
+LDA fitting...
+
+   20 | 01m17s | -4364.60848 |   18.9983 | 
+acc:378.4664780639118
+
+LDA fitting...
+
+   21 | 01m23s | -4321.34453 |   25.0081 | 
+acc:405.5680289220705
+
+LDA fitting...
+
+   22 | 01m23s | -4226.46865 |   26.6016 | 
+acc:420.40723360251866
+
+LDA fitting...
+
+   23 | 01m14s | -4410.74079 |   14.3392 | 
+acc:449.5492918392885
+
+LDA fitting...
+
+   24 | 01m24s | -4208.04711 |   28.6421 | 
+acc:462.4224359619392
+
+LDA fitting...
+
+   25 | 01m11s | -4374.81489 |   12.3731 | 
+acc:473.11852460566035
+
+LDA fitting...
+
+   26 | 01m08s | -4438.17583 |   10.1961 | 
+acc:481.65237704787285
+
+LDA fitting...
+
+   27 | 01m03s | -4509.08742 |    8.0339 | 
+acc:508.19611880021944
+
+
+run 2
+
+LDA fitting...
+
+    1 | 00m30s | [35m-5600.25547[0m | [32m   2.2082[0m | 
+LDA fitting...
+
+    2 | 01m01s | [35m-4578.60547[0m | [32m   6.4898[0m | 
+acc:9.69808475708821, init:9.69808475708821
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m26s | [35m-4213.47899[0m | [32m  30.0000[0m | 
+acc:57.21519496764411
+
+LDA fitting...
+
+    4 | 01m17s | -4378.83754 |   16.5171 | 
+acc:68.7974533623321
+
+LDA fitting...
+
+    5 | 01m26s | -4467.86881 |   11.0823 | 
+acc:90.91071825259854
+
+LDA fitting...
+
+    6 | 01m35s | -4273.15987 |   21.6133 | 
+acc:101.4690901596302
+
+LDA fitting...
+
+    7 | 01m20s | -4464.74276 |   10.0584 | 
+acc:117.63373040274053
+
+LDA fitting...
+
+    8 | 01m32s | -4352.04374 |   15.6646 | 
+acc:120.98327284167468
+
+LDA fitting...
+
+    9 | 00m33s | -5599.78505 |    2.8495 | 
+acc:147.39141898484257
+
+LDA fitting...
+
+   10 | 03m19s | -4275.27878 |   25.9081 | 
+acc:176.9320350720496
+
+LDA fitting...
+
+   11 | 03m21s | -4276.03159 |   29.0406 | 
+acc:195.55017785789323
+
+LDA fitting...
+
+   12 | 02m43s | -4292.95110 |   18.1181 | 
+acc:206.6712202532504
+
+LDA fitting...
+
+   13 | 01m11s | -4449.39348 |   10.6210 | 
+acc:223.4722550572876
+
+LDA fitting...
+
+   14 | 01m29s | -4389.08186 |   16.3010 | 
+acc:252.04025201385116
+
+LDA fitting...
+
+   15 | 01m22s | -4360.16187 |   28.0680 | 
+acc:276.57501568533536
+
+LDA fitting...
+
+   16 | 01m22s | -4322.48361 |   24.0348 | 
+acc:285.61171132120813
+
+LDA fitting...
+
+   17 | 01m06s | -4453.44828 |    8.5367 | 
+acc:314.2632664373389
+
+LDA fitting...
+
+   18 | 03m21s | -4305.67064 |   28.1516 | 
+acc:328.62290728741607
+
+LDA fitting...
+
+   19 | 01m12s | -4353.90924 |   13.8596 | 
+acc:349.1793988777936
+
+LDA fitting...
+
+   20 | 01m23s | -4346.88015 |   20.0565 | 
+acc:374.90671361974177
+
+LDA fitting...
+
+   21 | 01m27s | -4331.65408 |   25.2273 | 
+acc:403.9694879211772
+
+LDA fitting...
+
+   22 | 01m29s | -4312.96178 |   28.5628 | 
+acc:405.4694879211772
+
+LDA fitting...
+
+   23 | 00m11s | -6868.67149 |    1.0000 | 
+acc:428.7477248899485
+
+LDA fitting...
+
+   24 | 01m24s | -4234.68029 |   22.7782 | 
+acc:433.34348321057655
+
+LDA fitting...
+
+   25 | 00m54s | -4645.95682 |    4.0958 | 
+acc:438.92000525318247
+
+LDA fitting...
+
+   26 | 00m54s | -4618.37753 |    5.0765 | 
+acc:457.8351761010429
+
+LDA fitting...
+
+   27 | 01m27s | -4245.54336 |   18.4152 | 
+acc:477.22891798777187
+
+LDA fitting...
+
+   28 | 01m18s | [35m-4210.39993[0m | [32m  18.8937[0m | 
+acc:496.58575042039837
+
+LDA fitting...
+
+   29 | 01m19s | [35m-4178.82697[0m | [32m  18.8568[0m | 
+acc:509.6907319428866
+
+LDA fitting...
+
+    1 | 00m43s | [35m-5620.25521[0m | [32m   2.2082[0m | 
+LDA fitting...
+
+    2 | 01m02s | [35m-4566.20624[0m | [32m   6.4898[0m | 
+acc:9.69808475708821, init:9.69808475708821
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 03m22s | [35m-4349.71712[0m | [32m  29.9991[0m | 
+acc:57.07573626437317
+
+LDA fitting...
+
+    4 | 01m19s | [35m-4265.89052[0m | [32m  16.3786[0m | 
+acc:68.33026518348396
+
+LDA fitting...
+
+    5 | 01m08s | -4449.48086 |   10.7545 | 
+acc:89.55487765457667
+
+LDA fitting...
+
+    6 | 01m20s | [35m-4257.22555[0m | [32m  20.7246[0m | 
+acc:108.50548358958315
+
+LDA fitting...
+
+    7 | 01m16s | [35m-4251.52154[0m | [32m  18.4506[0m | 
+acc:127.07232618735186
+
+LDA fitting...
+
+    8 | 01m17s | [35m-4243.05887[0m | [32m  18.0668[0m | 
+acc:145.11368980334186
+
+LDA fitting...
+
+    9 | 01m50s | -4261.51445 |   17.5414 | 
+acc:169.48870316822763
+
+LDA fitting...
+
+   10 | 01m21s | -4316.78328 |   23.8750 | 
+acc:184.8772847919759
+
+LDA fitting...
+
+   11 | 01m57s | -4359.13333 |   14.8886 | 
+acc:207.19017944823037
+
+LDA fitting...
+
+   12 | 01m23s | -4290.75795 |   21.8129 | 
+acc:225.7881803469114
+
+LDA fitting...
+
+   13 | 01m16s | [35m-4211.51471[0m | [32m  18.0980[0m | 
+acc:227.2881803469114
+
+LDA fitting...
+
+   14 | 00m11s | -6868.67149 |    1.0000 | 
+acc:231.83393271690252
+
+LDA fitting...
+
+   15 | 00m51s | -4604.01060 |    4.0458 | 
+acc:259.2089941871915
+
+LDA fitting...
+
+   16 | 01m24s | -4355.83295 |   26.8751 | 
+acc:268.17524690688185
+
+LDA fitting...
+
+   17 | 01m14s | -4416.78465 |    8.4663 | 
+acc:281.46272470111387
+
+LDA fitting...
+
+   18 | 01m08s | -4404.73332 |   12.7875 | 
+acc:307.2553871325706
+
+LDA fitting...
+
+   19 | 01m23s | -4342.47318 |   25.2927 | 
+acc:336.0528399252165
+
+LDA fitting...
+
+   20 | 01m24s | [35m-4194.38375[0m | [32m  28.2975[0m | 
+acc:353.57517714355106
+
+LDA fitting...
+
+   21 | 01m17s | -4242.35008 |   17.0223 | 
+acc:376.9227704115987
+
+LDA fitting...
+
+   22 | 01m20s | -4247.80435 |   22.8476 | 
+acc:386.97732953559944
+
+LDA fitting...
+
+   23 | 01m05s | -4384.00807 |    9.5546 | 
+acc:405.7296131739515
+
+LDA fitting...
+
+   24 | 01m16s | -4207.65000 |   18.2523 | 
+acc:425.8227983774757
+
+LDA fitting...
+
+   25 | 01m19s | -4253.76129 |   19.5932 | 
+acc:431.5447590192451
+
+LDA fitting...
+
+   26 | 00m53s | -4456.15984 |    5.2220 | 
+acc:439.5822212163669
+
+LDA fitting...
+
+   27 | 01m04s | -4490.64021 |    7.5375 | 
+acc:453.94715274856276
+
+LDA fitting...
+
+   28 | 01m13s | -4328.21249 |   13.8649 | 
+acc:466.21731128358766
+
+LDA fitting...
+
+   29 | 01m09s | -4376.71555 |   11.7702 | 
+acc:482.4680715202449
+
+LDA fitting...
+
+   30 | 01m14s | -4224.26043 |   15.7508 | 
+acc:501.95524254743947
+
+LDA fitting...
+
+    1 | 00m32s | [35m-5600.08733[0m | [32m   2.2082[0m | 
+LDA fitting...
+
+    2 | 01m01s | [35m-4528.70343[0m | [32m   6.4898[0m | 
+acc:9.69808475708821, init:9.69808475708821
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m19s | [35m-4315.71084[0m | [32m  16.1159[0m | 
+acc:56.81390849162999
+
+LDA fitting...
+
+    4 | 03m19s | [35m-4256.15034[0m | [32m  30.0000[0m | 
+acc:67.7879228230491
+
+LDA fitting...
+
+    5 | 01m17s | -4352.07576 |   10.4740 | 
+acc:89.28576103890425
+
+LDA fitting...
+
+    6 | 01m57s | -4305.17007 |   20.9978 | 
+acc:103.48277165659586
+
+LDA fitting...
+
+    7 | 01m10s | -4304.02460 |   13.6970 | 
+acc:120.41785869923218
+
+LDA fitting...
+
+    8 | 01m14s | -4317.47651 |   16.4351 | 
+acc:150.91782492942872
+
+LDA fitting...
+
+    9 | 01m28s | -4311.01477 |   30.0000 | 
+acc:152.41782492942872
+
+LDA fitting...
+
+   10 | 00m11s | -6868.67149 |    1.0000 | 
+acc:153.9186161868293
+
+LDA fitting...
+
+   11 | 00m23s | -6868.67149 |    1.0008 | 
+acc:155.42501229803975
+
+LDA fitting...
+
+   12 | 00m21s | -6868.67149 |    1.0064 | 
+acc:156.93718749969568
+
+LDA fitting...
+
+   13 | 00m20s | -6868.67149 |    1.0122 | 
+acc:158.45516049557236
+
+LDA fitting...
+
+   14 | 00m20s | -6868.67149 |    1.0180 | 
+acc:159.97895037548184
+
+LDA fitting...
+
+   15 | 00m20s | -6868.67149 |    1.0238 | 
+acc:161.50857667124387
+
+LDA fitting...
+
+   16 | 00m20s | -6868.67149 |    1.0296 | 
+acc:163.04405938960753
+
+LDA fitting...
+
+   17 | 00m20s | -6868.67149 |    1.0355 | 
+acc:164.58541905702177
+
+LDA fitting...
+
+   18 | 00m20s | -6868.67149 |    1.0414 | 
+acc:166.1436385443892
+
+LDA fitting...
+
+   19 | 00m19s | -6868.67149 |    1.0582 | 
+acc:167.71897183365533
+
+LDA fitting...
+
+   20 | 00m19s | -6868.67149 |    1.0753 | 
+acc:169.3114648435027
+
+LDA fitting...
+
+   21 | 00m19s | -6868.67149 |    1.0925 | 
+acc:170.9211635431917
+
+LDA fitting...
+
+   22 | 00m19s | -6868.67149 |    1.1097 | 
+acc:172.54811357401724
+
+LDA fitting...
+
+   23 | 00m19s | -6868.67149 |    1.1270 | 
+acc:174.09538391543092
+
+LDA fitting...
+
+   24 | 00m19s | -6868.67149 |    1.0473 | 
+acc:175.7410651957005
+
+LDA fitting...
+
+   25 | 00m19s | -6868.67149 |    1.1457 | 
+acc:177.40552718491753
+
+LDA fitting...
+
+   26 | 00m19s | -6868.67149 |    1.1645 | 
+acc:179.08881817760562
+
+LDA fitting...
+
+   27 | 00m19s | -6868.67149 |    1.1833 | 
+acc:180.7909866433245
+
+LDA fitting...
+
+   28 | 00m19s | -6868.67149 |    1.2022 | 
+acc:182.51208056980136
+
+LDA fitting...
+
+   29 | 00m19s | -6868.67149 |    1.2211 | 
+acc:184.25214806328714
+
+LDA fitting...
+
+   30 | 00m19s | -6868.67149 |    1.2401 | 
+acc:186.01123723860084
+
+LDA fitting...
+
+    1 | 00m30s | [35m-5768.77533[0m | [32m   2.2082[0m | 
+LDA fitting...
+
+    2 | 01m03s | [35m-4510.33154[0m | [32m   6.4898[0m | 
+acc:9.69808475708821, init:9.69808475708821
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.1112 | 
+acc:16.176424187198148
+
+LDA fitting...
+
+    4 | 00m57s | -4652.02669 |    4.3672 | 
+acc:46.67625661409163
+
+LDA fitting...
+
+    5 | 03m23s | [35m-4356.92331[0m | [32m  29.9998[0m | 
+acc:65.30055178688211
+
+LDA fitting...
+
+    6 | 02m46s | [35m-4270.04184[0m | [32m  18.1243[0m | 
+acc:78.0082279760688
+
+LDA fitting...
+
+    7 | 01m16s | -4468.70068 |   12.2077 | 
+acc:102.24347013130838
+
+LDA fitting...
+
+    8 | 03m09s | -4316.63446 |   23.7352 | 
+acc:123.5515453582304
+
+LDA fitting...
+
+    9 | 01m23s | -4399.79694 |   20.8081 | 
+acc:140.16377305948603
+
+LDA fitting...
+
+   10 | 01m36s | [35m-4211.42848[0m | [32m  16.1122[0m | 
+acc:157.02844539335382
+
+LDA fitting...
+
+   11 | 02m31s | -4283.13077 |   16.3647 | 
+acc:172.26768192852174
+
+LDA fitting...
+
+   12 | 01m14s | -4400.59831 |   14.7392 | 
+acc:182.32780483124074
+
+LDA fitting...
+
+   13 | 01m09s | -4447.05204 |    9.5601 | 
+acc:209.0713819968629
+
+LDA fitting...
+
+   14 | 01m28s | -4246.32302 |   26.2436 | 
+acc:225.29332956030515
+
+LDA fitting...
+
+   15 | 01m16s | -4222.36458 |   15.7219 | 
+acc:244.84872461979543
+
+LDA fitting...
+
+   16 | 01m22s | -4282.21288 |   19.0554 | 
+acc:261.30596092779473
+
+LDA fitting...
+
+   17 | 01m19s | -4354.99724 |   15.9572 | 
+acc:269.81653293138356
+
+LDA fitting...
+
+   18 | 01m09s | -4641.07972 |    8.0106 | 
+acc:292.5770469087157
+
+LDA fitting...
+
+   19 | 01m24s | -4243.70185 |   22.2605 | 
+acc:321.1520166937122
+
+LDA fitting...
+
+   20 | 01m29s | -4382.16204 |   28.0750 | 
+acc:332.48582942906995
+
+LDA fitting...
+
+   21 | 01m15s | -4467.87416 |   10.8338 | 
+acc:357.9867854248595
+
+LDA fitting...
+
+   22 | 01m26s | -4220.02889 |   25.0010 | 
+acc:371.7779527228248
+
+LDA fitting...
+
+   23 | 01m19s | -4343.52991 |   13.2912 | 
+acc:387.6071399919873
+
+LDA fitting...
+
+   24 | 01m21s | -4306.95962 |   15.3292 | 
+acc:393.63787991881685
+
+LDA fitting...
+
+   25 | 00m59s | -4659.66894 |    5.5307 | 
+acc:421.20089263299843
+
+LDA fitting...
+
+   26 | 03m21s | -4290.90466 |   27.0630 | 
+acc:425.12271054354903
+
+LDA fitting...
+
+   27 | 00m55s | -5122.51846 |    3.4218 | 
+acc:439.65254270193975
+
+LDA fitting...
+
+   28 | 01m47s | -4378.38763 |   14.0298 | 
+acc:459.99589659497326
+
+LDA fitting...
+
+   29 | 02m24s | -4212.66394 |   19.8434 | 
+acc:476.0750241224315
+
+LDA fitting...
+
+   30 | 02m34s | -4357.23175 |   15.5791 | 
+acc:505.5254801143181
+
+
+run 3
+
+LDA fitting...
+
+    1 | 01m10s | [35m-4521.76046[0m | [32m  10.1631[0m | 
+LDA fitting...
+
+    2 | 01m08s | [35m-4302.12310[0m | [32m  12.0287[0m | 
+acc:23.191798690570803, init:23.191798690570803
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m29s | [35m-4245.87866[0m | [32m  30.0000[0m | 
+acc:55.191798690570806
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:73.37439068121864
+
+LDA fitting...
+
+    5 | 02m38s | -4294.48415 |   17.6826 | 
+acc:88.30162834739535
+
+LDA fitting...
+
+    6 | 02m01s | -4317.93440 |   14.4272 | 
+acc:110.00083153162313
+
+LDA fitting...
+
+    7 | 01m24s | -4357.92522 |   21.1992 | 
+acc:133.44945244421484
+
+LDA fitting...
+
+    8 | 01m23s | [35m-4207.12076[0m | [32m  22.9486[0m | 
+acc:159.055744804599
+
+LDA fitting...
+
+    9 | 01m28s | -4310.16692 |   25.1063 | 
+acc:182.94882365109734
+
+LDA fitting...
+
+   10 | 01m25s | -4234.49198 |   23.3931 | 
+acc:206.1766184534115
+
+LDA fitting...
+
+   11 | 01m26s | -4259.55098 |   22.7278 | 
+acc:213.15786309524117
+
+LDA fitting...
+
+   12 | 01m08s | -4550.93079 |    6.4812 | 
+acc:240.55381276236238
+
+LDA fitting...
+
+   13 | 01m21s | -4249.32332 |   26.8959 | 
+acc:260.59651059748023
+
+LDA fitting...
+
+   14 | 01m17s | -4292.70028 |   19.5427 | 
+acc:284.18728233926976
+
+LDA fitting...
+
+   15 | 01m22s | -4234.66278 |   23.0908 | 
+acc:288.9903035312958
+
+LDA fitting...
+
+   16 | 00m52s | -4616.85398 |    4.3030 | 
+acc:305.6371289354587
+
+LDA fitting...
+
+   17 | 01m47s | -4270.71397 |   16.1468 | 
+acc:314.47331770014466
+
+LDA fitting...
+
+   18 | 01m05s | -4447.54729 |    8.3362 | 
+acc:339.0919639782354
+
+LDA fitting...
+
+   19 | 01m21s | -4234.06429 |   24.1186 | 
+acc:367.55897519168315
+
+LDA fitting...
+
+   20 | 01m24s | -4304.40920 |   27.9670 | 
+acc:381.16145833199454
+
+LDA fitting...
+
+   21 | 01m12s | -4389.06301 |   13.1025 | 
+acc:405.4083707216253
+
+LDA fitting...
+
+   22 | 01m24s | -4396.36212 |   23.7469 | 
+acc:430.42120252938963
+
+LDA fitting...
+
+   23 | 03m10s | -4238.24677 |   24.5128 | 
+acc:456.99826232113634
+
+LDA fitting...
+
+   24 | 03m20s | -4294.57800 |   26.0771 | 
+acc:481.78741069810485
+
+LDA fitting...
+
+   25 | 03m13s | -4365.75169 |   24.2891 | 
+acc:485.2097398867962
+
+LDA fitting...
+
+   26 | 00m46s | -5627.00122 |    2.9223 | 
+acc:491.04542254458613
+
+LDA fitting...
+
+   27 | 00m57s | -4588.06808 |    5.3357 | 
+acc:520.3861289055599
+
+LDA fitting...
+
+    1 | 01m09s | [35m-4316.23861[0m | [32m  10.1631[0m | 
+LDA fitting...
+
+    2 | 01m11s | -4467.09242 |   12.0287 | 
+acc:23.191798690570803, init:23.191798690570803
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:51.53995262520719
+
+LDA fitting...
+
+    4 | 01m28s | [35m-4313.36130[0m | [32m  26.3482[0m | 
+acc:82.03879391440526
+
+LDA fitting...
+
+    5 | 04m07s | -4405.70669 |   29.9988 | 
+acc:104.21053520888539
+
+LDA fitting...
+
+    6 | 01m36s | [35m-4285.41036[0m | [32m  21.6717[0m | 
+acc:128.5068633801916
+
+LDA fitting...
+
+    7 | 01m35s | -4309.55362 |   23.7963 | 
+acc:150.17798250991981
+
+LDA fitting...
+
+    8 | 01m35s | [35m-4283.95645[0m | [32m  21.1711[0m | 
+acc:171.9495533907331
+
+LDA fitting...
+
+    9 | 01m38s | [35m-4275.29718[0m | [32m  21.2716[0m | 
+acc:181.11360548747564
+
+LDA fitting...
+
+   10 | 01m09s | -4599.73952 |    8.6641 | 
+acc:206.65948126873792
+
+LDA fitting...
+
+   11 | 01m25s | -4345.85023 |   25.0459 | 
+acc:228.55933709102476
+
+LDA fitting...
+
+   12 | 01m20s | [35m-4228.16311[0m | [32m  21.3999[0m | 
+acc:245.66996925075995
+
+LDA fitting...
+
+   13 | 01m17s | -4230.57110 |   16.6106 | 
+acc:250.31332599475684
+
+LDA fitting...
+
+   14 | 00m55s | -4638.32558 |    4.1434 | 
+acc:269.7830340430289
+
+LDA fitting...
+
+   15 | 01m18s | -4292.92628 |   18.9697 | 
+acc:284.6731116380444
+
+LDA fitting...
+
+   16 | 01m16s | -4387.64403 |   14.3901 | 
+acc:291.36237213793623
+
+LDA fitting...
+
+   17 | 01m02s | -4560.58388 |    6.1893 | 
+acc:319.8045175561269
+
+LDA fitting...
+
+   18 | 03m24s | -4244.00991 |   27.9421 | 
+acc:340.4603263754974
+
+LDA fitting...
+
+   19 | 03m05s | -4274.38669 |   20.1558 | 
+acc:358.7599150932263
+
+LDA fitting...
+
+   20 | 02m40s | [35m-4204.86112[0m | [32m  17.7996[0m | 
+acc:375.0377407525885
+
+LDA fitting...
+
+   21 | 02m18s | -4271.88728 |   15.7778 | 
+acc:396.18459153824097
+
+LDA fitting...
+
+   22 | 01m20s | -4241.86336 |   20.6469 | 
+acc:414.10235212283567
+
+LDA fitting...
+
+   23 | 01m17s | -4323.71268 |   17.4178 | 
+acc:432.77893264549186
+
+LDA fitting...
+
+   24 | 01m16s | -4282.96522 |   18.1766 | 
+acc:449.5844670722308
+
+LDA fitting...
+
+   25 | 01m14s | -4280.37278 |   16.3055 | 
+acc:467.9306911126456
+
+LDA fitting...
+
+   26 | 01m17s | -4354.39427 |   17.8462 | 
+acc:470.9698957690418
+
+LDA fitting...
+
+   27 | 00m33s | -5640.97738 |    2.5392 | 
+acc:478.86699669676625
+
+LDA fitting...
+
+   28 | 01m05s | -4365.91786 |    7.3971 | 
+acc:484.5116100378518
+
+LDA fitting...
+
+   29 | 00m57s | -4630.25982 |    5.1446 | 
+acc:498.219636571456
+
+LDA fitting...
+
+   30 | 01m13s | -4313.18804 |   13.2080 | 
+acc:509.7808113354718
+
+LDA fitting...
+
+    1 | 01m08s | [35m-4513.53815[0m | [32m  10.1631[0m | 
+LDA fitting...
+
+    2 | 01m19s | [35m-4367.64038[0m | [32m  12.0287[0m | 
+acc:23.191798690570803, init:23.191798690570803
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:55.19144638220257
+
+LDA fitting...
+
+    4 | 01m56s | [35m-4200.99349[0m | [32m  29.9996[0m | 
+acc:85.69137061268489
+
+LDA fitting...
+
+    5 | 01m25s | -4284.85431 |   29.9999 | 
+acc:87.20105613530735
+
+LDA fitting...
+
+    6 | 00m19s | -6868.67149 |    1.0097 | 
+acc:88.76323039673906
+
+LDA fitting...
+
+    7 | 00m17s | -6868.67149 |    1.0622 | 
+acc:90.38183150931305
+
+LDA fitting...
+
+    8 | 00m17s | -6868.67149 |    1.1186 | 
+acc:92.05977004825804
+
+LDA fitting...
+
+    9 | 00m17s | -6868.67149 |    1.1779 | 
+acc:93.84367510777177
+
+LDA fitting...
+
+   10 | 00m15s | -6868.67149 |    1.2839 | 
+acc:124.30910231431554
+
+LDA fitting...
+
+   11 | 01m29s | -4273.10462 |   29.9654 | 
+acc:126.03849046843959
+
+LDA fitting...
+
+   12 | 00m16s | -6868.67149 |    1.2294 | 
+acc:127.92632744828232
+
+LDA fitting...
+
+   13 | 00m16s | -6868.67149 |    1.3878 | 
+acc:129.92105646073006
+
+LDA fitting...
+
+   14 | 00m16s | -6868.67149 |    1.4947 | 
+acc:132.0245990793645
+
+LDA fitting...
+
+   15 | 00m16s | -6868.67149 |    1.6035 | 
+acc:134.23883718050087
+
+LDA fitting...
+
+   16 | 00m16s | -6868.67149 |    1.7142 | 
+acc:136.56561726658242
+
+LDA fitting...
+
+   17 | 00m16s | -6868.67149 |    1.8268 | 
+acc:151.82960875576183
+
+LDA fitting...
+
+   18 | 01m19s | -4381.18859 |   14.7640 | 
+acc:154.2713837532263
+
+LDA fitting...
+
+   19 | 00m16s | -6868.67149 |    1.9418 | 
+acc:156.82992008839506
+
+LDA fitting...
+
+   20 | 00m59s | -5820.91265 |    2.0585 | 
+acc:159.5042925392853
+
+LDA fitting...
+
+   21 | 00m41s | -5644.67303 |    2.1744 | 
+acc:162.29552383789252
+
+LDA fitting...
+
+   22 | 00m38s | -5600.94546 |    2.2912 | 
+acc:165.20495293418315
+
+LDA fitting...
+
+   23 | 00m37s | -5603.26281 |    2.4094 | 
+acc:168.23402333161985
+
+LDA fitting...
+
+   24 | 00m38s | -5616.60657 |    2.5291 | 
+acc:171.38419348050792
+
+LDA fitting...
+
+   25 | 00m39s | -5618.66104 |    2.6502 | 
+acc:174.6568753594129
+
+LDA fitting...
+
+   26 | 00m53s | -5634.41767 |    2.7727 | 
+acc:178.05350697921847
+
+LDA fitting...
+
+   27 | 00m59s | -5828.09170 |    2.8966 | 
+acc:181.57602681407647
+
+LDA fitting...
+
+   28 | 00m57s | -4965.01804 |    3.0225 | 
+acc:185.22318981115075
+
+LDA fitting...
+
+   29 | 00m59s | -5179.21730 |    3.1472 | 
+acc:188.99694985911873
+
+LDA fitting...
+
+   30 | 00m57s | -4890.14157 |    3.2738 | 
+acc:192.8976334555578
+
+LDA fitting...
+
+    1 | 01m08s | [35m-4383.38593[0m | [32m  10.1631[0m | 
+LDA fitting...
+
+    2 | 01m08s | [35m-4358.91552[0m | [32m  12.0287[0m | 
+acc:23.191798690570803, init:23.191798690570803
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:55.19170375297603
+
+LDA fitting...
+
+    4 | 01m25s | [35m-4269.24525[0m | [32m  29.9999[0m | 
+acc:76.8297337895161
+
+LDA fitting...
+
+    5 | 01m19s | [35m-4213.53265[0m | [32m  21.1380[0m | 
+acc:98.52467973653452
+
+LDA fitting...
+
+    6 | 01m20s | -4324.52633 |   21.1949 | 
+acc:104.94252619209242
+
+LDA fitting...
+
+    7 | 00m56s | -4599.28295 |    5.9178 | 
+acc:123.24869559651377
+
+LDA fitting...
+
+    8 | 01m17s | -4273.35744 |   17.8062 | 
+acc:138.3591317188654
+
+LDA fitting...
+
+    9 | 01m11s | -4322.47526 |   14.6104 | 
+acc:158.67044948104683
+
+LDA fitting...
+
+   10 | 01m17s | -4298.25891 |   19.8113 | 
+acc:185.26738619645974
+
+LDA fitting...
+
+   11 | 01m24s | -4329.41296 |   26.0969 | 
+acc:194.00033471918042
+
+LDA fitting...
+
+   12 | 01m02s | -4622.87508 |    8.2329 | 
+acc:210.95840090924577
+
+LDA fitting...
+
+   13 | 01m12s | -4230.36937 |   16.4581 | 
+acc:232.0504007383987
+
+LDA fitting...
+
+   14 | 01m21s | -4314.00174 |   20.5920 | 
+acc:236.30477778078262
+
+LDA fitting...
+
+   15 | 00m49s | -4880.38524 |    3.7544 | 
+acc:260.97234590435926
+
+LDA fitting...
+
+   16 | 03m13s | -4214.95210 |   24.1676 | 
+acc:289.44015307678393
+
+LDA fitting...
+
+   17 | 03m25s | -4325.94457 |   27.9678 | 
+acc:303.25753741516314
+
+LDA fitting...
+
+   18 | 01m12s | -4317.53148 |   13.3174 | 
+acc:322.7042612283214
+
+LDA fitting...
+
+   19 | 01m18s | -4254.53172 |   18.9467 | 
+acc:344.135747081502
+
+LDA fitting...
+
+   20 | 01m21s | -4298.83471 |   20.9315 | 
+acc:347.23534792697825
+
+LDA fitting...
+
+   21 | 00m45s | -5627.08813 |    2.5996 | 
+acc:354.81906151060156
+
+LDA fitting...
+
+   22 | 01m05s | -4735.34799 |    7.0837 | 
+acc:360.1843104786108
+
+LDA fitting...
+
+   23 | 00m54s | -4594.55539 |    4.8652 | 
+acc:383.86516187980084
+
+LDA fitting...
+
+   24 | 01m27s | -4292.59208 |   23.1809 | 
+acc:399.93377854356913
+
+LDA fitting...
+
+   25 | 01m18s | [35m-4189.42091[0m | [32m  15.5686[0m | 
+acc:425.49176306023134
+
+LDA fitting...
+
+   26 | 01m27s | -4354.28444 |   25.0580 | 
+acc:452.9700070912881
+
+LDA fitting...
+
+   27 | 01m30s | -4362.36289 |   26.9782 | 
+acc:482.33755442161487
+
+LDA fitting...
+
+   28 | 01m29s | -4291.76886 |   28.8675 | 
+acc:492.0518724150106
+
+LDA fitting...
+
+   29 | 01m10s | -4556.10107 |    9.2143 | 
+acc:503.6309515480264
+
+
+run 4
+
+LDA fitting...
+
+    1 | 02m46s | [35m-4228.96620[0m | [32m  21.9178[0m | 
+LDA fitting...
+
+    2 | 02m46s | -4317.17981 |   18.4826 | 
+acc:41.400391110502724, init:41.400391110502724
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:73.40039111050272
+
+LDA fitting...
+
+    4 | 03m27s | -4261.54869 |   30.0000 | 
+acc:95.62338421984427
+
+LDA fitting...
+
+    5 | 03m07s | -4245.83226 |   21.7230 | 
+acc:120.98360068275251
+
+LDA fitting...
+
+    6 | 03m08s | -4433.48387 |   24.8602 | 
+acc:134.74636916844838
+
+LDA fitting...
+
+    7 | 01m12s | -4384.20630 |   13.2628 | 
+acc:157.9155721564988
+
+LDA fitting...
+
+    8 | 01m19s | -4333.97342 |   22.6692 | 
+acc:166.79096144779473
+
+LDA fitting...
+
+    9 | 01m02s | -4466.09596 |    8.3754 | 
+acc:183.73931225315727
+
+LDA fitting...
+
+   10 | 01m15s | -4289.33523 |   16.4484 | 
+acc:206.2316490561237
+
+LDA fitting...
+
+   11 | 01m24s | -4279.40050 |   21.9923 | 
+acc:211.6058192049713
+
+LDA fitting...
+
+   12 | 00m54s | -4690.51986 |    4.8742 | 
+acc:239.5229907335667
+
+LDA fitting...
+
+   13 | 01m28s | -4298.51541 |   27.4172 | 
+acc:250.85869911921893
+
+LDA fitting...
+
+   14 | 01m40s | -4423.32032 |   10.8357 | 
+acc:266.27258296454465
+
+LDA fitting...
+
+   15 | 02m18s | [35m-4199.81556[0m | [32m  14.9139[0m | 
+acc:273.50721856442607
+
+LDA fitting...
+
+   16 | 01m03s | -4707.30371 |    6.7346 | 
+acc:297.54938886048905
+
+LDA fitting...
+
+   17 | 01m28s | -4310.33090 |   23.5422 | 
+acc:324.22118715589505
+
+LDA fitting...
+
+   18 | 03m23s | [35m-4196.24200[0m | [32m  26.1718[0m | 
+acc:328.2496387507606
+
+LDA fitting...
+
+   19 | 00m50s | -4952.33496 |    3.5285 | 
+acc:338.2846713072017
+
+LDA fitting...
+
+   20 | 01m12s | -4440.47460 |    9.5350 | 
+acc:350.8196493560174
+
+LDA fitting...
+
+   21 | 01m11s | -4453.32049 |   12.0350 | 
+acc:365.9502203688651
+
+LDA fitting...
+
+   22 | 01m16s | -4366.21596 |   14.6306 | 
+acc:381.9237330705068
+
+LDA fitting...
+
+   23 | 01m15s | -4302.08998 |   15.4735 | 
+acc:399.74596652051594
+
+LDA fitting...
+
+   24 | 01m14s | -4229.44921 |   17.3222 | 
+acc:415.30549935949136
+
+LDA fitting...
+
+   25 | 01m14s | -4278.19765 |   15.0595 | 
+acc:435.47692264415485
+
+LDA fitting...
+
+   26 | 01m20s | -4359.90547 |   19.6714 | 
+acc:464.51672960355955
+
+LDA fitting...
+
+   27 | 01m23s | -4247.72105 |   28.5398 | 
+acc:480.91863882148795
+
+LDA fitting...
+
+   28 | 01m13s | -4323.34353 |   15.9019 | 
+acc:496.29006009155705
+
+LDA fitting...
+
+   29 | 01m13s | -4278.83941 |   14.8714 | 
+acc:499.20961775378373
+
+LDA fitting...
+
+   30 | 00m33s | -5599.26943 |    2.4196 | 
+acc:520.3261840454472
+
+LDA fitting...
+
+    1 | 01m18s | [35m-4371.33425[0m | [32m  21.9178[0m | 
+LDA fitting...
+
+    2 | 01m17s | [35m-4341.42971[0m | [32m  18.4826[0m | 
+acc:41.400391110502724, init:41.400391110502724
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:73.40020738365646
+
+LDA fitting...
+
+    4 | 01m22s | [35m-4230.48630[0m | [32m  29.9998[0m | 
+acc:99.62523213664521
+
+LDA fitting...
+
+    5 | 01m21s | [35m-4187.40323[0m | [32m  25.7250[0m | 
+acc:126.83560569342879
+
+LDA fitting...
+
+    6 | 01m24s | -4278.17351 |   26.7104 | 
+acc:141.8570598919913
+
+LDA fitting...
+
+    7 | 01m30s | -4459.56095 |   14.5215 | 
+acc:167.23673813126175
+
+LDA fitting...
+
+    8 | 01m35s | -4291.59747 |   24.8797 | 
+acc:177.7813131605039
+
+LDA fitting...
+
+    9 | 01m23s | -4558.85646 |   10.0446 | 
+acc:204.108839675156
+
+LDA fitting...
+
+   10 | 02m46s | -4334.36819 |   25.8275 | 
+acc:210.33733063587061
+
+LDA fitting...
+
+   11 | 00m59s | -4551.50885 |    5.7285 | 
+acc:214.4526368490782
+
+LDA fitting...
+
+   12 | 00m47s | -4972.55316 |    3.6153 | 
+acc:222.62107636000158
+
+LDA fitting...
+
+   13 | 01m10s | -4509.29442 |    7.6684 | 
+acc:235.28071192809873
+
+LDA fitting...
+
+   14 | 01m11s | -4251.09803 |   12.1596 | 
+acc:252.23182719861103
+
+LDA fitting...
+
+   15 | 01m13s | -4373.43782 |   16.4511 | 
+acc:280.7209087787365
+
+LDA fitting...
+
+   16 | 01m28s | -4303.77456 |   27.9891 | 
+acc:301.45613583046685
+
+LDA fitting...
+
+   17 | 01m22s | -4271.09084 |   20.2352 | 
+acc:327.3263433998909
+
+LDA fitting...
+
+   18 | 01m24s | -4306.52589 |   25.3702 | 
+acc:351.3632250434645
+
+LDA fitting...
+
+   19 | 01m57s | -4297.25492 |   23.5369 | 
+acc:365.0857481814849
+
+LDA fitting...
+
+   20 | 01m14s | -4380.65194 |   13.2225 | 
+acc:392.80882181930383
+
+LDA fitting...
+
+   21 | 01m25s | -4288.74684 |   27.2231 | 
+acc:402.0969050969875
+
+LDA fitting...
+
+   22 | 01m13s | -4557.66304 |    8.7881 | 
+acc:413.8687722471427
+
+LDA fitting...
+
+   23 | 01m11s | -4368.60152 |   11.2719 | 
+acc:438.67106255057877
+
+LDA fitting...
+
+   24 | 01m26s | -4286.31139 |   24.3023 | 
+acc:467.91336143494084
+
+LDA fitting...
+
+   25 | 01m30s | -4258.11958 |   28.7423 | 
+acc:494.02965311227376
+
+LDA fitting...
+
+   26 | 01m27s | -4283.60085 |   25.6163 | 
+acc:496.94203770948764
+
+LDA fitting...
+
+   27 | 00m45s | -5643.74258 |    2.4124 | 
+acc:502.08724301214494
+
+LDA fitting...
+
+    1 | 03m07s | [35m-4285.56713[0m | [32m  21.9178[0m | 
+LDA fitting...
+
+    2 | 01m16s | [35m-4237.94988[0m | [32m  18.4826[0m | 
+acc:41.400391110502724, init:41.400391110502724
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:73.40019235040393
+
+LDA fitting...
+
+    4 | 01m26s | -4386.80513 |   29.9998 | 
+acc:93.28220697675506
+
+LDA fitting...
+
+    5 | 01m19s | -4272.30484 |   19.3820 | 
+acc:110.21321328299561
+
+LDA fitting...
+
+    6 | 01m14s | -4327.45364 |   16.4310 | 
+acc:128.79564947163357
+
+LDA fitting...
+
+    7 | 02m47s | -4314.07214 |   18.0824 | 
+acc:137.90748973088458
+
+LDA fitting...
+
+    8 | 01m02s | -4537.49639 |    8.6118 | 
+acc:150.99636963444144
+
+LDA fitting...
+
+    9 | 01m48s | -4324.74646 |   12.5889 | 
+acc:176.53790450541376
+
+LDA fitting...
+
+   10 | 03m16s | [35m-4193.93290[0m | [32m  25.0415[0m | 
+acc:191.74661788240363
+
+LDA fitting...
+
+   11 | 01m17s | -4380.88759 |   14.7087 | 
+acc:216.05669523729364
+
+LDA fitting...
+
+   12 | 01m25s | -4230.88575 |   23.8101 | 
+acc:241.9934768442602
+
+LDA fitting...
+
+   13 | 02m32s | [35m-4175.05839[0m | [32m  25.4368[0m | 
+acc:268.47480369526784
+
+LDA fitting...
+
+   14 | 01m24s | -4243.65170 |   25.9813 | 
+acc:294.3749045472579
+
+LDA fitting...
+
+   15 | 01m23s | -4371.49919 |   25.4001 | 
+acc:297.484756131595
+
+LDA fitting...
+
+   16 | 00m48s | -5675.49886 |    2.6099 | 
+acc:302.3794259864803
+
+LDA fitting...
+
+   17 | 00m57s | -4721.07341 |    4.3947 | 
+acc:309.3849598490936
+
+LDA fitting...
+
+   18 | 01m01s | -4447.26906 |    6.5055 | 
+acc:320.36899811372916
+
+LDA fitting...
+
+   19 | 01m10s | -4385.61018 |   10.4840 | 
+acc:326.31306524407665
+
+LDA fitting...
+
+   20 | 00m57s | -4691.20940 |    5.4441 | 
+acc:354.86126405060463
+
+LDA fitting...
+
+   21 | 02m25s | -4230.27185 |   28.0482 | 
+acc:375.9884177173506
+
+LDA fitting...
+
+   22 | 01m22s | -4200.00282 |   20.6272 | 
+acc:383.9984211333572
+
+LDA fitting...
+
+   23 | 01m04s | -4491.67552 |    7.5100 | 
+acc:398.15148706413953
+
+LDA fitting...
+
+   24 | 01m39s | -4400.85925 |   13.6531 | 
+acc:410.22610834293624
+
+LDA fitting...
+
+   25 | 01m13s | -4509.69374 |   11.5746 | 
+acc:420.2918495933965
+
+LDA fitting...
+
+   26 | 01m08s | -4496.67194 |    9.5657 | 
+acc:445.36159690307295
+
+LDA fitting...
+
+   27 | 01m24s | -4338.81734 |   24.5697 | 
+acc:468.78203424339404
+
+LDA fitting...
+
+   28 | 01m23s | -4289.40551 |   22.9204 | 
+acc:498.2680443668313
+
+LDA fitting...
+
+   29 | 01m28s | -4274.16203 |   28.9860 | 
+acc:525.9834042239618
+
+LDA fitting...
+
+    1 | 01m20s | [35m-4314.38386[0m | [32m  21.9178[0m | 
+LDA fitting...
+
+    2 | 02m17s | -4369.32390 |   18.4826 | 
+acc:41.400391110502724, init:41.400391110502724
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:73.40017235031198
+
+LDA fitting...
+
+    4 | 03m22s | [35m-4256.44873[0m | [32m  29.9998[0m | 
+acc:75.13378293176771
+
+LDA fitting...
+
+    5 | 00m10s | -6868.67149 |    1.2336 | 
+acc:105.63371628258275
+
+LDA fitting...
+
+    6 | 03m22s | -4336.96621 |   29.9999 | 
+acc:107.2565184097234
+
+LDA fitting...
+
+    7 | 00m11s | -6868.67149 |    1.1228 | 
+acc:108.8954828703311
+
+LDA fitting...
+
+    8 | 00m11s | -6868.67149 |    1.1390 | 
+acc:110.58131611040027
+
+LDA fitting...
+
+    9 | 00m11s | -6868.67149 |    1.1858 | 
+acc:112.4523592065465
+
+LDA fitting...
+
+   10 | 00m11s | -6868.67149 |    1.3710 | 
+acc:114.25468255565337
+
+LDA fitting...
+
+   11 | 00m11s | -6868.67149 |    1.3023 | 
+acc:115.91654399745197
+
+LDA fitting...
+
+   12 | 00m11s | -6868.67149 |    1.1619 | 
+acc:117.47888178298777
+
+LDA fitting...
+
+   13 | 00m11s | -6868.67149 |    1.0623 | 
+acc:119.7357415452837
+
+LDA fitting...
+
+   14 | 00m11s | -6868.67149 |    1.7569 | 
+acc:121.79839974167547
+
+LDA fitting...
+
+   15 | 00m11s | -6868.67149 |    1.5627 | 
+acc:123.63505675084426
+
+LDA fitting...
+
+   16 | 00m11s | -6868.67149 |    1.3367 | 
+acc:125.60095960251697
+
+LDA fitting...
+
+   17 | 00m11s | -6868.67149 |    1.4659 | 
+acc:127.51836737095226
+
+LDA fitting...
+
+   18 | 00m11s | -6868.67149 |    1.4174 | 
+acc:130.08803368371673
+
+LDA fitting...
+
+   19 | 00m36s | -5621.74432 |    2.0697 | 
+acc:132.24773420223062
+
+LDA fitting...
+
+   20 | 00m11s | -6868.67149 |    1.6597 | 
+acc:134.66238071091337
+
+LDA fitting...
+
+   21 | 00m11s | -6868.67149 |    1.9146 | 
+acc:136.99805357424438
+
+LDA fitting...
+
+   22 | 00m11s | -6868.67149 |    1.8357 | 
+acc:139.49180836590028
+
+LDA fitting...
+
+   23 | 00m11s | -6868.67149 |    1.9938 | 
+acc:142.42688083003085
+
+LDA fitting...
+
+   24 | 00m32s | -5599.72453 |    2.4351 | 
+acc:145.17861437054393
+
+LDA fitting...
+
+   25 | 00m32s | -5599.92222 |    2.2517 | 
+acc:148.58002987462103
+
+LDA fitting...
+
+   26 | 00m32s | -5601.23725 |    2.9014 | 
+acc:151.24003858844978
+
+LDA fitting...
+
+   27 | 00m40s | -5661.73732 |    2.1600 | 
+acc:154.4082778357225
+
+LDA fitting...
+
+   28 | 00m37s | -5794.47806 |    2.6682 | 
+acc:157.45959345008046
+
+LDA fitting...
+
+   29 | 00m46s | -5675.34891 |    2.5513 | 
+acc:160.3027295809158
+
+LDA fitting...
+
+   30 | 00m46s | -5628.99697 |    2.3431 | 
+acc:164.28383808922962
+
+
+run 5
+
+LDA fitting...
+
+    1 | 03m28s | [35m-4337.75940[0m | [32m  26.7677[0m | 
+LDA fitting...
+
+    2 | 00m48s | -4593.75301 |    4.0655 | 
+acc:31.833203553521095, init:31.833203553521095
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m32s | -4374.19628 |   30.0000 | 
+acc:85.79850378738419
+
+LDA fitting...
+
+    4 | 03m12s | [35m-4275.33224[0m | [32m  22.9653[0m | 
+acc:106.94867453826582
+
+LDA fitting...
+
+    5 | 01m20s | [35m-4212.72276[0m | [32m  20.6502[0m | 
+acc:125.00609284069753
+
+LDA fitting...
+
+    6 | 01m16s | -4279.54956 |   17.5574 | 
+acc:145.58928201589453
+
+LDA fitting...
+
+    7 | 03m04s | -4271.99162 |   20.0832 | 
+acc:158.46854177454944
+
+LDA fitting...
+
+    8 | 01m09s | -4331.16887 |   12.3793 | 
+acc:159.96854177454944
+
+LDA fitting...
+
+    9 | 00m10s | -6868.67149 |    1.0000 | 
+acc:167.8623043133642
+
+LDA fitting...
+
+   10 | 01m12s | -4586.48699 |    7.3938 | 
+acc:183.39398427531052
+
+LDA fitting...
+
+   11 | 01m16s | -4223.90325 |   15.0317 | 
+acc:205.2740343439963
+
+LDA fitting...
+
+   12 | 01m21s | [35m-4206.48360[0m | [32m  21.3801[0m | 
+acc:226.82011904553542
+
+LDA fitting...
+
+   13 | 01m22s | -4369.29238 |   21.0461 | 
+acc:237.3314826167151
+
+LDA fitting...
+
+   14 | 01m45s | -4579.25838 |   10.0114 | 
+acc:259.8670161536324
+
+LDA fitting...
+
+   15 | 01m40s | -4273.74045 |   22.0355 | 
+acc:285.0955449391417
+
+LDA fitting...
+
+   16 | 02m38s | -4208.85892 |   24.7285 | 
+acc:291.20250200181266
+
+LDA fitting...
+
+   17 | 00m54s | -4448.23780 |    5.6070 | 
+acc:308.08343895618003
+
+LDA fitting...
+
+   18 | 02m52s | -4372.06253 |   16.3809 | 
+acc:322.45277379499873
+
+LDA fitting...
+
+   19 | 01m55s | -4458.20922 |   13.8693 | 
+acc:346.79116043859995
+
+LDA fitting...
+
+   20 | 01m40s | -4303.13455 |   23.8384 | 
+acc:368.90736794646386
+
+LDA fitting...
+
+   21 | 01m36s | -4320.44067 |   21.6162 | 
+acc:397.67001492848885
+
+LDA fitting...
+
+   22 | 04m11s | -4287.95357 |   28.2626 | 
+acc:423.7439203168358
+
+LDA fitting...
+
+   23 | 02m51s | -4325.05850 |   25.5739 | 
+acc:442.6351679550231
+
+LDA fitting...
+
+   24 | 01m32s | -4271.93810 |   18.3912 | 
+acc:454.5988163341429
+
+LDA fitting...
+
+   25 | 01m19s | -4289.81540 |   11.4636 | 
+acc:463.79389650020664
+
+LDA fitting...
+
+   26 | 01m15s | -4519.41461 |    8.6951 | 
+acc:486.73782118430887
+
+LDA fitting...
+
+   27 | 01m23s | -4263.11207 |   22.4439 | 
+acc:507.6692829384925
+
+LDA fitting...
+
+    1 | 01m25s | [35m-4309.27995[0m | [32m  26.7677[0m | 
+LDA fitting...
+
+    2 | 00m52s | -4572.60994 |    4.0655 | 
+acc:31.833203553521095, init:31.833203553521095
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 03m16s | [35m-4263.67659[0m | [32m  30.0000[0m | 
+acc:92.83314847694373
+
+LDA fitting...
+
+    4 | 01m24s | [35m-4181.39726[0m | [32m  30.0000[0m | 
+acc:94.33314847694373
+
+LDA fitting...
+
+    5 | 00m11s | -6868.67149 |    1.0000 | 
+acc:95.8349682973805
+
+LDA fitting...
+
+    6 | 00m21s | -6868.67149 |    1.0018 | 
+acc:97.34773038196039
+
+LDA fitting...
+
+    7 | 00m19s | -6868.67149 |    1.0128 | 
+acc:98.87185059969164
+
+LDA fitting...
+
+    8 | 00m19s | -6868.67149 |    1.0241 | 
+acc:100.40741398483682
+
+LDA fitting...
+
+    9 | 00m18s | -6868.67149 |    1.0356 | 
+acc:101.954511826108
+
+LDA fitting...
+
+   10 | 00m18s | -6868.67149 |    1.0471 | 
+acc:103.5132432427976
+
+LDA fitting...
+
+   11 | 00m19s | -6868.67149 |    1.0587 | 
+acc:105.09856467353156
+
+LDA fitting...
+
+   12 | 00m18s | -6868.67149 |    1.0853 | 
+acc:106.71092955017802
+
+LDA fitting...
+
+   13 | 00m17s | -6868.67149 |    1.1124 | 
+acc:108.35052582120936
+
+LDA fitting...
+
+   14 | 00m18s | -6868.67149 |    1.1396 | 
+acc:110.01754214487387
+
+LDA fitting...
+
+   15 | 00m17s | -6868.67149 |    1.1670 | 
+acc:111.712167991159
+
+LDA fitting...
+
+   16 | 00m17s | -6868.67149 |    1.1946 | 
+acc:113.43459432376392
+
+LDA fitting...
+
+   17 | 00m17s | -6868.67149 |    1.2224 | 
+acc:115.18501342237552
+
+LDA fitting...
+
+   18 | 00m17s | -6868.67149 |    1.2504 | 
+acc:116.9636192817169
+
+LDA fitting...
+
+   19 | 00m17s | -6868.67149 |    1.2786 | 
+acc:118.77060784723061
+
+LDA fitting...
+
+   20 | 00m17s | -6868.67149 |    1.3070 | 
+acc:120.60617736142991
+
+LDA fitting...
+
+   21 | 00m17s | -6868.67149 |    1.3356 | 
+acc:122.47052868262335
+
+LDA fitting...
+
+   22 | 00m17s | -6868.67149 |    1.3644 | 
+acc:124.36386570363341
+
+LDA fitting...
+
+   23 | 00m17s | -6868.67149 |    1.3933 | 
+acc:126.28639580491915
+
+LDA fitting...
+
+   24 | 00m17s | -6868.67149 |    1.4225 | 
+acc:128.23833026439607
+
+LDA fitting...
+
+   25 | 00m17s | -6868.67149 |    1.4519 | 
+acc:130.21988499687126
+
+LDA fitting...
+
+   26 | 00m17s | -6868.67149 |    1.4816 | 
+acc:132.23128125027065
+
+LDA fitting...
+
+   27 | 00m17s | -6868.67149 |    1.5114 | 
+acc:135.58012989173073
+
+LDA fitting...
+
+   28 | 00m41s | -5615.57892 |    2.8488 | 
+acc:137.62159497536817
+
+LDA fitting...
+
+   29 | 00m17s | -6868.67149 |    1.5415 | 
+acc:139.69336342350917
+
+LDA fitting...
+
+   30 | 00m17s | -6868.67149 |    1.5718 | 
+acc:141.79567817866987
+
+LDA fitting...
+
+    1 | 01m35s | [35m-4332.62566[0m | [32m  26.7677[0m | 
+LDA fitting...
+
+    2 | 00m50s | -4567.42234 |    4.0655 | 
+acc:31.833203553521095, init:31.833203553521095
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 02m11s | [35m-4280.70191[0m | [32m  29.9998[0m | 
+acc:92.83291482229077
+
+LDA fitting...
+
+    4 | 03m16s | -4304.86345 |   29.9999 | 
+acc:94.33291482229077
+
+LDA fitting...
+
+    5 | 00m11s | -6868.67149 |    1.0000 | 
+acc:95.83621111876978
+
+LDA fitting...
+
+    6 | 00m20s | -6868.67149 |    1.0033 | 
+acc:97.36554259898605
+
+LDA fitting...
+
+    7 | 00m18s | -6868.67149 |    1.0293 | 
+acc:98.92248183395101
+
+LDA fitting...
+
+    8 | 00m18s | -6868.67149 |    1.0569 | 
+acc:100.50803176867778
+
+LDA fitting...
+
+    9 | 00m18s | -6868.67149 |    1.0855 | 
+acc:102.15900520181636
+
+LDA fitting...
+
+   10 | 00m17s | -6868.67149 |    1.1510 | 
+acc:103.87748288242804
+
+LDA fitting...
+
+   11 | 00m17s | -6868.67149 |    1.2185 | 
+acc:105.66467775007452
+
+LDA fitting...
+
+   12 | 00m17s | -6868.67149 |    1.2872 | 
+acc:107.52183443543726
+
+LDA fitting...
+
+   13 | 00m16s | -6868.67149 |    1.3572 | 
+acc:138.00200282515215
+
+LDA fitting...
+
+   14 | 03m20s | -4288.79654 |   29.9802 | 
+acc:156.7543291288888
+
+LDA fitting...
+
+   15 | 02m52s | [35m-4227.07588[0m | [32m  18.2523[0m | 
+acc:158.37225465247172
+
+LDA fitting...
+
+   16 | 00m17s | -6868.67149 |    1.1179 | 
+acc:160.29522284769686
+
+LDA fitting...
+
+   17 | 00m17s | -6868.67149 |    1.4230 | 
+acc:162.28467128717332
+
+LDA fitting...
+
+   18 | 00m17s | -6868.67149 |    1.4894 | 
+acc:164.34126888083
+
+LDA fitting...
+
+   19 | 00m17s | -6868.67149 |    1.5566 | 
+acc:166.46567924034704
+
+LDA fitting...
+
+   20 | 00m17s | -6868.67149 |    1.6244 | 
+acc:168.65856083066578
+
+LDA fitting...
+
+   21 | 00m17s | -6868.67149 |    1.6929 | 
+acc:170.92056786863822
+
+LDA fitting...
+
+   22 | 00m17s | -6868.67149 |    1.7620 | 
+acc:173.25235111633725
+
+LDA fitting...
+
+   23 | 00m17s | -6868.67149 |    1.8318 | 
+acc:175.65455816496828
+
+LDA fitting...
+
+   24 | 00m17s | -6868.67149 |    1.9022 | 
+acc:178.1278341046069
+
+LDA fitting...
+
+   25 | 00m17s | -6868.67149 |    1.9733 | 
+acc:180.6728221917352
+
+LDA fitting...
+
+   26 | 00m47s | -5621.79948 |    2.0450 | 
+acc:183.28840315624066
+
+LDA fitting...
+
+   27 | 00m41s | -5667.08794 |    2.1156 | 
+acc:185.97520495693064
+
+LDA fitting...
+
+   28 | 00m59s | -5786.95142 |    2.1868 | 
+acc:188.73397017944953
+
+LDA fitting...
+
+   29 | 00m42s | -5628.67637 |    2.2588 | 
+acc:191.5650173087363
+
+LDA fitting...
+
+   30 | 00m37s | -5601.34244 |    2.3310 | 
+acc:194.46885518887424
+
+LDA fitting...
+
+    1 | 03m17s | [35m-4179.99931[0m | [32m  26.7677[0m | 
+LDA fitting...
+
+    2 | 00m57s | -4781.94665 |    4.0655 | 
+acc:31.833203553521095, init:31.833203553521095
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.2327 | 
+acc:48.65718066762648
+
+LDA fitting...
+
+    4 | 01m15s | -4431.47144 |   14.5913 | 
+acc:57.48888924059609
+
+LDA fitting...
+
+    5 | 01m03s | -4470.83199 |    8.3317 | 
+acc:78.40529114231848
+
+LDA fitting...
+
+    6 | 03m04s | -4274.75264 |   20.4164 | 
+acc:108.9050631145946
+
+LDA fitting...
+
+    7 | 03m17s | -4264.91123 |   29.9998 | 
+acc:133.7125218104442
+
+LDA fitting...
+
+    8 | 01m21s | -4235.70541 |   24.3075 | 
+acc:140.3050095705833
+
+LDA fitting...
+
+    9 | 01m03s | -4808.57135 |    6.0925 | 
+acc:151.78258367583896
+
+LDA fitting...
+
+   10 | 01m11s | -4487.61730 |   10.9776 | 
+acc:170.10993614073305
+
+LDA fitting...
+
+   11 | 01m14s | -4249.65891 |   17.8274 | 
+acc:196.76715910809034
+
+LDA fitting...
+
+   12 | 01m23s | -4281.66792 |   26.1572 | 
+acc:220.09477951033188
+
+LDA fitting...
+
+   13 | 03m12s | -4257.80592 |   22.8276 | 
+acc:248.27530583260128
+
+LDA fitting...
+
+   14 | 03m31s | -4330.06912 |   27.6805 | 
+acc:275.64382311656846
+
+LDA fitting...
+
+   15 | 03m20s | -4489.80181 |   26.8685 | 
+acc:288.92065989160864
+
+LDA fitting...
+
+   16 | 01m14s | -4362.27151 |   12.7768 | 
+acc:305.6295532931507
+
+LDA fitting...
+
+   17 | 01m11s | -4315.12981 |   16.2089 | 
+acc:325.19718007863503
+
+LDA fitting...
+
+   18 | 01m20s | -4328.33465 |   19.0676 | 
+acc:354.2655937314642
+
+LDA fitting...
+
+   19 | 01m24s | -4225.61798 |   28.5684 | 
+acc:364.43146471014586
+
+LDA fitting...
+
+   20 | 01m04s | -4435.75904 |    9.6659 | 
+acc:386.53527697838626
+
+LDA fitting...
+
+   21 | 01m21s | -4310.70151 |   21.6038 | 
+acc:413.54579931951014
+
+LDA fitting...
+
+   22 | 01m22s | -4390.24967 |   26.5105 | 
+acc:416.8625070821356
+
+LDA fitting...
+
+   23 | 00m32s | -5600.35128 |    2.8167 | 
+acc:442.71648656201296
+
+LDA fitting...
+
+   24 | 01m25s | -4245.67154 |   25.3540 | 
+acc:450.5040262860103
+
+LDA fitting...
+
+   25 | 01m10s | -4567.54096 |    7.2875 | 
+acc:456.05525871647694
+
+LDA fitting...
+
+   26 | 00m56s | -4661.10734 |    5.0512 | 
+acc:468.4286912800425
+
+LDA fitting...
+
+   27 | 01m12s | -4537.86622 |   11.8734 | 
+acc:482.5563914982706
+
+LDA fitting...
+
+   28 | 01m14s | -4308.10144 |   13.6277 | 
+acc:500.1304931520149
+
+
+run 6
+
+LDA fitting...
+
+    1 | 01m15s | [35m-4324.16939[0m | [32m  17.1701[0m | 
+LDA fitting...
+
+    2 | 01m12s | -4368.27258 |   13.4292 | 
+acc:31.599243314812213, init:31.599243314812213
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 03m23s | -4339.63085 |   30.0000 | 
+acc:63.59924331481221
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:79.60425204430405
+
+LDA fitting...
+
+    5 | 01m27s | -4422.73430 |   15.5050 | 
+acc:101.76573587162824
+
+LDA fitting...
+
+    6 | 02m23s | [35m-4275.01397[0m | [32m  21.6615[0m | 
+acc:121.89983709346035
+
+LDA fitting...
+
+    7 | 02m55s | [35m-4271.00073[0m | [32m  19.6341[0m | 
+acc:141.55454802828893
+
+LDA fitting...
+
+    8 | 01m26s | -4289.03917 |   19.1547 | 
+acc:162.65524801703125
+
+LDA fitting...
+
+    9 | 01m16s | [35m-4207.44543[0m | [32m  20.6007[0m | 
+acc:183.91175990447965
+
+LDA fitting...
+
+   10 | 01m23s | -4357.05154 |   20.7565 | 
+acc:191.95076726733797
+
+LDA fitting...
+
+   11 | 01m05s | -4595.23215 |    7.5390 | 
+acc:217.98974946563035
+
+LDA fitting...
+
+   12 | 01m34s | -4305.74620 |   25.5390 | 
+acc:229.12764350882355
+
+LDA fitting...
+
+   13 | 01m11s | -4437.82681 |   10.6379 | 
+acc:234.3656681160302
+
+LDA fitting...
+
+   14 | 00m53s | -4642.30944 |    4.7380 | 
+acc:258.11790307804887
+
+LDA fitting...
+
+   15 | 01m47s | -4209.66697 |   23.2522 | 
+acc:286.14915359264853
+
+LDA fitting...
+
+   16 | 01m27s | -4218.43929 |   27.5313 | 
+acc:309.0338558179194
+
+LDA fitting...
+
+   17 | 01m47s | -4302.80811 |   22.3847 | 
+acc:329.77175752311456
+
+LDA fitting...
+
+   18 | 01m18s | -4208.98073 |   20.2379 | 
+acc:354.4537148420776
+
+LDA fitting...
+
+   19 | 01m21s | [35m-4180.44881[0m | [32m  24.1820[0m | 
+acc:364.1098289256306
+
+LDA fitting...
+
+   20 | 01m07s | -4499.86797 |    9.1561 | 
+acc:376.6732637733135
+
+LDA fitting...
+
+   21 | 01m09s | -4315.35711 |   12.0634 | 
+acc:400.923360557781
+
+LDA fitting...
+
+   22 | 01m21s | -4351.62463 |   23.7501 | 
+acc:426.08589456404786
+
+LDA fitting...
+
+   23 | 01m21s | -4270.00949 |   24.6625 | 
+acc:453.1148132009651
+
+LDA fitting...
+
+   24 | 01m23s | -4265.13298 |   26.5289 | 
+acc:481.8840806687281
+
+LDA fitting...
+
+   25 | 01m25s | -4243.06675 |   28.2693 | 
+acc:502.8278682749441
+
+LDA fitting...
+
+    1 | 01m16s | [35m-4273.39077[0m | [32m  17.1701[0m | 
+LDA fitting...
+
+    2 | 01m10s | -4426.57301 |   13.4292 | 
+acc:31.599243314812213, init:31.599243314812213
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:63.59919238691039
+
+LDA fitting...
+
+    4 | 01m24s | [35m-4246.94910[0m | [32m  29.9999[0m | 
+acc:94.0991616868367
+
+LDA fitting...
+
+    5 | 01m23s | [35m-4198.02411[0m | [32m  30.0000[0m | 
+acc:95.6002859387083
+
+LDA fitting...
+
+    6 | 00m21s | -6868.67149 |    1.0011 | 
+acc:97.10934456069506
+
+LDA fitting...
+
+    7 | 00m19s | -6868.67149 |    1.0091 | 
+acc:98.6266236028177
+
+LDA fitting...
+
+    8 | 00m20s | -6868.67149 |    1.0173 | 
+acc:100.15217403344384
+
+LDA fitting...
+
+    9 | 00m20s | -6868.67149 |    1.0256 | 
+acc:101.6860502062854
+
+LDA fitting...
+
+   10 | 00m20s | -6868.67149 |    1.0339 | 
+acc:103.22831058861897
+
+LDA fitting...
+
+   11 | 00m20s | -6868.67149 |    1.0423 | 
+acc:104.79178353175794
+
+LDA fitting...
+
+   12 | 00m19s | -6868.67149 |    1.0635 | 
+acc:106.37681997595708
+
+LDA fitting...
+
+   13 | 00m18s | -6868.67149 |    1.0850 | 
+acc:107.98352094145481
+
+LDA fitting...
+
+   14 | 00m19s | -6868.67149 |    1.1067 | 
+acc:109.61198802170719
+
+LDA fitting...
+
+   15 | 00m19s | -6868.67149 |    1.1285 | 
+acc:111.2623232773503
+
+LDA fitting...
+
+   16 | 00m18s | -6868.67149 |    1.1503 | 
+acc:112.93462924845204
+
+LDA fitting...
+
+   17 | 00m19s | -6868.67149 |    1.1723 | 
+acc:114.62900901437443
+
+LDA fitting...
+
+   18 | 00m18s | -6868.67149 |    1.1944 | 
+acc:116.34556632848835
+
+LDA fitting...
+
+   19 | 00m18s | -6868.67149 |    1.2166 | 
+acc:118.0844056479737
+
+LDA fitting...
+
+   20 | 00m18s | -6868.67149 |    1.2388 | 
+acc:119.84563222451833
+
+LDA fitting...
+
+   21 | 00m18s | -6868.67149 |    1.2612 | 
+acc:121.62935219247811
+
+LDA fitting...
+
+   22 | 00m18s | -6868.67149 |    1.2837 | 
+acc:123.435672558545
+
+LDA fitting...
+
+   23 | 00m19s | -6868.67149 |    1.3063 | 
+acc:125.2647016185021
+
+LDA fitting...
+
+   24 | 00m18s | -6868.67149 |    1.3290 | 
+acc:127.11654878562355
+
+LDA fitting...
+
+   25 | 00m18s | -6868.67149 |    1.3518 | 
+acc:128.99132478845334
+
+LDA fitting...
+
+   26 | 00m18s | -6868.67149 |    1.3748 | 
+acc:130.8891417951795
+
+LDA fitting...
+
+   27 | 00m18s | -6868.67149 |    1.3978 | 
+acc:132.8101136782025
+
+LDA fitting...
+
+   28 | 00m18s | -6868.67149 |    1.4210 | 
+acc:134.75435602306877
+
+LDA fitting...
+
+   29 | 00m18s | -6868.67149 |    1.4442 | 
+acc:136.721986566661
+
+LDA fitting...
+
+   30 | 00m18s | -6868.67149 |    1.4676 | 
+acc:138.71312525102584
+
+LDA fitting...
+
+    1 | 01m15s | [35m-4233.90326[0m | [32m  17.1701[0m | 
+LDA fitting...
+
+    2 | 01m13s | -4404.92253 |   13.4292 | 
+acc:31.599243314812213, init:31.599243314812213
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:63.599175770592666
+
+LDA fitting...
+
+    4 | 03m26s | -4299.76854 |   29.9999 | 
+acc:81.13112865102553
+
+LDA fitting...
+
+    5 | 02m18s | -4319.13727 |   17.0320 | 
+acc:103.96318908355714
+
+LDA fitting...
+
+    6 | 02m49s | -4369.78395 |   22.3321 | 
+acc:112.99359475302234
+
+LDA fitting...
+
+    7 | 01m03s | -4465.91326 |    8.5304 | 
+acc:132.7384267378017
+
+LDA fitting...
+
+    8 | 02m48s | -4272.94078 |   19.2448 | 
+acc:158.82778222927266
+
+LDA fitting...
+
+    9 | 03m12s | -4256.09753 |   25.5894 | 
+acc:177.37415019371272
+
+LDA fitting...
+
+   10 | 01m18s | -4384.85995 |   18.0464 | 
+acc:183.14735923374988
+
+LDA fitting...
+
+   11 | 00m54s | -4706.48566 |    5.2732 | 
+acc:194.81960819283356
+
+LDA fitting...
+
+   12 | 01m12s | -4392.73480 |   11.1722 | 
+acc:215.76850409937026
+
+LDA fitting...
+
+   13 | 03m02s | -4266.87252 |   20.4489 | 
+acc:243.48535910618224
+
+LDA fitting...
+
+   14 | 02m41s | -4248.64585 |   27.2169 | 
+acc:261.40947104493046
+
+LDA fitting...
+
+   15 | 01m24s | -4337.62040 |   17.4241 | 
+acc:265.5125457493697
+
+LDA fitting...
+
+   16 | 00m50s | -4943.76727 |    3.6031 | 
+acc:290.0528783251856
+
+LDA fitting...
+
+   17 | 03m12s | [35m-4165.01913[0m | [32m  24.0403[0m | 
+acc:297.5072553616724
+
+LDA fitting...
+
+   18 | 01m02s | -4568.28560 |    6.9544 | 
+acc:326.2170977795336
+
+LDA fitting...
+
+   19 | 03m20s | -4263.81541 |   28.2098 | 
+acc:336.57736752494066
+
+LDA fitting...
+
+   20 | 01m05s | -4533.32868 |    9.8603 | 
+acc:361.3849464051988
+
+LDA fitting...
+
+   21 | 01m23s | -4287.88503 |   24.3076 | 
+acc:385.3954741040129
+
+LDA fitting...
+
+   22 | 01m21s | -4264.00473 |   23.5105 | 
+acc:412.16380726087533
+
+LDA fitting...
+
+   23 | 01m23s | -4274.88206 |   26.2683 | 
+acc:436.56739693464766
+
+LDA fitting...
+
+   24 | 01m23s | -4321.44240 |   23.9036 | 
+acc:452.05930900957156
+
+LDA fitting...
+
+   25 | 01m12s | -4274.85344 |   14.9919 | 
+acc:464.81922352796846
+
+LDA fitting...
+
+   26 | 01m09s | -4507.03561 |   12.2599 | 
+acc:488.3685600785737
+
+LDA fitting...
+
+   27 | 01m22s | -4267.22971 |   23.0493 | 
+acc:510.22476847502776
+
+LDA fitting...
+
+    1 | 01m15s | [35m-4314.03943[0m | [32m  17.1701[0m | 
+LDA fitting...
+
+    2 | 01m09s | -4407.37319 |   13.4292 | 
+acc:31.599243314812213, init:31.599243314812213
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:63.59909125423305
+
+LDA fitting...
+
+    4 | 02m53s | [35m-4310.90225[0m | [32m  29.9998[0m | 
+acc:80.15473153535453
+
+LDA fitting...
+
+    5 | 02m27s | -4326.29222 |   16.0556 | 
+acc:99.22922817605122
+
+LDA fitting...
+
+    6 | 02m44s | [35m-4273.77465[0m | [32m  18.5745[0m | 
+acc:121.38513904690316
+
+LDA fitting...
+
+    7 | 01m23s | [35m-4227.23967[0m | [32m  21.6559[0m | 
+acc:142.95400059417491
+
+LDA fitting...
+
+    8 | 01m20s | -4293.18787 |   21.0689 | 
+acc:168.0331229026066
+
+LDA fitting...
+
+    9 | 01m18s | [35m-4169.04869[0m | [32m  24.5791[0m | 
+acc:191.8353062802712
+
+LDA fitting...
+
+   10 | 01m21s | -4214.55328 |   23.3022 | 
+acc:218.06141741292464
+
+LDA fitting...
+
+   11 | 01m22s | -4294.88195 |   25.7261 | 
+acc:243.04784387005762
+
+LDA fitting...
+
+   12 | 01m19s | -4295.21310 |   24.4864 | 
+acc:251.06899403772394
+
+LDA fitting...
+
+   13 | 01m06s | -4623.78907 |    7.5212 | 
+acc:256.14607294600836
+
+LDA fitting...
+
+   14 | 00m54s | -4660.28501 |    4.5771 | 
+acc:267.1721087128558
+
+LDA fitting...
+
+   15 | 01m30s | -4480.47462 |   10.5260 | 
+acc:290.31768063527466
+
+LDA fitting...
+
+   16 | 01m36s | -4218.02652 |   22.6456 | 
+acc:315.8679226673057
+
+LDA fitting...
+
+   17 | 01m26s | -4193.08955 |   25.0502 | 
+acc:344.06697844572204
+
+LDA fitting...
+
+   18 | 03m23s | -4207.43078 |   27.6991 | 
+acc:356.5926407523124
+
+LDA fitting...
+
+   19 | 02m01s | -4425.20505 |   12.0257 | 
+acc:366.23593987829673
+
+LDA fitting...
+
+   20 | 01m08s | -4478.65048 |    9.1433 | 
+acc:381.51993064649105
+
+LDA fitting...
+
+   21 | 01m13s | -4313.91965 |   14.7840 | 
+acc:408.69995748336515
+
+LDA fitting...
+
+   22 | 01m24s | -4308.93847 |   26.6800 | 
+acc:428.88494958953765
+
+LDA fitting...
+
+   23 | 01m17s | -4254.79291 |   19.6850 | 
+acc:454.1600021513853
+
+LDA fitting...
+
+   24 | 01m19s | -4265.77726 |   24.7751 | 
+acc:457.6417655368938
+
+LDA fitting...
+
+   25 | 00m53s | -5828.27867 |    2.9818 | 
+acc:464.1625514884769
+
+LDA fitting...
+
+   26 | 00m59s | -4507.69225 |    6.0208 | 
+acc:493.37712548589155
+
+LDA fitting...
+
+   27 | 01m24s | -4198.84106 |   28.7146 | 
+acc:519.1934960000274
+
+
+run 7
+
+LDA fitting...
+
+    1 | 01m22s | [35m-4263.01463[0m | [32m  24.2629[0m | 
+LDA fitting...
+
+    2 | 01m07s | -4485.84026 |    9.8321 | 
+acc:35.09504861894885, init:35.09504861894885
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 03m21s | -4296.95917 |   30.0000 | 
+acc:67.09504861894885
+
+LDA fitting...
+
+    4 | 00m10s | -6868.67149 |    1.0000 | 
+acc:83.8011665699409
+
+LDA fitting...
+
+    5 | 01m14s | -4353.02219 |   16.2061 | 
+acc:107.60130825910038
+
+LDA fitting...
+
+    6 | 01m26s | -4349.67629 |   23.3001 | 
+acc:134.15436768844498
+
+LDA fitting...
+
+    7 | 03m00s | [35m-4212.45694[0m | [32m  26.0531[0m | 
+acc:147.67243698531828
+
+LDA fitting...
+
+    8 | 01m18s | -4327.52606 |   13.0181 | 
+acc:173.85365366784922
+
+LDA fitting...
+
+    9 | 01m24s | -4312.80579 |   25.6812 | 
+acc:201.86281360830927
+
+LDA fitting...
+
+   10 | 01m30s | -4308.41768 |   27.5092 | 
+acc:209.36572078411217
+
+LDA fitting...
+
+   11 | 01m10s | -4501.10248 |    7.0029 | 
+acc:236.46255049085502
+
+LDA fitting...
+
+   12 | 01m29s | -4383.72134 |   26.5968 | 
+acc:256.5074262181598
+
+LDA fitting...
+
+   13 | 01m23s | -4317.07303 |   19.5449 | 
+acc:262.0582499591047
+
+LDA fitting...
+
+   14 | 00m56s | -4570.71980 |    5.0508 | 
+acc:290.9170349048817
+
+LDA fitting...
+
+   15 | 01m44s | -4294.31759 |   28.3588 | 
+acc:317.4777554273979
+
+LDA fitting...
+
+   16 | 01m28s | [35m-4150.73476[0m | [32m  26.0607[0m | 
+acc:321.05629267445573
+
+LDA fitting...
+
+   17 | 00m55s | -4895.15152 |    3.0785 | 
+acc:342.99066071888416
+
+LDA fitting...
+
+   18 | 03m11s | -4320.94369 |   21.4344 | 
+acc:361.36797179587177
+
+LDA fitting...
+
+   19 | 01m31s | -4257.65050 |   17.8773 | 
+acc:376.48093593265907
+
+LDA fitting...
+
+   20 | 01m22s | -4344.57709 |   14.6130 | 
+acc:388.4147371418287
+
+LDA fitting...
+
+   21 | 01m13s | -4321.53081 |   11.4338 | 
+acc:397.33532025257665
+
+LDA fitting...
+
+   22 | 01m04s | -4472.20823 |    8.4206 | 
+acc:403.87364611308794
+
+LDA fitting...
+
+   23 | 01m04s | -4843.89229 |    6.0383 | 
+acc:408.4841983223868
+
+LDA fitting...
+
+   24 | 00m56s | -4686.67879 |    4.1106 | 
+acc:434.0773086811599
+
+LDA fitting...
+
+   25 | 03m15s | -4333.89092 |   25.0931 | 
+acc:456.96602891097774
+
+LDA fitting...
+
+   26 | 02m19s | -4236.22605 |   22.3887 | 
+acc:477.9781356000643
+
+LDA fitting...
+
+   27 | 03m10s | -4378.67968 |   20.5121 | 
+acc:480.6439218644205
+
+LDA fitting...
+
+   28 | 00m35s | -5818.85878 |    2.1658 | 
+acc:499.8784920415178
+
+LDA fitting...
+
+   29 | 01m21s | -4269.19612 |   18.7346 | 
+acc:517.4592222460508
+
+LDA fitting...
+
+    1 | 03m11s | [35m-4308.67592[0m | [32m  24.2629[0m | 
+LDA fitting...
+
+    2 | 01m10s | -4489.27798 |    9.8321 | 
+acc:35.09504861894885, init:35.09504861894885
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m29s | -4380.22456 |   29.9999 | 
+acc:67.09495534151192
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:82.66894169063144
+
+LDA fitting...
+
+    5 | 01m39s | [35m-4226.39894[0m | [32m  15.0740[0m | 
+acc:96.78791666070549
+
+LDA fitting...
+
+    6 | 01m16s | -4452.27510 |   13.6190 | 
+acc:115.9566956709532
+
+LDA fitting...
+
+    7 | 01m19s | -4378.29867 |   18.6688 | 
+acc:132.5863379225351
+
+LDA fitting...
+
+    8 | 01m15s | -4287.53978 |   16.1296 | 
+acc:148.31632381231
+
+LDA fitting...
+
+    9 | 01m14s | -4242.96042 |   15.2300 | 
+acc:163.59112712502906
+
+LDA fitting...
+
+   10 | 01m13s | -4362.24308 |   14.7748 | 
+acc:169.82914948430047
+
+LDA fitting...
+
+   11 | 00m57s | -4590.28528 |    5.7380 | 
+acc:191.75568968188153
+
+LDA fitting...
+
+   12 | 01m25s | -4291.94940 |   21.4265 | 
+acc:219.2191146446158
+
+LDA fitting...
+
+   13 | 03m26s | -4370.17220 |   26.9634 | 
+acc:231.6829351034312
+
+LDA fitting...
+
+   14 | 01m14s | -4341.11816 |   11.9638 | 
+acc:240.02008358951284
+
+LDA fitting...
+
+   15 | 01m08s | -4639.67643 |    7.8371 | 
+acc:257.6518749689122
+
+LDA fitting...
+
+   16 | 01m16s | -4355.78400 |   17.1318 | 
+acc:278.22903650962155
+
+LDA fitting...
+
+   17 | 01m20s | -4226.43114 |   20.0772 | 
+acc:301.542033031874
+
+LDA fitting...
+
+   18 | 03m09s | -4329.87865 |   22.8130 | 
+acc:327.5136051031932
+
+LDA fitting...
+
+   19 | 03m18s | -4289.35517 |   25.4716 | 
+acc:348.24656535542454
+
+LDA fitting...
+
+   20 | 03m08s | -4347.60573 |   20.2330 | 
+acc:368.29492560333944
+
+LDA fitting...
+
+   21 | 01m20s | [35m-4219.29198[0m | [32m  19.5484[0m | 
+acc:372.8223971218224
+
+LDA fitting...
+
+   22 | 00m52s | -4672.53406 |    4.0275 | 
+acc:393.1553838175097
+
+LDA fitting...
+
+   23 | 01m17s | -4279.04180 |   19.8330 | 
+acc:421.98421087527737
+
+LDA fitting...
+
+   24 | 01m24s | -4221.31207 |   28.3288 | 
+acc:444.4465641635888
+
+LDA fitting...
+
+   25 | 01m22s | -4332.17844 |   21.9624 | 
+acc:464.1790151053689
+
+LDA fitting...
+
+   26 | 01m19s | -4258.45598 |   19.2325 | 
+acc:475.67646830864766
+
+LDA fitting...
+
+   27 | 01m10s | -4448.15638 |   10.9975 | 
+acc:488.91841138560414
+
+LDA fitting...
+
+   28 | 01m12s | -4534.49231 |   12.7419 | 
+acc:508.8641407530129
+
+LDA fitting...
+
+    1 | 01m24s | [35m-4312.66114[0m | [32m  24.2629[0m | 
+LDA fitting...
+
+    2 | 01m07s | -4660.18074 |    9.8321 | 
+acc:35.09504861894885, init:35.09504861894885
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m28s | -4341.67586 |   29.9992 | 
+acc:67.09429505818733
+
+LDA fitting...
+
+    4 | 00m10s | -6868.67149 |    1.0000 | 
+acc:83.30293414253907
+
+LDA fitting...
+
+    5 | 01m17s | -4463.14792 |   15.7086 | 
+acc:107.19761217837242
+
+LDA fitting...
+
+    6 | 01m22s | [35m-4286.27971[0m | [32m  23.3947[0m | 
+acc:130.0038557282652
+
+LDA fitting...
+
+    7 | 01m23s | [35m-4231.08854[0m | [32m  22.3062[0m | 
+acc:151.2031421043858
+
+LDA fitting...
+
+    8 | 01m20s | [35m-4176.61178[0m | [32m  20.6993[0m | 
+acc:172.30861562831484
+
+LDA fitting...
+
+    9 | 01m18s | -4251.99322 |   20.6055 | 
+acc:178.80820885146994
+
+LDA fitting...
+
+   10 | 00m51s | -4608.96315 |    5.9996 | 
+acc:192.53797212028022
+
+LDA fitting...
+
+   11 | 01m12s | -4320.59657 |   13.2298 | 
+acc:214.3426017353346
+
+LDA fitting...
+
+   12 | 01m22s | -4358.63426 |   21.3046 | 
+acc:241.86555379430976
+
+LDA fitting...
+
+   13 | 01m26s | -4317.01107 |   27.0230 | 
+acc:246.47554863039758
+
+LDA fitting...
+
+   14 | 00m55s | -4638.47326 |    4.1100 | 
+acc:254.77507942887405
+
+LDA fitting...
+
+   15 | 01m01s | -4526.99816 |    7.7995 | 
+acc:267.0915219282329
+
+LDA fitting...
+
+   16 | 01m12s | -4381.93357 |   11.8164 | 
+acc:293.16907233251317
+
+LDA fitting...
+
+   17 | 01m21s | -4183.71810 |   25.5776 | 
+acc:314.53309266251034
+
+LDA fitting...
+
+   18 | 01m21s | -4352.34497 |   20.8640 | 
+acc:332.955933173435
+
+LDA fitting...
+
+   19 | 01m17s | -4210.01754 |   17.9228 | 
+acc:361.90049580251514
+
+LDA fitting...
+
+   20 | 01m26s | -4316.24771 |   28.4446 | 
+acc:365.21645690326096
+
+LDA fitting...
+
+   21 | 00m34s | -5613.92284 |    2.8160 | 
+acc:380.0955247878248
+
+LDA fitting...
+
+   22 | 01m14s | -4339.69534 |   14.3791 | 
+acc:397.4673471626467
+
+LDA fitting...
+
+   23 | 01m14s | -4428.23389 |   16.8718 | 
+acc:416.5934200768016
+
+LDA fitting...
+
+   24 | 01m19s | -4221.54559 |   18.6261 | 
+acc:438.8694213785463
+
+LDA fitting...
+
+   25 | 01m22s | -4228.09900 |   21.7760 | 
+acc:450.34276065087136
+
+LDA fitting...
+
+   26 | 01m08s | -4486.53294 |   10.9733 | 
+acc:459.62472023312085
+
+LDA fitting...
+
+   27 | 01m04s | -4488.52307 |    8.7820 | 
+acc:465.09616491065424
+
+LDA fitting...
+
+   28 | 00m49s | -4654.93804 |    4.9714 | 
+acc:491.7028273406595
+
+LDA fitting...
+
+   29 | 01m22s | -4282.75343 |   26.1067 | 
+acc:517.2849017108698
+
+LDA fitting...
+
+    1 | 01m22s | [35m-4313.90323[0m | [32m  24.2629[0m | 
+LDA fitting...
+
+    2 | 01m08s | -4515.43017 |    9.8321 | 
+acc:35.09504861894885, init:35.09504861894885
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.3998 | 
+acc:52.59786991870671
+
+LDA fitting...
+
+    4 | 01m14s | -4366.36073 |   15.1030 | 
+acc:83.09779438846707
+
+LDA fitting...
+
+    5 | 01m26s | [35m-4293.06112[0m | [32m  29.9999[0m | 
+acc:84.69335815224261
+
+LDA fitting...
+
+    6 | 00m10s | -6868.67149 |    1.0956 | 
+acc:107.71468532519893
+
+LDA fitting...
+
+    7 | 01m23s | [35m-4284.40090[0m | [32m  22.5213[0m | 
+acc:130.45044988293765
+
+LDA fitting...
+
+    8 | 01m21s | [35m-4249.43458[0m | [32m  22.2358[0m | 
+acc:150.44361279676883
+
+LDA fitting...
+
+    9 | 01m21s | [35m-4248.24242[0m | [32m  19.4932[0m | 
+acc:171.89322931578803
+
+LDA fitting...
+
+   10 | 01m20s | -4268.93048 |   20.9496 | 
+acc:190.41479594721744
+
+LDA fitting...
+
+   11 | 01m20s | [35m-4220.76475[0m | [32m  18.0216[0m | 
+acc:216.9963226024251
+
+LDA fitting...
+
+   12 | 03m10s | -4241.02158 |   26.0815 | 
+acc:235.94792575697937
+
+LDA fitting...
+
+   13 | 02m38s | -4261.23661 |   18.4516 | 
+acc:253.46432767031484
+
+LDA fitting...
+
+   14 | 01m21s | -4380.83870 |   17.0164 | 
+acc:267.1178131507802
+
+LDA fitting...
+
+   15 | 01m13s | -4349.06496 |   13.1535 | 
+acc:285.5483501417084
+
+LDA fitting...
+
+   16 | 01m18s | -4255.45589 |   17.9305 | 
+acc:292.07520406338756
+
+LDA fitting...
+
+   17 | 01m04s | -4538.99052 |    6.0269 | 
+acc:320.1018566271232
+
+LDA fitting...
+
+   18 | 01m28s | -4263.55837 |   27.5267 | 
+acc:338.7692621231086
+
+LDA fitting...
+
+   19 | 01m29s | -4301.64806 |   18.1674 | 
+acc:343.1141361276591
+
+LDA fitting...
+
+   20 | 00m51s | -4973.65876 |    3.8449 | 
+acc:351.50039253987876
+
+LDA fitting...
+
+   21 | 01m04s | -4558.72709 |    7.8863 | 
+acc:363.52489480356974
+
+LDA fitting...
+
+   22 | 01m11s | -4333.31654 |   11.5245 | 
+acc:380.2258548292566
+
+LDA fitting...
+
+   23 | 01m17s | -4371.09266 |   16.2010 | 
+acc:409.32968496146015
+
+LDA fitting...
+
+   24 | 01m29s | -4222.07676 |   28.6038 | 
+acc:428.75155911494454
+
+LDA fitting...
+
+   25 | 01m21s | -4243.15871 |   18.9219 | 
+acc:443.41396433177033
+
+LDA fitting...
+
+   26 | 01m14s | -4404.44403 |   14.1624 | 
+acc:469.16857956789255
+
+LDA fitting...
+
+   27 | 01m28s | [35m-4154.60628[0m | [32m  25.2546[0m | 
+acc:489.76842109921773
+
+LDA fitting...
+
+   28 | 03m28s | -4352.99253 |   20.0998 | 
+acc:511.86900879494993
+
+
+run 8
+
+LDA fitting...
+
+    1 | 01m26s | [35m-4266.46431[0m | [32m  23.3014[0m | 
+LDA fitting...
+
+    2 | 01m10s | -4312.67619 |   13.2914 | 
+acc:37.59274823846683, init:37.59274823846683
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m27s | [35m-4260.89277[0m | [32m  30.0000[0m | 
+acc:69.59274823846684
+
+LDA fitting...
+
+    4 | 00m10s | -6868.67149 |    1.0000 | 
+acc:87.66796796038108
+
+LDA fitting...
+
+    5 | 01m45s | -4373.84689 |   17.5752 | 
+acc:112.31559748355542
+
+LDA fitting...
+
+    6 | 02m44s | -4278.20981 |   24.1476 | 
+acc:136.6712830259755
+
+LDA fitting...
+
+    7 | 03m12s | [35m-4198.89328[0m | [32m  23.8557[0m | 
+acc:145.25624918207905
+
+LDA fitting...
+
+    8 | 01m07s | -4603.26521 |    8.0850 | 
+acc:169.47698910331408
+
+LDA fitting...
+
+    9 | 01m28s | -4272.83510 |   23.7207 | 
+acc:174.61832708322072
+
+LDA fitting...
+
+   10 | 00m52s | -4589.89656 |    4.6413 | 
+acc:195.64890622375816
+
+LDA fitting...
+
+   11 | 01m20s | -4283.28841 |   20.5306 | 
+acc:223.44978528270894
+
+LDA fitting...
+
+   12 | 01m27s | -4278.35487 |   27.3009 | 
+acc:234.6639634316581
+
+LDA fitting...
+
+   13 | 01m10s | -4452.89072 |   10.7142 | 
+acc:250.56576388588095
+
+LDA fitting...
+
+   14 | 01m15s | -4343.18366 |   15.4018 | 
+acc:273.178386906434
+
+LDA fitting...
+
+   15 | 01m23s | -4309.24541 |   22.1126 | 
+acc:292.8500009486657
+
+LDA fitting...
+
+   16 | 01m20s | -4213.32002 |   19.1716 | 
+acc:299.7042278447899
+
+LDA fitting...
+
+   17 | 00m58s | -4586.63255 |    6.3542 | 
+acc:322.9993600251998
+
+LDA fitting...
+
+   18 | 01m23s | -4289.21977 |   22.7951 | 
+acc:351.83066993548323
+
+LDA fitting...
+
+   19 | 01m26s | -4377.28663 |   28.3313 | 
+acc:364.5050639944557
+
+LDA fitting...
+
+   20 | 01m11s | -4438.02500 |   12.1744 | 
+acc:374.5210250677673
+
+LDA fitting...
+
+   21 | 01m07s | -4493.92973 |    9.5160 | 
+acc:398.96258391763035
+
+LDA fitting...
+
+   22 | 01m28s | -4403.61359 |   23.9416 | 
+acc:425.0520717974904
+
+LDA fitting...
+
+   23 | 03m16s | -4296.52294 |   25.5895 | 
+acc:428.46805208692666
+
+LDA fitting...
+
+   24 | 00m42s | -5621.85557 |    2.9160 | 
+acc:445.4642837543439
+
+LDA fitting...
+
+   25 | 01m17s | -4273.19492 |   16.4962 | 
+acc:460.3030700643561
+
+LDA fitting...
+
+   26 | 01m15s | -4278.91693 |   14.3388 | 
+acc:485.53466456004924
+
+LDA fitting...
+
+   27 | 01m22s | -4302.47377 |   24.7316 | 
+acc:512.4676083270747
+
+LDA fitting...
+
+    1 | 01m24s | [35m-4375.17661[0m | [32m  23.3014[0m | 
+LDA fitting...
+
+    2 | 01m10s | [35m-4365.53996[0m | [32m  13.2914[0m | 
+acc:37.59274823846683, init:37.59274823846683
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:69.59271950107343
+
+LDA fitting...
+
+    4 | 01m28s | -4469.85709 |   30.0000 | 
+acc:86.9924361667548
+
+LDA fitting...
+
+    5 | 01m15s | [35m-4290.28531[0m | [32m  16.8997[0m | 
+acc:103.31139311306953
+
+LDA fitting...
+
+    6 | 01m17s | -4390.22121 |   15.8190 | 
+acc:123.42764106650048
+
+LDA fitting...
+
+    7 | 01m22s | -4321.25611 |   19.6162 | 
+acc:141.83715655736768
+
+LDA fitting...
+
+    8 | 01m20s | -4308.07569 |   17.9095 | 
+acc:153.4219168581951
+
+LDA fitting...
+
+    9 | 01m11s | -4413.32946 |   11.0848 | 
+acc:171.0966111500667
+
+LDA fitting...
+
+   10 | 01m18s | [35m-4258.72621[0m | [32m  17.1747[0m | 
+acc:179.93997634979786
+
+LDA fitting...
+
+   11 | 01m06s | -4443.61403 |    8.3434 | 
+acc:201.5019724509995
+
+LDA fitting...
+
+   12 | 01m23s | -4270.28712 |   21.0620 | 
+acc:219.33702667553925
+
+LDA fitting...
+
+   13 | 01m19s | -4330.12583 |   17.3351 | 
+acc:224.27695780634104
+
+LDA fitting...
+
+   14 | 00m57s | -4705.62208 |    4.4399 | 
+acc:251.31670859447797
+
+LDA fitting...
+
+   15 | 01m27s | -4278.01169 |   26.5398 | 
+acc:258.12779033794396
+
+LDA fitting...
+
+   16 | 01m04s | -4645.55761 |    6.3111 | 
+acc:273.2660526401785
+
+LDA fitting...
+
+   17 | 01m27s | -4338.01197 |   14.6383 | 
+acc:292.39369654437905
+
+LDA fitting...
+
+   18 | 01m23s | [35m-4254.50266[0m | [32m  18.6276[0m | 
+acc:317.84834760790335
+
+LDA fitting...
+
+   19 | 01m23s | [35m-4240.00216[0m | [32m  24.9547[0m | 
+acc:346.1726991997978
+
+LDA fitting...
+
+   20 | 01m25s | -4276.20561 |   27.8244 | 
+acc:364.9911719764502
+
+LDA fitting...
+
+   21 | 01m19s | -4252.59725 |   18.3185 | 
+acc:375.1668751076448
+
+LDA fitting...
+
+   22 | 01m06s | -4482.25451 |    9.6757 | 
+acc:397.4766983507599
+
+LDA fitting...
+
+   23 | 01m23s | -4277.01559 |   21.8098 | 
+acc:423.28697279582815
+
+LDA fitting...
+
+   24 | 01m24s | -4273.34142 |   25.3103 | 
+acc:448.42338777146875
+
+LDA fitting...
+
+   25 | 02m53s | -4263.05526 |   24.6364 | 
+acc:476.15145000623033
+
+LDA fitting...
+
+   26 | 03m20s | [35m-4238.99486[0m | [32m  27.2281[0m | 
+acc:503.8807870379073
+
+LDA fitting...
+
+    1 | 03m12s | [35m-4245.87208[0m | [32m  23.3014[0m | 
+LDA fitting...
+
+    2 | 01m17s | -4377.01727 |   13.2914 | 
+acc:37.59274823846683, init:37.59274823846683
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:69.59261484582835
+
+LDA fitting...
+
+    4 | 01m44s | -4326.41244 |   29.9999 | 
+acc:88.15293925735753
+
+LDA fitting...
+
+    5 | 02m36s | [35m-4216.94789[0m | [32m  18.0603[0m | 
+acc:106.49373358959409
+
+LDA fitting...
+
+    6 | 01m18s | [35m-4206.94492[0m | [32m  17.8408[0m | 
+acc:123.2089797011891
+
+LDA fitting...
+
+    7 | 01m17s | -4286.58066 |   16.2152 | 
+acc:141.25434821720935
+
+LDA fitting...
+
+    8 | 02m10s | -4306.17237 |   17.5454 | 
+acc:147.85307530755063
+
+LDA fitting...
+
+    9 | 01m01s | -4449.28870 |    6.0987 | 
+acc:157.94388004947277
+
+LDA fitting...
+
+   10 | 01m09s | -4600.69635 |    9.5908 | 
+acc:184.82722881265926
+
+LDA fitting...
+
+   11 | 01m23s | -4247.35625 |   26.3833 | 
+acc:200.38525972060333
+
+LDA fitting...
+
+   12 | 01m14s | -4252.97257 |   15.0580 | 
+acc:225.8710798381625
+
+LDA fitting...
+
+   13 | 01m22s | -4353.68164 |   24.9858 | 
+acc:248.3809173644313
+
+LDA fitting...
+
+   14 | 01m25s | -4235.63213 |   22.0098 | 
+acc:264.50736729102664
+
+LDA fitting...
+
+   15 | 01m18s | -4337.94004 |   15.6264 | 
+acc:279.4798154386351
+
+LDA fitting...
+
+   16 | 01m15s | -4372.09574 |   14.4724 | 
+acc:291.79173938145425
+
+LDA fitting...
+
+   17 | 01m11s | -4407.41567 |   11.8119 | 
+acc:319.76318650153553
+
+LDA fitting...
+
+   18 | 01m24s | -4282.16573 |   27.4714 | 
+acc:338.18211178696924
+
+LDA fitting...
+
+   19 | 01m18s | -4248.17822 |   17.9189 | 
+acc:342.3035164502149
+
+LDA fitting...
+
+   20 | 00m57s | -5351.26493 |    3.6214 | 
+acc:362.70152701257706
+
+LDA fitting...
+
+   21 | 02m51s | -4233.91977 |   19.8980 | 
+acc:370.9898289650193
+
+LDA fitting...
+
+   22 | 01m05s | -4559.48612 |    7.7883 | 
+acc:390.3451567931461
+
+LDA fitting...
+
+   23 | 01m55s | -4450.59348 |   18.8553 | 
+acc:411.71407050086157
+
+LDA fitting...
+
+   24 | 01m25s | -4295.75154 |   20.8689 | 
+acc:440.8031671758467
+
+LDA fitting...
+
+   25 | 04m07s | -4297.41903 |   28.5891 | 
+acc:452.08889359241226
+
+LDA fitting...
+
+   26 | 01m21s | -4380.80433 |   10.7857 | 
+acc:457.7237618508695
+
+LDA fitting...
+
+   27 | 01m04s | -4537.97929 |    5.1349 | 
+acc:476.5740625499977
+
+LDA fitting...
+
+   28 | 01m32s | -4375.43931 |   18.3503 | 
+acc:501.12885645024255
+
+LDA fitting...
+
+    1 | 03m16s | [35m-4326.09940[0m | [32m  23.3014[0m | 
+LDA fitting...
+
+    2 | 01m18s | [35m-4324.97020[0m | [32m  13.2914[0m | 
+acc:37.59274823846683, init:37.59274823846683
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:55.83997469572172
+
+LDA fitting...
+
+    4 | 01m43s | [35m-4304.51733[0m | [32m  16.2472[0m | 
+acc:86.33941521436493
+
+LDA fitting...
+
+    5 | 01m41s | -4354.11519 |   29.9994 | 
+acc:101.63941290917805
+
+LDA fitting...
+
+    6 | 01m53s | -4366.54800 |   14.8000 | 
+acc:121.69248735314159
+
+LDA fitting...
+
+    7 | 01m23s | -4380.30714 |   19.5531 | 
+acc:134.18668469995507
+
+LDA fitting...
+
+    8 | 01m09s | -4510.08349 |   11.9942 | 
+acc:151.9401217274759
+
+LDA fitting...
+
+    9 | 01m16s | [35m-4271.80815[0m | [32m  17.2534[0m | 
+acc:169.66009890451446
+
+LDA fitting...
+
+   10 | 01m15s | -4340.45960 |   17.2200 | 
+acc:176.89345145248157
+
+LDA fitting...
+
+   11 | 01m03s | -4674.63727 |    6.7334 | 
+acc:181.49301463142984
+
+LDA fitting...
+
+   12 | 00m55s | -4676.50077 |    4.0996 | 
+acc:191.37416094444643
+
+LDA fitting...
+
+   13 | 01m06s | -4532.46221 |    9.3811 | 
+acc:210.04295574578887
+
+LDA fitting...
+
+   14 | 01m17s | -4388.16198 |   18.1688 | 
+acc:231.78457016029597
+
+LDA fitting...
+
+   15 | 01m20s | [35m-4236.17234[0m | [32m  21.2416[0m | 
+acc:258.85558021010087
+
+LDA fitting...
+
+   16 | 01m25s | -4303.76596 |   26.5710 | 
+acc:276.9908288534427
+
+LDA fitting...
+
+   17 | 01m16s | -4331.66014 |   17.6352 | 
+acc:302.3937169871334
+
+LDA fitting...
+
+   18 | 01m22s | -4346.99804 |   24.9029 | 
+acc:331.10124378155933
+
+LDA fitting...
+
+   19 | 01m24s | [35m-4224.78816[0m | [32m  28.2075[0m | 
+acc:337.01821711788193
+
+LDA fitting...
+
+   20 | 00m56s | -4526.60572 |    5.4170 | 
+acc:340.4479037004092
+
+LDA fitting...
+
+   21 | 00m44s | -5675.77811 |    2.9297 | 
+acc:348.9777636430294
+
+LDA fitting...
+
+   22 | 01m02s | -4464.42287 |    8.0299 | 
+acc:360.1659988913402
+
+LDA fitting...
+
+   23 | 01m11s | -4474.64185 |   10.6882 | 
+acc:376.3547775985055
+
+LDA fitting...
+
+   24 | 01m16s | -4305.22626 |   15.6888 | 
+acc:399.07338455383143
+
+LDA fitting...
+
+   25 | 01m24s | -4322.48725 |   22.2186 | 
+acc:418.3109126834564
+
+LDA fitting...
+
+   26 | 01m17s | -4386.53513 |   18.7375 | 
+acc:439.28854958314076
+
+LDA fitting...
+
+   27 | 02m33s | -4231.27852 |   20.4776 | 
+acc:457.19344897639877
+
+LDA fitting...
+
+   28 | 01m18s | -4274.84862 |   17.4049 | 
+acc:471.75176590627467
+
+LDA fitting...
+
+   29 | 01m13s | -4334.64410 |   14.0583 | 
+acc:499.6711282613389
+
+LDA fitting...
+
+   30 | 01m31s | -4369.92036 |   27.4194 | 
+acc:529.1117661291614
+
+
+run 9
+
+LDA fitting...
+
+    1 | 01m25s | [35m-4292.07294[0m | [32m  25.0948[0m | 
+LDA fitting...
+
+    2 | 03m02s | -4321.28750 |   21.4098 | 
+acc:47.50454441867572, init:47.50454441867572
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:79.50454441867572
+
+LDA fitting...
+
+    4 | 03m25s | [35m-4279.75480[0m | [32m  30.0000[0m | 
+acc:90.93065904653015
+
+LDA fitting...
+
+    5 | 01m09s | -4384.21301 |   10.9261 | 
+acc:106.12058809415095
+
+LDA fitting...
+
+    6 | 02m07s | -4340.79498 |   14.6899 | 
+acc:126.72019605935188
+
+LDA fitting...
+
+    7 | 01m23s | -4321.24655 |   20.0996 | 
+acc:154.3510776105189
+
+LDA fitting...
+
+    8 | 01m25s | [35m-4202.73447[0m | [32m  27.1309[0m | 
+acc:182.31619619357335
+
+LDA fitting...
+
+    9 | 03m20s | -4326.76579 |   27.4651 | 
+acc:209.17288211240407
+
+LDA fitting...
+
+   10 | 03m18s | [35m-4182.97068[0m | [32m  26.3567[0m | 
+acc:217.05591723440884
+
+LDA fitting...
+
+   11 | 01m07s | -4586.55653 |    7.3830 | 
+acc:234.98270107852852
+
+LDA fitting...
+
+   12 | 01m30s | -4406.63134 |   17.4268 | 
+acc:262.2240828982961
+
+LDA fitting...
+
+   13 | 01m27s | -4260.63554 |   26.7414 | 
+acc:267.56411608762926
+
+LDA fitting...
+
+   14 | 00m57s | -4718.44722 |    4.8400 | 
+acc:280.9838410109736
+
+LDA fitting...
+
+   15 | 01m11s | -4349.88142 |   12.9197 | 
+acc:307.3672019696815
+
+LDA fitting...
+
+   16 | 01m25s | -4259.05332 |   25.8834 | 
+acc:331.20682210243257
+
+LDA fitting...
+
+   17 | 01m23s | -4447.38718 |   23.3396 | 
+acc:341.0211247068351
+
+LDA fitting...
+
+   18 | 01m08s | -4537.20688 |    9.3143 | 
+acc:367.77709001203186
+
+LDA fitting...
+
+   19 | 03m14s | -4347.35369 |   26.2560 | 
+acc:371.3769908998596
+
+LDA fitting...
+
+   20 | 00m50s | -4955.75663 |    3.0999 | 
+acc:387.879341006596
+
+LDA fitting...
+
+   21 | 01m15s | -4189.95728 |   16.0024 | 
+acc:407.17921685701003
+
+LDA fitting...
+
+   22 | 01m20s | -4307.74295 |   18.7999 | 
+acc:413.7991854236643
+
+LDA fitting...
+
+   23 | 01m02s | -4624.73166 |    6.1200 | 
+acc:443.1191730431829
+
+LDA fitting...
+
+   24 | 01m27s | -4262.71758 |   28.8200 | 
+acc:455.52626351622473
+
+LDA fitting...
+
+   25 | 01m12s | -4378.20573 |   11.9071 | 
+acc:478.34586121801163
+
+LDA fitting...
+
+   26 | 01m24s | -4341.89428 |   22.3196 | 
+acc:504.3973495749514
+
+LDA fitting...
+
+    1 | 01m27s | [35m-4334.84168[0m | [32m  25.0948[0m | 
+LDA fitting...
+
+    2 | 01m23s | [35m-4315.78388[0m | [32m  21.4098[0m | 
+acc:47.50454441867572, init:47.50454441867572
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:79.50418724057441
+
+LDA fitting...
+
+    4 | 01m28s | -4333.23946 |   29.9996 | 
+acc:102.55016767813191
+
+LDA fitting...
+
+    5 | 01m21s | [35m-4220.96698[0m | [32m  22.5460[0m | 
+acc:126.08551353390494
+
+LDA fitting...
+
+    6 | 02m30s | -4331.14559 |   23.0353 | 
+acc:134.72637895192136
+
+LDA fitting...
+
+    7 | 01m07s | -4526.21777 |    8.1409 | 
+acc:149.1036784334187
+
+LDA fitting...
+
+    8 | 01m16s | -4414.53201 |   13.8773 | 
+acc:176.26292198669458
+
+LDA fitting...
+
+    9 | 01m22s | -4258.53256 |   26.6592 | 
+acc:198.96528482986986
+
+LDA fitting...
+
+   10 | 01m22s | -4281.60096 |   22.2024 | 
+acc:217.06766783411948
+
+LDA fitting...
+
+   11 | 01m18s | [35m-4205.06675[0m | [32m  17.6024[0m | 
+acc:228.6905202391624
+
+LDA fitting...
+
+   12 | 01m11s | -4476.22926 |   11.1229 | 
+acc:248.69985513542176
+
+LDA fitting...
+
+   13 | 01m18s | -4285.69021 |   19.5093 | 
+acc:254.9884089771275
+
+LDA fitting...
+
+   14 | 00m52s | -4583.08413 |    5.7886 | 
+acc:271.82185018695253
+
+LDA fitting...
+
+   15 | 01m18s | -4355.15830 |   16.3334 | 
+acc:290.16080903840594
+
+LDA fitting...
+
+   16 | 01m21s | -4316.01262 |   17.8390 | 
+acc:307.82887487945027
+
+LDA fitting...
+
+   17 | 01m17s | -4268.75096 |   17.1681 | 
+acc:328.6014599495547
+
+LDA fitting...
+
+   18 | 01m22s | -4304.89857 |   20.2726 | 
+acc:346.58712887565474
+
+LDA fitting...
+
+   19 | 01m18s | -4287.06847 |   17.4857 | 
+acc:350.4455172040941
+
+LDA fitting...
+
+   20 | 00m51s | -4879.19392 |    3.3584 | 
+acc:379.1512809251878
+
+LDA fitting...
+
+   21 | 03m22s | -4359.70635 |   28.2058 | 
+acc:389.22845128106064
+
+LDA fitting...
+
+   22 | 01m08s | -4428.20625 |    9.5772 | 
+acc:402.22727329619397
+
+LDA fitting...
+
+   23 | 01m31s | -4341.87973 |   12.4988 | 
+acc:409.7750758488686
+
+LDA fitting...
+
+   24 | 01m08s | -4557.99046 |    7.0478 | 
+acc:414.90126306082095
+
+LDA fitting...
+
+   25 | 00m50s | -4725.43910 |    4.6262 | 
+acc:432.241450414191
+
+LDA fitting...
+
+   26 | 01m18s | -4271.84828 |   16.8402 | 
+acc:447.83755690730726
+
+LDA fitting...
+
+   27 | 01m20s | -4281.46667 |   15.0961 | 
+acc:465.99997787970193
+
+LDA fitting...
+
+   28 | 01m20s | -4326.94570 |   17.6624 | 
+acc:468.71118090696496
+
+LDA fitting...
+
+   29 | 00m34s | -5599.94971 |    2.2112 | 
+acc:487.7910485742824
+
+LDA fitting...
+
+   30 | 01m21s | -4283.38731 |   18.5799 | 
+acc:512.3440353710854
+
+LDA fitting...
+
+    1 | 01m25s | [35m-4237.34039[0m | [32m  25.0948[0m | 
+LDA fitting...
+
+    2 | 01m22s | -4268.22746 |   21.4098 | 
+acc:47.50454441867572, init:47.50454441867572
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m13s | -6868.67149 |    1.0000 | 
+acc:79.50432517088812
+
+LDA fitting...
+
+    4 | 01m29s | -4240.92184 |   29.9998 | 
+acc:103.81449671827589
+
+LDA fitting...
+
+    5 | 01m24s | -4326.22888 |   23.8102 | 
+acc:119.9608392725095
+
+LDA fitting...
+
+    6 | 01m14s | -4277.22299 |   15.6463 | 
+acc:138.81140426035643
+
+LDA fitting...
+
+    7 | 02m18s | -4243.04346 |   18.3506 | 
+acc:166.22668545993832
+
+LDA fitting...
+
+    8 | 03m18s | -4314.65853 |   26.9153 | 
+acc:186.5595165198948
+
+LDA fitting...
+
+    9 | 02m55s | -4280.39792 |   19.8328 | 
+acc:212.54182208437086
+
+LDA fitting...
+
+   10 | 03m10s | -4262.82904 |   25.4823 | 
+acc:223.15265725784093
+
+LDA fitting...
+
+   11 | 01m10s | -4441.48771 |   10.1108 | 
+acc:241.19148516005828
+
+LDA fitting...
+
+   12 | 01m58s | -4429.17007 |   17.5388 | 
+acc:255.14359668776282
+
+LDA fitting...
+
+   13 | 01m14s | -4291.51957 |   13.4521 | 
+acc:270.3460870362318
+
+LDA fitting...
+
+   14 | 02m20s | -4333.24090 |   14.7025 | 
+acc:289.70320274377315
+
+LDA fitting...
+
+   15 | 01m20s | -4252.48292 |   18.8571 | 
+acc:297.2096695168487
+
+LDA fitting...
+
+   16 | 01m04s | -4577.87834 |    7.0065 | 
+acc:310.1457653705573
+
+LDA fitting...
+
+   17 | 01m11s | -4357.88834 |   12.4361 | 
+acc:335.55429463635556
+
+LDA fitting...
+
+   18 | 01m22s | -4267.44572 |   24.9085 | 
+acc:358.65868473195457
+
+LDA fitting...
+
+   19 | 01m26s | -4299.81211 |   22.6044 | 
+acc:384.35816850669755
+
+LDA fitting...
+
+   20 | 01m26s | -4333.37877 |   25.1995 | 
+acc:388.8370435153396
+
+LDA fitting...
+
+   21 | 00m57s | -5214.15019 |    3.9789 | 
+acc:397.91972438883073
+
+LDA fitting...
+
+   22 | 01m10s | -4553.70558 |    8.5827 | 
+acc:404.04024823912505
+
+LDA fitting...
+
+   23 | 00m58s | -4581.22813 |    5.6205 | 
+acc:433.00942719326895
+
+LDA fitting...
+
+   24 | 01m26s | -4292.04533 |   28.4692 | 
+acc:459.59610199253643
+
+LDA fitting...
+
+   25 | 01m26s | -4320.84120 |   26.0867 | 
+acc:471.39199746499713
+
+LDA fitting...
+
+   26 | 01m10s | -4445.14586 |   11.2959 | 
+acc:499.5386591860834
+
+LDA fitting...
+
+   27 | 01m28s | -4375.61976 |   27.6467 | 
+acc:516.4856175559635
+
+LDA fitting...
+
+    1 | 01m24s | [35m-4176.77228[0m | [32m  25.0948[0m | 
+LDA fitting...
+
+    2 | 01m25s | -4273.65907 |   21.4098 | 
+acc:47.50454441867572, init:47.50454441867572
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m11s | -6868.67149 |    1.0000 | 
+acc:79.50447954506252
+
+LDA fitting...
+
+    4 | 01m29s | -4276.06342 |   29.9999 | 
+acc:104.72701944767886
+
+LDA fitting...
+
+    5 | 01m25s | -4306.03277 |   24.7225 | 
+acc:117.78899099565713
+
+LDA fitting...
+
+    6 | 01m32s | -4353.10167 |   12.5620 | 
+acc:135.97787400091607
+
+LDA fitting...
+
+    7 | 01m54s | -4267.35839 |   17.6889 | 
+acc:163.36229120542416
+
+LDA fitting...
+
+    8 | 03m12s | -4354.07328 |   26.8844 | 
+acc:172.19409477895755
+
+LDA fitting...
+
+    9 | 01m05s | -4567.02878 |    8.3318 | 
+acc:192.5814988742678
+
+LDA fitting...
+
+   10 | 01m18s | -4307.95408 |   19.8874 | 
+acc:218.76883956083708
+
+LDA fitting...
+
+   11 | 01m21s | -4215.34527 |   25.6873 | 
+acc:234.59966183185443
+
+LDA fitting...
+
+   12 | 01m13s | -4236.13264 |   15.3308 | 
+acc:260.38217997330304
+
+LDA fitting...
+
+   13 | 01m23s | -4375.57970 |   25.2825 | 
+acc:265.69887359315663
+
+LDA fitting...
+
+   14 | 00m55s | -4635.36421 |    4.8167 | 
+acc:269.36478624463416
+
+LDA fitting...
+
+   15 | 00m50s | -4960.27079 |    3.1659 | 
+acc:276.3629309349383
+
+LDA fitting...
+
+   16 | 01m01s | -4554.29851 |    6.4981 | 
+acc:287.3048435131786
+
+LDA fitting...
+
+   17 | 01m10s | -4383.80137 |   10.4419 | 
+acc:301.7766724308176
+
+LDA fitting...
+
+   18 | 01m14s | -4290.84447 |   13.9718 | 
+acc:318.71063088961665
+
+LDA fitting...
+
+   19 | 01m19s | -4247.16979 |   16.4340 | 
+acc:341.76044619310136
+
+LDA fitting...
+
+   20 | 01m24s | -4305.47331 |   22.5498 | 
+acc:368.4026447091033
+
+LDA fitting...
+
+   21 | 01m24s | -4294.12080 |   26.1422 | 
+acc:397.2104766669402
+
+LDA fitting...
+
+   22 | 01m27s | -4316.81801 |   28.3078 | 
+acc:416.4674119260411
+
+LDA fitting...
+
+   23 | 02m19s | -4285.42119 |   18.7569 | 
+acc:428.5280739589336
+
+LDA fitting...
+
+   24 | 01m13s | -4294.81096 |   11.5607 | 
+acc:453.9958531915577
+
+LDA fitting...
+
+   25 | 01m25s | -4320.26602 |   24.9678 | 
+acc:478.2224257041675
+
+LDA fitting...
+
+   26 | 01m26s | -4224.75037 |   23.7266 | 
+acc:488.16756828923195
+
+LDA fitting...
+
+   27 | 01m08s | -4594.09435 |    9.4451 | 
+acc:512.9338531158913
+
+
+run 10
+
+LDA fitting...
+
+    1 | 01m20s | [35m-4411.40293[0m | [32m  14.0045[0m | 
+LDA fitting...
+
+    2 | 01m23s | [35m-4378.26147[0m | [32m  28.3427[0m | 
+acc:43.34715129054895, init:43.34715129054895
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m29s | [35m-4343.29754[0m | [32m  30.0000[0m | 
+acc:75.34715129054895
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:94.99319188254486
+
+LDA fitting...
+
+    5 | 01m22s | -4405.06987 |   19.1460 | 
+acc:110.41200142592336
+
+LDA fitting...
+
+    6 | 01m13s | [35m-4238.97346[0m | [32m  14.9188[0m | 
+acc:127.14975198074892
+
+LDA fitting...
+
+    7 | 02m30s | [35m-4210.68210[0m | [32m  16.2378[0m | 
+acc:143.34410794823984
+
+LDA fitting...
+
+    8 | 02m32s | -4320.72670 |   15.6944 | 
+acc:151.58565225076012
+
+LDA fitting...
+
+    9 | 01m03s | -4574.07561 |    7.7415 | 
+acc:176.20485220432167
+
+LDA fitting...
+
+   10 | 01m21s | -4267.43691 |   24.1192 | 
+acc:194.01904486703637
+
+LDA fitting...
+
+   11 | 01m16s | -4234.14371 |   17.3142 | 
+acc:216.26706964733853
+
+LDA fitting...
+
+   12 | 01m19s | -4273.28980 |   21.7480 | 
+acc:242.9422727019181
+
+LDA fitting...
+
+   13 | 01m23s | -4339.06837 |   26.1752 | 
+acc:260.1354072799452
+
+LDA fitting...
+
+   14 | 01m13s | -4260.87519 |   16.6931 | 
+acc:271.24453780999863
+
+LDA fitting...
+
+   15 | 01m12s | -4511.27740 |   10.6091 | 
+acc:277.1462337974322
+
+LDA fitting...
+
+   16 | 00m56s | -4631.15867 |    5.4017 | 
+acc:295.49972436470415
+
+LDA fitting...
+
+   17 | 01m21s | -4446.41901 |   17.8535 | 
+acc:316.39353984240563
+
+LDA fitting...
+
+   18 | 01m23s | -4324.22953 |   20.3938 | 
+acc:339.8023782990133
+
+LDA fitting...
+
+   19 | 01m48s | -4309.45288 |   22.9088 | 
+acc:356.5504610533674
+
+LDA fitting...
+
+   20 | 01m26s | -4406.98703 |   16.2481 | 
+acc:360.2815581158575
+
+LDA fitting...
+
+   21 | 00m58s | -4980.58074 |    3.2311 | 
+acc:373.0918639745362
+
+LDA fitting...
+
+   22 | 01m29s | -4411.22334 |   12.3103 | 
+acc:382.7683608017727
+
+LDA fitting...
+
+   23 | 01m06s | -4422.20792 |    9.1765 | 
+acc:389.84116434987914
+
+LDA fitting...
+
+   24 | 01m02s | -4696.19937 |    6.5728 | 
+acc:417.5992991794424
+
+LDA fitting...
+
+   25 | 01m28s | -4288.08641 |   27.2581 | 
+acc:422.4238308893225
+
+LDA fitting...
+
+   26 | 00m55s | -4759.00421 |    4.3245 | 
+acc:425.07586706736055
+
+LDA fitting...
+
+   27 | 00m32s | -5599.44542 |    2.1520 | 
+acc:450.66331043608045
+
+LDA fitting...
+
+   28 | 01m30s | -4304.72365 |   25.0874 | 
+acc:464.32820425986966
+
+LDA fitting...
+
+   29 | 01m22s | -4298.68170 |   13.1649 | 
+acc:476.30237109270223
+
+LDA fitting...
+
+   30 | 01m12s | -4314.17176 |   11.4742 | 
+acc:505.9861127054752
+
+LDA fitting...
+
+    1 | 02m11s | [35m-4474.79633[0m | [32m  14.0045[0m | 
+LDA fitting...
+
+    2 | 01m23s | [35m-4341.95311[0m | [32m  28.3427[0m | 
+acc:43.34715129054895, init:43.34715129054895
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m26s | -4361.67301 |   29.9999 | 
+acc:75.34700255590502
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:95.94112347334931
+
+LDA fitting...
+
+    5 | 01m22s | -4418.03687 |   20.0941 | 
+acc:123.0525998869278
+
+LDA fitting...
+
+    6 | 01m24s | [35m-4173.03746[0m | [32m  26.6115[0m | 
+acc:148.32122774299344
+
+LDA fitting...
+
+    7 | 01m25s | -4250.58833 |   24.7686 | 
+acc:175.0202509028443
+
+LDA fitting...
+
+    8 | 01m41s | -4221.08222 |   26.1990 | 
+acc:184.73999622263435
+
+LDA fitting...
+
+    9 | 01m20s | -4372.48147 |    9.2197 | 
+acc:212.21656421008862
+
+LDA fitting...
+
+   10 | 01m56s | -4343.92462 |   26.9766 | 
+acc:217.85730824189704
+
+LDA fitting...
+
+   11 | 01m04s | -4640.67579 |    5.1407 | 
+acc:235.39783689603001
+
+LDA fitting...
+
+   12 | 01m19s | -4335.01288 |   17.0405 | 
+acc:258.63377577483715
+
+LDA fitting...
+
+   13 | 01m22s | -4222.09997 |   22.7359 | 
+acc:270.66096403256057
+
+LDA fitting...
+
+   14 | 01m10s | -4404.54250 |   11.5272 | 
+acc:278.37662437019674
+
+LDA fitting...
+
+   15 | 01m05s | -4559.00848 |    7.2157 | 
+acc:302.69572876050614
+
+LDA fitting...
+
+   16 | 01m27s | -4304.92751 |   23.8191 | 
+acc:329.69441061952176
+
+LDA fitting...
+
+   17 | 01m30s | -4303.43944 |   26.4987 | 
+acc:333.29538451750386
+
+LDA fitting...
+
+   18 | 00m42s | -5381.33924 |    3.1010 | 
+acc:349.29338132335704
+
+LDA fitting...
+
+   19 | 01m22s | -4258.56093 |   15.4980 | 
+acc:368.29965088965474
+
+LDA fitting...
+
+   20 | 02m05s | -4260.88401 |   18.5063 | 
+acc:390.27524032579396
+
+LDA fitting...
+
+   21 | 01m21s | -4317.39333 |   21.4756 | 
+acc:416.3619570710913
+
+LDA fitting...
+
+   22 | 01m23s | -4279.91316 |   25.5867 | 
+acc:429.6461782931104
+
+LDA fitting...
+
+   23 | 01m11s | -4293.08470 |   12.7842 | 
+acc:440.50216437043866
+
+LDA fitting...
+
+   24 | 01m09s | -4550.84660 |   10.3560 | 
+acc:449.37678823672564
+
+LDA fitting...
+
+   25 | 01m05s | -4517.61371 |    8.3746 | 
+acc:475.82711680253414
+
+LDA fitting...
+
+   26 | 01m25s | -4322.28015 |   25.9503 | 
+acc:482.55421644452343
+
+LDA fitting...
+
+   27 | 01m01s | -4681.19319 |    6.2271 | 
+acc:509.7933209566184
+
+LDA fitting...
+
+    1 | 01m23s | [35m-4331.54563[0m | [32m  14.0045[0m | 
+LDA fitting...
+
+    2 | 01m26s | [35m-4308.32215[0m | [32m  28.3427[0m | 
+acc:43.34715129054895, init:43.34715129054895
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 01m25s | [35m-4206.56786[0m | [32m  29.9997[0m | 
+acc:75.34685666961883
+
+LDA fitting...
+
+    4 | 00m11s | -6868.67149 |    1.0000 | 
+acc:94.34922516341281
+
+LDA fitting...
+
+    5 | 01m19s | -4365.23661 |   18.5024 | 
+acc:124.8492216402412
+
+LDA fitting...
+
+    6 | 01m26s | -4325.93519 |   30.0000 | 
+acc:126.3579160412247
+
+LDA fitting...
+
+    7 | 00m20s | -6868.67149 |    1.0087 | 
+acc:127.91018522292103
+
+LDA fitting...
+
+    8 | 00m18s | -6868.67149 |    1.0523 | 
+acc:129.50867788375757
+
+LDA fitting...
+
+    9 | 00m18s | -6868.67149 |    1.0985 | 
+acc:131.15475758333895
+
+LDA fitting...
+
+   10 | 00m18s | -6868.67149 |    1.1461 | 
+acc:132.8502733785189
+
+LDA fitting...
+
+   11 | 00m16s | -6868.67149 |    1.1955 | 
+acc:134.64010470030726
+
+LDA fitting...
+
+   12 | 00m16s | -6868.67149 |    1.2898 | 
+acc:136.52746754084959
+
+LDA fitting...
+
+   13 | 00m16s | -6868.67149 |    1.3874 | 
+acc:138.5146896355903
+
+LDA fitting...
+
+   14 | 00m16s | -6868.67149 |    1.4872 | 
+acc:140.60410426076135
+
+LDA fitting...
+
+   15 | 00m15s | -6868.67149 |    1.5894 | 
+acc:142.79806415727893
+
+LDA fitting...
+
+   16 | 00m15s | -6868.67149 |    1.6940 | 
+acc:145.09895737022924
+
+LDA fitting...
+
+   17 | 00m15s | -6868.67149 |    1.8009 | 
+acc:147.50922517362287
+
+LDA fitting...
+
+   18 | 00m15s | -6868.67149 |    1.9103 | 
+acc:150.03138377501608
+
+LDA fitting...
+
+   19 | 00m36s | -5600.64724 |    2.0222 | 
+acc:152.66465774099646
+
+LDA fitting...
+
+   20 | 00m50s | -5625.12677 |    2.1333 | 
+acc:155.4113181110776
+
+LDA fitting...
+
+   21 | 00m41s | -5626.64396 |    2.2467 | 
+acc:158.27365330639643
+
+LDA fitting...
+
+   22 | 00m37s | -5626.52174 |    2.3623 | 
+acc:161.25404574100108
+
+LDA fitting...
+
+   23 | 01m00s | -5826.70132 |    2.4804 | 
+acc:164.35562694404302
+
+LDA fitting...
+
+   24 | 00m36s | -5605.64541 |    2.6016 | 
+acc:167.58048535893613
+
+LDA fitting...
+
+   25 | 00m54s | -5622.28994 |    2.7249 | 
+acc:198.05026996605196
+
+LDA fitting...
+
+   26 | 03m29s | -4318.86189 |   29.9698 | 
+acc:199.7911433249425
+
+LDA fitting...
+
+   27 | 00m16s | -6868.67149 |    1.2409 | 
+acc:201.728243572894
+
+LDA fitting...
+
+   28 | 00m16s | -6868.67149 |    1.4371 | 
+acc:205.06438299720668
+
+LDA fitting...
+
+   29 | 00m57s | -5808.80693 |    2.8361 | 
+acc:208.51308424277047
+
+LDA fitting...
+
+   30 | 00m34s | -5783.26269 |    2.9487 | 
+acc:212.07512631650593
+
+LDA fitting...
+
+    1 | 01m24s | [35m-4264.71338[0m | [32m  14.0045[0m | 
+LDA fitting...
+
+    2 | 01m23s | -4298.07145 |   28.3427 | 
+acc:43.34715129054895, init:43.34715129054895
+
+[31mBayesian Optimization[0m
+[94m-----------------------------------------[0m
+ Step |   Time |      Value |        x0 | 
+LDA fitting...
+
+    3 | 00m10s | -6868.67149 |    1.0000 | 
+acc:63.74302148406059
+
+LDA fitting...
+
+    4 | 01m15s | [35m-4240.31829[0m | [32m  18.3959[0m | 
+acc:80.39155723765312
+
+LDA fitting...
+
+    5 | 01m14s | -4317.00792 |   16.1485 | 
+acc:101.96184669278435
+
+LDA fitting...
+
+    6 | 01m18s | [35m-4221.99531[0m | [32m  21.0703[0m | 
+acc:132.46156156157687
+
+LDA fitting...
+
+    7 | 01m25s | -4241.43818 |   29.9997 | 
+acc:152.8848823725342
+
+LDA fitting...
+
+    8 | 01m18s | -4316.13220 |   19.9233 | 
+acc:165.14772816282448
+
+LDA fitting...
+
+    9 | 01m12s | -4354.37180 |   11.7628 | 
+acc:189.60600699207137
+
+LDA fitting...
+
+   10 | 01m24s | -4322.44975 |   23.9583 | 
+acc:212.06779717142888
+
+LDA fitting...
+
+   11 | 01m22s | -4352.36137 |   21.9618 | 
+acc:238.55278856579807
+
+LDA fitting...
+
+   12 | 01m26s | -4349.50644 |   25.9850 | 
+acc:247.54893332283729
+
+LDA fitting...
+
+   13 | 01m07s | -4511.18300 |    8.4961 | 
+acc:265.85262216242336
+
+LDA fitting...
+
+   14 | 01m19s | -4337.31552 |   17.8037 | 
+acc:287.3574281116416
+
+LDA fitting...
+
+   15 | 03m01s | -4387.26347 |   21.0048 | 
+acc:292.82333354498513
+
+LDA fitting...
+
+   16 | 01m01s | -4885.03968 |    4.9659 | 
+acc:296.63142810109804
+
+LDA fitting...
+
+   17 | 00m48s | -5211.23659 |    3.3081 | 
+acc:303.8657745035171
+
+LDA fitting...
+
+   18 | 01m04s | -4633.18592 |    6.7343 | 
+acc:314.5123112696698
+
+LDA fitting...
+
+   19 | 01m11s | -4514.16448 |   10.1465 | 
+acc:334.3000326475184
+
+LDA fitting...
+
+   20 | 01m19s | -4323.44698 |   19.2877 | 
+acc:356.2438309949177
+
+LDA fitting...
+
+   21 | 01m25s | -4314.42146 |   21.4438 | 
+acc:369.61034110954074
+
+LDA fitting...
+
+   22 | 01m14s | -4430.62726 |   12.8665 | 
+acc:385.141328276473
+
+LDA fitting...
+
+   23 | 01m15s | -4307.65107 |   15.0310 | 
+acc:408.4719898398308
+
+LDA fitting...
+
+   24 | 01m20s | -4225.31644 |   22.8307 | 
+acc:436.19677629855846
+
+LDA fitting...
+
+   25 | 01m43s | -4242.06313 |   27.2248 | 
+acc:461.63836882542853
+
+LDA fitting...
+
+   26 | 01m23s | -4274.16079 |   24.9416 | 
+acc:483.35030626139553
+
+LDA fitting...
+
+   27 | 01m22s | -4419.51859 |   21.2119 | 
+acc:486.1049580423937
+
+LDA fitting...
+
+   28 | 00m41s | -5694.86542 |    2.2547 | 
+acc:503.58896115141357
+
